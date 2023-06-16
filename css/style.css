@@ -1,5 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+:root {
+  --black: #000000;
+  --white: #ffffff;
+  --purple: #0f0e3a;
+  --darkpurple: #0b0d2a;
+  --pink: #ec0d78;
+  --orange: #fc7d17;
+  --blue: #0099ff;
+  --lightpink: #f8b8c4;
+}
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100%;
+  background-color: #0f0e3a;
+  font-family: "Poppins", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+@media (min-width: 1200px) {
+  .custom-container {
+    max-width: 90%;
+  }
+}
+.h-100-vh {
+  height: 100vh;
+}
+.main-title {
+  font-weight: 900;
+  font-size: 68px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: var(--white);
+}
+.text-gradient {
+  background: -webkit-linear-gradient(90deg, var(--pink), var(--orange));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.nav-links {
+  color: var(--white);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+}
+.menu-bar {
+  width: 24px;
+}
+.menu-bar span {
+  width: 7px;
+  height: 2px;
+  border-radius: 40px;
+  background-color: var(--white);
+  display: block;
+  margin-left: auto;
+  transition: all .3s;
+}
+.menu-bar span:nth-child(2) {
+  width: 18px;
+}
+.menu-bar span:last-child {
+  width: 24px;
+}
+.menu-bar span:not(:last-child) {
+  margin-bottom: .2rem;
+}
+.nav-links:hover .menu-bar span {
+  width: 18px;
+}
+.scroll-text {
+  position: absolute;
+  right: -40px;
+  transform: rotate(90deg);
+}
+.scroll-text svg {
+  animation: downanimation 2s infinite ease-in-out;
+  transform: rotate(-90deg);
+  margin-left: .4rem;
+}
+
+.about-text {
+  color: var(--white);
+  font-weight: 700;
+  font-size: 27px;
+  line-height: 156.5%;
+}
+
+/* scroll top */
+.scroll-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  display: grid;
+  place-content: center;
+  background-color: var(--white);
+  box-shadow: 0 0 21px var(--white);
+  cursor: pointer;
+}
+
+@keyframes downanimation {
+  from {
+    transform: rotate(-90deg) translateY(0);
+  }  to {
+    transform: rotate(-90deg) translateY(20px);
+  }
+}
+
+@media (max-width: 1199px) {
+  .main-title {
+    font-size: 52px;
+  }
+}
+@media (max-width: 767px) {
+  .navbar-brand img {
+    max-width: 250px;
+  }
+  .main-title {
+    font-size: 38px;
+  }
+  .main-menu {
+    position: absolute;
+    right: 12px;
+  }
 }
