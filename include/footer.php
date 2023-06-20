@@ -99,7 +99,8 @@
 <script src="js/SmoothScroll.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/ScrollToPlugin.min.js"></script>
 <script src="js/bootstrap.bundle.min.js"></script>
-<script src="js/slick.min.js"></script>
+<!-- <script src="js/slick.min.js"></script> -->
+<script src="js/swiper-bundle.min.js"></script>
 <script src="js/custom.js"></script>
 
 </body>

@@ -55,71 +55,35 @@ $(document).ready(function () {
     );
   });
 
-  // testimonial slider
-  $(".card-slider").slick({
-    dots: false,
-    arrows: false,
-    infinite: true,
-    speed: 300,
-    slidesToShow: 3,
-    loop: true,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 1000,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 3,
-        },
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 2,
-        },
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-        },
-      },
-    ],
-  });
-  $(".card-slider2").slick({
-    dots: false,
-    arrows: false,
-    infinite: true,
-    speed: 300,
-    slidesToShow: 3,
-    loop: true,
-    slidesToScroll: 1,
-    autoplay: false,
-    autoplaySpeed: 1500,
-    // rtl: true,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 3,
-        },
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 2,
-        },
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-        },
-      },
-    ],
-  });
 });
+
+// testimonial slider
+/* const swiper = new Swiper(".card-slider", {
+  slidesPerView: 'auto',
+  spaceBetween: 10,
+  loop: true,
+  speed: 2000,
+  infinite: true,
+  freeMode: true,
+  centeredSlides: true,
+  autoplay: true,
+  delay: 0,
+  // autoplay: {
+  //   delay: 0,
+  //   disableOnInteraction: false,
+  // },
+  breakpoints: {
+    640: {
+      slidesPerView: 1,
+    },
+    768: {
+      slidesPerView: 2,
+    },
+    1024: {
+      slidesPerView: 3,
+    },
+  },
+}); */
 
 const container = document.querySelector(".horizontalContainer");
 const content = document.querySelectorAll(".horizontal-scroll");
@@ -134,24 +98,52 @@ gsap.utils.toArray(".section").forEach((sections) => {
     start: "top left",
     pin: true,
     pinSpacing: false,
+    filter: 'blur(5px)'
   });
 });
 
+const horizontalContainer = gsap.utils.toArray(".horizontalContainer");
 const horizontal = gsap.utils.toArray(".horizontal-scroll");
-console.log(horizontal)
+// console.log(horizontal);
+gsap.to(horizontal, {
+  xPercent: -50 * (horizontal.length - 1),
+  ease: "none",
+  scrollTrigger: {
+    trigger: horizontalContainer,
+    pin: true,
+    // invalidateOnRefresh: true,
+    scrub: 1,
+    // snap: 1 / (horizontal.length - 1),
+    // end: () => "+=" + document.querySelector(".horizontal-scroll").offsetWidth,
+    end: '=+2000'
+  },
+});
 
-    gsap.to(horizontal, {
-      xPercent: -100 * (horizontal.length - 1),
-      ease: "none",
-      scrollTrigger: {
-        trigger: ".horizontal",
-        pin: true,
-        invalidateOnRefresh: true,
-        scrub: 0.5,
-        snap: 1 / (horizontal.length - 1),
-        end: () => "+=" + document.querySelector(".horizontal-scroll").offsetWidth,
-      },
-    });
+const cardSlider = gsap.utils.toArray(".card-slider");
+const card1 = gsap.utils.toArray(".card-slider .card1");
+gsap.to(card1, {
+  xPercent: -250 * (card1.length - 1),
+  ease: "none",
+  scrollTrigger: {
+    trigger: cardSlider,
+    // pin: true,
+    scrub: true,
+    end: '=+3000'
+  },
+});
+
+const cardSlider2 = gsap.utils.toArray(".card-slider2");
+const card2 = gsap.utils.toArray(".card-slider .card2");
+gsap.to(card2, {
+  xPercent: -250 * (card2.length - 1),
+  ease: "none",
+  scrollTrigger: {
+    trigger: cardSlider2,
+    // pin: true,
+    scrub: true,
+    end: '=+3000'
+  },
+});
 
 /* const horizontal = document.querySelectorAll(".horizontal-scroll");
 
@@ -174,3 +166,35 @@ horizontal.forEach((element) => {
     },
   });
 }); */
+
+// custom mouse
+var cursor = document.querySelector(".cursor");
+var cursorinner = document.querySelector(".cursor2");
+var a = document.querySelectorAll("a");
+document.addEventListener("mousemove", function (e) {
+  var x = e.clientX;
+  var y = e.clientY;
+  cursor.style.transform = `translate3d(calc(${e.clientX}px - 50%), calc(${e.clientY}px - 50%), 0)`;
+});
+document.addEventListener("mousemove", function (e) {
+  var x = e.clientX;
+  var y = e.clientY;
+  cursorinner.style.left = x + "px";
+  cursorinner.style.top = y + "px";
+});
+document.addEventListener("mousedown", function () {
+  cursor.classList.add("click");
+  cursorinner.classList.add("cursorinnerhover");
+});
+document.addEventListener("mouseup", function () {
+  cursor.classList.remove("click");
+  cursorinner.classList.remove("cursorinnerhover");
+});
+a.forEach((item) => {
+  item.addEventListener("mouseover", () => {
+    cursor.classList.add("hover");
+  });
+  item.addEventListener("mouseleave", () => {
+    cursor.classList.remove("hover");
+  });
+});
