@@ -424,7 +424,14 @@ a {
   font-size: 27px;
   line-height: 156.5%;
 }
-
+.fancybox-content,
+.fancybox-image,
+.fancybox-slide--image,
+.fancybox-button,
+.fancybox-button svg,
+.fancybox {
+  cursor: pointer !important;
+}
 /* scroll top */
 .scroll-top {
   position: fixed;
@@ -493,6 +500,9 @@ a {
 }
 
 /* testimonial style */
+.testimonial-section .back-text {
+  left: 25%;
+}
 .testimonial-slider {
   display: flex;
 }

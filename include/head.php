@@ -7,9 +7,7 @@
   <title>Manarti Exports</title>
   <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="css/bootstrap.min.css">
-  <!-- <link rel="stylesheet" href="css/slick-theme.min.css">
-  <link rel="stylesheet" href="css/slick.min.css"> -->
-  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/fancybox.min.css">
   <link rel="stylesheet" href="css/style.css?v=<?= time(); ?>">
 </head>
 

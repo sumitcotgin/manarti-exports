@@ -1,3 +1,35 @@
+// custom mouse
+var cursor = document.querySelector(".cursor");
+var cursorinner = document.querySelector(".cursor2");
+var a = document.querySelectorAll("a");
+document.addEventListener("mousemove", function (e) {
+  var x = e.clientX;
+  var y = e.clientY;
+  cursor.style.transform = `translate3d(calc(${e.clientX}px - 50%), calc(${e.clientY}px - 50%), 0)`;
+});
+document.addEventListener("mousemove", function (e) {
+  var x = e.clientX;
+  var y = e.clientY;
+  cursorinner.style.left = x + "px";
+  cursorinner.style.top = y + "px";
+});
+document.addEventListener("mousedown", function () {
+  cursor.classList.add("click");
+  cursorinner.classList.add("cursorinnerhover");
+});
+document.addEventListener("mouseup", function () {
+  cursor.classList.remove("click");
+  cursorinner.classList.remove("cursorinnerhover");
+});
+a.forEach((item) => {
+  item.addEventListener("mouseover", () => {
+    cursor.classList.add("hover");
+  });
+  item.addEventListener("mouseleave", () => {
+    cursor.classList.remove("hover");
+  });
+});
+
 $(document).ready(function () {
   // loader
   $("body").addClass("overflow-hidden");
@@ -54,7 +86,6 @@ $(document).ready(function () {
       1000
     );
   });
-
 });
 
 // testimonial slider
@@ -88,34 +119,109 @@ $(document).ready(function () {
 const container = document.querySelector(".horizontalContainer");
 const content = document.querySelectorAll(".horizontal-scroll");
 
-gsap.registerPlugin(ScrollToPlugin);
-gsap.registerPlugin(ScrollTrigger);
-gsap.utils.toArray(".section").forEach((sections) => {
-  ScrollTrigger.create({
-    xPercent: -100 * (sections.length - 1),
-    ease: "none",
-    trigger: sections,
-    start: "top left",
-    pin: true,
-    pinSpacing: false,
-    filter: 'blur(5px)'
-  });
-});
+// gsap.registerPlugin(ScrollToPlugin);
+// gsap.registerPlugin(ScrollTrigger);
+// gsap.utils.toArray(".section").forEach((sections) => {
+//   ScrollTrigger.create({
+//     xPercent: -100 * (sections.length - 1),
+//     ease: "none",
+//     trigger: sections,
+//     start: "top left",
+//     pin: true,
+//     pinSpacing: false,
+//     filter: 'blur(5px)'
+//   });
+// });
 
-const horizontalContainer = gsap.utils.toArray(".horizontalContainer");
-const horizontal = gsap.utils.toArray(".horizontal-scroll");
-// console.log(horizontal);
-gsap.to(horizontal, {
-  xPercent: -50 * (horizontal.length - 1),
+const text_scroll_container = gsap.utils.toArray(".text_scroll_container");
+const text_scroll = gsap.utils.toArray(".text_scroll");
+gsap.from(text_scroll, {
+  xPercent: 100 * (text_scroll.length - 1),
   ease: "none",
   scrollTrigger: {
-    trigger: horizontalContainer,
-    pin: true,
-    // invalidateOnRefresh: true,
+    trigger: text_scroll_container,
+    scrub: true,
+    start: "70% 80%",
+    end: "=+800",
+  },
+});
+
+const text_scroll_container1 = gsap.utils.toArray(".text_scroll_container1");
+const text_scroll1 = gsap.utils.toArray(".text_scroll1");
+gsap.to(text_scroll1, {
+  xPercent: -100 * (text_scroll1.length - 1),
+  ease: "none",
+  scrollTrigger: {
+    trigger: text_scroll_container1,
+    scrub: true,
+    start: "70% 80%",
+    end: "=+800",
+  },
+});
+
+const horizontalContainer1 = gsap.utils.toArray(".horizontalContainer1");
+const horizontal1 = gsap.utils.toArray(".horizontal-scroll1");
+gsap.from(horizontal1, {
+  // xPercent: -100 * (horizontal1.length - 1),
+  x: -1500,
+  ease: "power.inOut",
+  scrollTrigger: {
+    trigger: horizontalContainer1,
+    scrub: true,
+    start: "70% 80%",
+    end: "=+100",
+  },
+});
+const horizontalContainer2 = gsap.utils.toArray(".horizontalContainer2");
+const horizontal2 = gsap.utils.toArray(".horizontal-scroll2");
+gsap.from(horizontal2, {
+  // xPercent: 100 * (horizontal2.length - 1),
+  x: 1500,
+  ease: "power.inOut",
+  scrollTrigger: {
+    trigger: horizontalContainer2,
     scrub: 1,
-    // snap: 1 / (horizontal.length - 1),
-    // end: () => "+=" + document.querySelector(".horizontal-scroll").offsetWidth,
-    end: '=+2000'
+    start: "70% 80%",
+    end: "=+100",
+  },
+});
+const horizontalContainer3 = gsap.utils.toArray(".horizontalContainer3");
+const horizontal3 = gsap.utils.toArray(".horizontal-scroll3");
+gsap.from(horizontal3, {
+  // xPercent: -100 * (horizontal3.length - 1),
+  x: -1500,
+  ease: "power.inOut",
+  scrollTrigger: {
+    trigger: horizontalContainer3,
+    scrub: 1,
+    start: "70% 80%",
+    end: "=+100",
+  },
+});
+const horizontalContainer4 = gsap.utils.toArray(".horizontalContainer4");
+const horizontal4 = gsap.utils.toArray(".horizontal-scroll4");
+gsap.from(horizontal4, {
+  // xPercent: 100 * (horizontal4.length - 1),
+  x: 1500,
+  ease: "power.inOut",
+  scrollTrigger: {
+    trigger: horizontalContainer4,
+    scrub: 1,
+    start: "70% 80%",
+    end: "=+100",
+  },
+});
+const horizontalContainer5 = gsap.utils.toArray(".horizontalContainer5");
+const horizontal5 = gsap.utils.toArray(".horizontal-scroll5");
+gsap.from(horizontal5, {
+  // xPercent: -100 * (horizontal5.length - 1),
+  x: -1500,
+  ease: "power.inOut",
+  scrollTrigger: {
+    trigger: horizontalContainer5,
+    scrub: 1,
+    start: "70% 80%",
+    end: "=+100",
   },
 });
 
@@ -128,73 +234,189 @@ gsap.to(card1, {
     trigger: cardSlider,
     // pin: true,
     scrub: true,
-    end: '=+3000'
+    end: "=+3000",
   },
 });
 
 const cardSlider2 = gsap.utils.toArray(".card-slider2");
-const card2 = gsap.utils.toArray(".card-slider .card2");
+const card2 = gsap.utils.toArray(".card-slider2 .card2");
 gsap.to(card2, {
-  xPercent: -250 * (card2.length - 1),
+  xPercent: 250 * (card2.length - 1),
   ease: "none",
   scrollTrigger: {
     trigger: cardSlider2,
     // pin: true,
     scrub: true,
-    end: '=+3000'
+    end: "=+3000",
   },
 });
 
-/* const horizontal = document.querySelectorAll(".horizontal-scroll");
+const qualityPolicy = gsap.utils.toArray(".qualityPolicy");
+const qualityScroll = gsap.utils.toArray(".qualityScroll");
+gsap.from(qualityScroll, {
+  xPercent: -100 * (qualityScroll.length - 1),
+  ease: "none",
+  scrollTrigger: {
+    trigger: qualityPolicy,
+    scrub: true,
+    start: "40% 90%",
+    end: "90% 20%",
+  },
+});
+const policyScroll = gsap.utils.toArray(".policyScroll");
+gsap.from(policyScroll, {
+  xPercent: 100 * (policyScroll.length - 1),
+  ease: "none",
+  scrollTrigger: {
+    trigger: qualityPolicy,
+    scrub: true,
+    start: "40% 90%",
+    end: "90% 20%",
+  },
+});
 
-horizontal.forEach((element) => {
-  const container = element.parentElement;
-  const elementWidth = element.offsetWidth;
+const certificateContainer = gsap.utils.toArray(".certificateContainer");
+const certificate1 = gsap.utils.toArray(".certificate1");
+gsap.from(certificate1, {
+  x: -500,
+  y: -500,
+  duration: 5,
+  ease: "power.inOut",
+  opacity: 0,
+  scrollTrigger: {
+    trigger: certificateContainer,
+    scrub: true,
+    start: "40% 100%",
+    end: "50% 40%",
+    stagger: true
+  },
+});
+const certificate2 = gsap.utils.toArray(".certificate2");
+gsap.from(certificate2, {
+  x: 500,
+  y: -500,
+  duration: 5,
+  delay: 2,
+  ease: "power.inOut",
+  opacity: 0,
+  scrollTrigger: {
+    trigger: certificateContainer,
+    scrub: true,
+    start: "40% 100%",
+    end: "50% 40%",
+    stagger: true
+  },
+});
+const certificate3 = gsap.utils.toArray(".certificate3");
+gsap.from(certificate3, {
+  x: -500,
+  ease: "power.in",
+  opacity: 0,
+  scrollTrigger: {
+    trigger: certificateContainer,
+    scrub: true,
+    start: "top 50%",
+    end: "bottom 20%"
+  },
+});
+const certificate4 = gsap.utils.toArray(".certificate4");
+gsap.from(certificate4, {
+  x: 500,
+  ease: "power.in",
+  opacity: 0,
+  scrollTrigger: {
+    trigger: certificateContainer,
+    scrub: true,
+    start: "top 50%",
+    end: "bottom 20%"
+  },
+});
 
-  gsap.to(container, {
-    scrollTo: {
-      x: element, // Scroll to the target element
-      autoKill: false, // Keep the scroll position when animation ends
-    },
-    ease: "power2.inOut", // Easing function for smoother animation
-    scrollTrigger: {
-      trigger: container,
-      start: "top center", // Adjust the start position of the scroll animation
-      end: "bottom center", // Adjust the end position of the scroll animation
-      scrub: true, // Enable scrubbing for smoother animation
-      pin: true, // Keep the container pinned during scroll animation
-    },
-  });
-}); */
 
-// custom mouse
-var cursor = document.querySelector(".cursor");
-var cursorinner = document.querySelector(".cursor2");
-var a = document.querySelectorAll("a");
-document.addEventListener("mousemove", function (e) {
-  var x = e.clientX;
-  var y = e.clientY;
-  cursor.style.transform = `translate3d(calc(${e.clientX}px - 50%), calc(${e.clientY}px - 50%), 0)`;
+const testimonialContainer = gsap.utils.toArray(".testimonialContainer");
+const testimonialSlide = gsap.utils.toArray(".testimonialSlide");
+gsap.from(testimonialSlide, {
+  y: -500 * (testimonialSlide.length - 1),
+  opacity: 0,
+  ease: "none",
+  scrollTrigger: {
+    trigger: testimonialContainer,
+    scrub: true,
+    start: "40% 90%",
+    end: "90% 20%",
+  },
 });
-document.addEventListener("mousemove", function (e) {
-  var x = e.clientX;
-  var y = e.clientY;
-  cursorinner.style.left = x + "px";
-  cursorinner.style.top = y + "px";
+
+const eventContainer = gsap.utils.toArray(".eventContainer");
+const eventSlide = gsap.utils.toArray(".eventSlide");
+gsap.from(eventSlide, {
+  xPercent: -500 * (eventSlide.length - 1),
+  // opacity: 0,
+  ease: "back.out(1.5)",
+  scrollTrigger: {
+    trigger: eventContainer,
+    scrub: true,
+    start: "40% 90%",
+    end: "90% 20%",
+  },
 });
-document.addEventListener("mousedown", function () {
-  cursor.classList.add("click");
-  cursorinner.classList.add("cursorinnerhover");
+
+const eventContainer1 = gsap.utils.toArray(".eventContainer1");
+const eventScroll1 = gsap.utils.toArray(".eventScroll1");
+gsap.from(eventScroll1, {
+  duration: 2,
+  ease: "expo.out",
+  y: 800,
+  opacity: 0,
+  scrollTrigger: {
+    trigger: eventContainer1,
+    scrub: 1,
+    start: "70% 80%",
+    end: "80% 20%",
+  },
 });
-document.addEventListener("mouseup", function () {
-  cursor.classList.remove("click");
-  cursorinner.classList.remove("cursorinnerhover");
+
+const eventContainer2 = gsap.utils.toArray(".eventContainer2");
+const eventScroll2 = gsap.utils.toArray(".eventScroll2");
+gsap.from(eventScroll2, {
+  duration: 4,
+  ease: "expo.out",
+  y: 800,
+  opacity: 0,
+  scrollTrigger: {
+    trigger: eventContainer2,
+    scrub: 1,
+    start: "50% 80%",
+    end: "80% 20%",
+  },
 });
-a.forEach((item) => {
-  item.addEventListener("mouseover", () => {
-    cursor.classList.add("hover");
-  });
-  item.addEventListener("mouseleave", () => {
-    cursor.classList.remove("hover");
-  });
+
+const eventContainer3 = gsap.utils.toArray(".eventContainer3");
+const eventScroll3 = gsap.utils.toArray(".eventScroll3");
+gsap.from(eventScroll3, {
+  duration: 6,
+  ease: "expo.out",
+  y: 800,
+  opacity: 0,
+  scrollTrigger: {
+    trigger: eventContainer3,
+    scrub: 1,
+    start: "50% 80%",
+    end: "80% 20%",
+  },
+});
+
+const eventContainer4 = gsap.utils.toArray(".eventContainer4");
+const eventScroll4 = gsap.utils.toArray(".eventScroll4");
+gsap.from(eventScroll4, {
+  duration: 8,
+  ease: "expo.out",
+  y: 800,
+  opacity: 0,
+  scrollTrigger: {
+    trigger: eventContainer4,
+    scrub: 1,
+    start: "70% 80%",
+    end: "80% 20%",
+  },
 });

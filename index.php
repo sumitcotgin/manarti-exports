@@ -37,7 +37,9 @@
                         <p class="about-text mb-0">Manarti Exports is a specialized medical disposables, systems, devices and hospital equipment provider offering a wide range of products. Our products are manufactured at state-of-the art production facilities in India, with capacity to produce large quantities. We are ISO 9001:2008 and ISO 13485:2003 certified and our products are CE Marked. Our Medical Devices and Catheters are FDA Approved.</p>
                     </div>
                 </div>
-                <div class="text-fill position-absolute product-icon">PRODUCTS</div>
+                <div class="text_scroll_container">
+                    <div class="text-fill position-absolute product-icon text_scroll">PRODUCTS</div>
+                </div>
             </div>
         </section>
     </div>
@@ -47,79 +49,75 @@
     <div class="section">
         <section class="py-5 bg-purple position-relative z-0">
             <div class="circle right position-absolute"></div>
-            <div class="container custom-container">
-                <div class="text-fill position-absolute normal-text text-gradient product-icon below">PRODUCTS</div>
+            <div class="container">
+                <div class="text_scroll_container1">
+                    <div class="text-fill position-absolute normal-text text-gradient product-icon below  text_scroll1">PRODUCTS</div>
+                </div>
                 <div class="circle position-absolute"></div>
-            </div>
-            <div class="horizontal d-flex overflow-x-hidden position-relative horizontalContainer">
-                <div class="horizontal-scroll">
-                    <div class="row align-items-center gy-5 mb-5 pt-17 product-list">
-                        <div class="col-xl-5 col-lg-6">
-                            <figure class="mb-0 text-center bg-body rounded-3">
-                                <img src="images/product.png" alt="Medical Disposables" class="img-fluid" />
-                            </figure>
-                        </div>
-                        <div class="col-xl-4 col-lg-6">
-                            <h4 class="mb-0 text-gradient fw-bold">Medical Disposables</h4>
-                            <p class="mb-0 text-white fw-semibold">Medrop Disposable Under pads, 60x60 cm, 10 Pcs/Pack (Pack of 3) 30 Pcs</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- <div class="horizontal-scroll">
-                    <div class="row align-items-center justify-content-end gy-5 mb-5 product-list">
-                        <div class="col-xl-4 col-lg-6">
-                            <h4 class="mb-0 text-gradient fw-bold">Medical Disposables</h4>
-                            <p class="mb-0 text-white fw-semibold">Medrop Disposable Under pads, 60x60 cm, 10 Pcs/Pack (Pack of 3) 30 Pcs</p>
-                        </div>
-                        <div class="col-xl-5 col-lg-6">
-                            <figure class="mb-0 text-center bg-body rounded-3">
-                                <img src="images/product.png" alt="Medical Disposables" class="img-fluid" />
-                            </figure>
-                        </div>
-                    </div>
-                </div> -->
-                <!-- <div class="horizontal-scroll">
-                    <div class="row align-items-center gy-5 mb-5 product-list">
-                        <div class="col-xl-5 col-lg-6">
-                            <figure class="mb-0 text-center bg-body rounded-3">
-                                <img src="images/product.png" alt="Medical Disposables" class="img-fluid" />
-                            </figure>
-                        </div>
-                        <div class="col-xl-4 col-lg-6">
-                            <h4 class="mb-0 text-gradient fw-bold">Medical Disposables</h4>
-                            <p class="mb-0 text-white fw-semibold">Medrop Disposable Under pads, 60x60 cm, 10 Pcs/Pack (Pack of 3) 30 Pcs</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="horizontal-scroll">
-                    <div class="row align-items-center justify-content-end gy-5 mb-5 product-list">
-                        <div class="col-xl-4 col-lg-6">
-                            <h4 class="mb-0 text-gradient fw-bold">Medical Disposables</h4>
-                            <p class="mb-0 text-white fw-semibold">Medrop Disposable Under pads, 60x60 cm, 10 Pcs/Pack (Pack of 3) 30 Pcs</p>
-                        </div>
-                        <div class="col-xl-5 col-lg-6">
-                            <figure class="mb-0 text-center bg-body rounded-3">
-                                <img src="images/product.png" alt="Medical Disposables" class="img-fluid" />
-                            </figure>
-                        </div>
-                    </div>
-                </div>
-                <div class="horizontal-scroll"> -->
-                <div class="row align-items-center gy-5 mb-5 product-list position-relative">
-                    <div class="col-xl-5 col-lg-6">
+
+                <div class="row align-items-center gy-5 mb-5 pt-17 product-list   horizontalContainer1">
+                    <div class="col-xl-5 col-lg-6    horizontal-scroll1">
                         <figure class="mb-0 text-center bg-body rounded-3">
                             <img src="images/product.png" alt="Medical Disposables" class="img-fluid" />
                         </figure>
                     </div>
-                    <div class="col-xl-4 col-lg-6">
+                    <div class="col-xl-4 col-lg-6    horizontal-scroll1">
                         <h4 class="mb-0 text-gradient fw-bold">Medical Disposables</h4>
                         <p class="mb-0 text-white fw-semibold">Medrop Disposable Under pads, 60x60 cm, 10 Pcs/Pack (Pack of 3) 30 Pcs</p>
                     </div>
                 </div>
+
+                <div class="row align-items-center justify-content-end gy-5 mb-5 product-list   horizontalContainer2">
+                    <div class="col-xl-4 col-lg-6   horizontal-scroll2">
+                        <h4 class="mb-0 text-gradient fw-bold">Medical Disposables</h4>
+                        <p class="mb-0 text-white fw-semibold">Medrop Disposable Under pads, 60x60 cm, 10 Pcs/Pack (Pack of 3) 30 Pcs</p>
+                    </div>
+                    <div class="col-xl-5 col-lg-6   horizontal-scroll2">
+                        <figure class="mb-0 text-center bg-body rounded-3">
+                            <img src="images/product.png" alt="Medical Disposables" class="img-fluid" />
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="row align-items-center gy-5 mb-5 product-list   horizontalContainer3">
+                    <div class="col-xl-5 col-lg-6    horizontal-scroll3">
+                        <figure class="mb-0 text-center bg-body rounded-3">
+                            <img src="images/product.png" alt="Medical Disposables" class="img-fluid" />
+                        </figure>
+                    </div>
+                    <div class="col-xl-4 col-lg-6    horizontal-scroll3">
+                        <h4 class="mb-0 text-gradient fw-bold">Medical Disposables</h4>
+                        <p class="mb-0 text-white fw-semibold">Medrop Disposable Under pads, 60x60 cm, 10 Pcs/Pack (Pack of 3) 30 Pcs</p>
+                    </div>
+                </div>
+
+                <div class="row align-items-center justify-content-end gy-5 mb-5 product-list   horizontalContainer4">
+                    <div class="col-xl-4 col-lg-6   horizontal-scroll4">
+                        <h4 class="mb-0 text-gradient fw-bold">Medical Disposables</h4>
+                        <p class="mb-0 text-white fw-semibold">Medrop Disposable Under pads, 60x60 cm, 10 Pcs/Pack (Pack of 3) 30 Pcs</p>
+                    </div>
+                    <div class="col-xl-5 col-lg-6   horizontal-scroll4">
+                        <figure class="mb-0 text-center bg-body rounded-3">
+                            <img src="images/product.png" alt="Medical Disposables" class="img-fluid" />
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="row align-items-center gy-5 mb-5 product-list   horizontalContainer5">
+                    <div class="col-xl-5 col-lg-6    horizontal-scroll5">
+                        <figure class="mb-0 text-center bg-body rounded-3">
+                            <img src="images/product.png" alt="Medical Disposables" class="img-fluid" />
+                        </figure>
+                    </div>
+                    <div class="col-xl-4 col-lg-6    horizontal-scroll5">
+                        <h4 class="mb-0 text-gradient fw-bold">Medical Disposables</h4>
+                        <p class="mb-0 text-white fw-semibold">Medrop Disposable Under pads, 60x60 cm, 10 Pcs/Pack (Pack of 3) 30 Pcs</p>
+                    </div>
+                </div>
+
             </div>
-    </div>
-    <div class="circle right position-absolute"></div>
-    </section>
+            <div class="circle right position-absolute"></div>
+        </section>
     </div>
     <!-- product section end -->
 
@@ -130,19 +128,23 @@
             <div class="container custom-container">
                 <div class="row gy-5">
                     <div class="col-lg-3">
-                        <figure class="mb-5">
-                            <img src="images/certificate1.png" alt="Certificate 1" class="img-fluid" />
+                        <figure class="mb-5   certificateContainer">
+                            <a href="documents/certificate-1.pdf" target="_blank">
+                                <img src="images/certificate1.png" alt="Certificate 1" class="img-fluid   certificate1" />
+                            </a>
                         </figure>
-                        <figure class="mb-0 text-lg-end">
-                            <img src="images/certificate3.png" alt="Certificate 3" class="img-fluid" />
+                        <figure class="mb-0 text-lg-end   certificateContainer">
+                            <a href="documents/certificate-3.pdf" target="_blank">
+                                <img src="images/certificate3.png" alt="Certificate 3" class="img-fluid   certificate3" />
+                            </a>
                         </figure>
                     </div>
                     <div class="col-lg-6">
-                        <div class="title position-relative mb-5">
-                            <span class="back-text">QUALITY</span>
-                            <span class="d-block text-gradient text-lg-end text-center">QUALITY</span>
-                            <span class="back-text">POLICY</span>
-                            <span class="d-block text-gradient text-lg-start text-center">POLICY</span>
+                        <div class="title position-relative mb-5   qualityPolicy">
+                            <span class="back-text  qualityScroll">QUALITY</span>
+                            <span class="d-block text-gradient text-lg-end text-center    qualityScroll">QUALITY</span>
+                            <span class="back-text policyScroll">POLICY</span>
+                            <span class="d-block text-gradient text-lg-start text-center    policyScroll">POLICY</span>
                         </div>
                         <div class="position-relative z-0">
                             <div class="ellipse"></div>
@@ -150,11 +152,15 @@
                         </div>
                     </div>
                     <div class="col-lg-3">
-                        <figure class="mb-5 text-lg-end">
-                            <img src="images/certificate2.png" alt="Certificate 2" class="img-fluid" />
+                        <figure class="mb-5 text-lg-end   certificateContainer">
+                            <a href="documents/certificate-2.pdf" target="_blank">
+                                <img src="images/certificate2.png" alt="Certificate 2" class="img-fluid   certificate2" />
+                            </a>
                         </figure>
-                        <figure class="mb-0">
-                            <img src="images/certificate4.png" alt="Certificate 4" class="img-fluid" />
+                        <figure class="mb-0   certificateContainer">
+                            <a href="documents/certificate-4.pdf" target="_blank">
+                                <img src="images/certificate4.png" alt="Certificate 4" class="img-fluid   certificate4" />
+                            </a>
                         </figure>
                     </div>
                 </div>
@@ -2469,29 +2475,30 @@
 
     <!-- testimonial section -->
     <div class="section">
-        <section class="py-5 bg-purple">
+        <section class="py-5 bg-purple testimonial-section">
             <div class="container custom-container">
                 <div class="row">
-                    <div class="col-12 text-center">
-                        <div class="title text-gradient mb-5">TESTIMONIALS</div>
+                    <div class="col-12 text-center position-relative z-0 text-center testimonialContainer">
+                        <div class="title back-text ">TESTIMONIALS</div>
+                        <div class="title text-gradient mb-5 d-inline-block testimonialSlide">TESTIMONIALS</div>
                     </div>
                     <div class="col-12">
                         <div class="card-slider testimonial-slider ">
                             <!-- <div class="swiper-wrapper"> -->
-                                <?php
-                                for ($i = 0; $i < 3; $i++) {
-                                ?>
-                                    <!-- <div class="swiper-slide"> -->
-                                        <div class="card card1">
-                                            <img src="images/testimonial.png" class="card-img-top img-fluid" alt="Agnes Remi" />
-                                            <div class="card-body pe-0">
-                                                <h5 class="card-title">Agnes Remi</h5>
-                                                <div class="card-designation">Lorem Ipsum Dolor Sit Amet</div>
-                                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut nisi venenatis, sollicitudin orci nec, maximus arcu. Nullam vulputate sodales consequat.Lorem ipsum dolor sit amet, consectetur</p>
-                                            </div>
-                                        </div>
-                                    <!-- </div> -->
-                                <?php } ?>
+                            <?php
+                            for ($i = 0; $i < 3; $i++) {
+                            ?>
+                                <!-- <div class="swiper-slide"> -->
+                                <div class="card card1">
+                                    <img src="images/testimonial.png" class="card-img-top img-fluid" alt="Agnes Remi" />
+                                    <div class="card-body pe-0">
+                                        <h5 class="card-title">Agnes Remi</h5>
+                                        <div class="card-designation">Lorem Ipsum Dolor Sit Amet</div>
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut nisi venenatis, sollicitudin orci nec, maximus arcu. Nullam vulputate sodales consequat.Lorem ipsum dolor sit amet, consectetur</p>
+                                    </div>
+                                </div>
+                                <!-- </div> -->
+                            <?php } ?>
                             <!-- </div> -->
                         </div>
                     </div>
@@ -2500,7 +2507,7 @@
                             <?php
                             for ($i = 0; $i < 3; $i++) {
                             ?>
-                                <div class="card card2" >
+                                <div class="card card2">
                                     <img src="images/testimonial.png" class="card-img-top img-fluid" alt="Martin Costa" />
                                     <div class="card-body pe-0">
                                         <h5 class="card-title">Martin Costa</h5>
@@ -2518,37 +2525,45 @@
     <!-- testimonial section end -->
 
     <!-- event section -->
-    <div class="">
+    <div class="section">
         <section class="pt-5 bg-purple position-relative z-0 event-section">
             <div class="circle position-absolute"></div>
             <div class="container custom-container">
                 <div class="row">
                     <div class="col-lg-7">
-                        <div class="position-relative z-0 mb-5">
-                            <div class="title back-text">EVENTS <span>&</span> EXHIBITIONS</div>
-                            <div class="title text-gradient">EVENTS <span class="gradient-0">&</span> EXHIBITIONS</div>
+                        <div class="position-relative z-0 mb-5 eventContainer">
+                            <div class="title back-text   eventSlide">EVENTS <span>&</span> EXHIBITIONS</div>
+                            <div class="title text-gradient   eventSlide">EVENTS <span class="gradient-0">&</span> EXHIBITIONS</div>
                         </div>
                     </div>
                 </div>
-                <div class="row align-items-end">
+                <div class="row ">
                     <div class="col-lg-3">
-                        <figure class="mb-0 text-center">
-                            <img src="images/event1.jpg" alt="Event 1" class="img-fluid" />
+                        <figure class="mb-0 text-center   eventContainer1">
+                            <a href="images/event1.jpg" class="fancybox" data-fancybox="event">
+                                <img src="images/event1.jpg" alt="Event 1" class="img-fluid   eventScroll1" />
+                            </a>
                         </figure>
                     </div>
                     <div class="col-lg-3">
-                        <figure class="mb-0 text-center">
-                            <img src="images/event2.jpg" alt="Event 2" class="img-fluid" />
+                        <figure class="mb-0 text-center   eventContainer2">
+                            <a href="images/event2.jpg" class="fancybox" data-fancybox="event">
+                                <img src="images/event2.jpg" alt="Event 2" class="img-fluid   eventScroll2" />
+                            </a>
                         </figure>
                     </div>
                     <div class="col-lg-3">
-                        <figure class="mb-0 text-center">
-                            <img src="images/event3.jpg" alt="Event 3" class="img-fluid" />
+                        <figure class="mb-0 text-center   eventContainer3">
+                            <a href="images/event3.jpg" class="fancybox" data-fancybox="event">
+                                <img src="images/event3.jpg" alt="Event 3" class="img-fluid   eventScroll3" />
+                            </a>
                         </figure>
                     </div>
                     <div class="col-lg-3">
-                        <figure class="mb-0 text-center">
-                            <img src="images/event4.jpg" alt="Event 4" class="img-fluid" />
+                        <figure class="mb-0 text-center   eventContainer4">
+                            <a href="images/event4.jpg" class="fancybox" data-fancybox="event">
+                                <img src="images/event4.jpg" alt="Event 4" class="img-fluid   eventScroll4" />
+                            </a>
                         </figure>
                     </div>
                 </div>
