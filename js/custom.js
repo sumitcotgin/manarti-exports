@@ -32,11 +32,11 @@ a.forEach((item) => {
 
 $(document).ready(function () {
   // loader
-  $("body").addClass("overflow-hidden");
+  /* $("body").addClass("overflow-hidden");
   $(window).on("load", function () {
     $("body").removeClass("overflow-hidden");
     $(".loader").fadeOut();
-  });
+  }); */
 
   //   input type phone
   $("input[type=tel]").keydown(function (event) {

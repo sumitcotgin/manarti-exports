@@ -16,11 +16,11 @@
 <div class="cursor2"></div>
 
   <!-- LOADER -->
-  <div class="loader">
+  <!-- <div class="loader">
     <video class="video-loader" muted loop autoplay>
       <source src="video/loader.mp4" type="video/mp4" />
     </video>
-  </div>
+  </div> -->
 
   <!-- HEADER -->
   <nav class="navbar py-4 bg-purple">
@@ -43,10 +43,10 @@
           <div class="offcanvas-body">
             <ul class="main-menu list-unstyled">
               <li class="active">
-                <a href="javascript:void(0)" class="menu-link">HOME</a>
+                <a href="index.php" class="menu-link">HOME</a>
               </li>
               <li>
-                <a href="javascript:void(0)" class="menu-link">ABOUT US</a>
+                <a href="about.php" class="menu-link">ABOUT US</a>
               </li>
               <li>
                 <a href="javascript:void(0)" class="menu-link">QUALITY POLICY</a>

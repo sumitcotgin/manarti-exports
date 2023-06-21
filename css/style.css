@@ -500,6 +500,7 @@ a {
 }
 
 /* testimonial style */
+.trademark-section .back-text,
 .testimonial-section .back-text {
   left: 25%;
 }
@@ -541,11 +542,64 @@ a {
   letter-spacing: 0.02em;
 }
 .event-section {
-  padding-bottom: 10rem;
+  padding-bottom: 10rem !important;
   border-radius: 0 0 100px 100px;
 }
 .event-section img {
   border-radius: 10px;
+}
+
+/* about us style */
+.trademark-section,
+.about-banner {
+  background-image: url(../images/about-banner.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.trademark-section {
+  background-image: url(../images/trademark-section.jpg);
+}
+.signature {
+  position: absolute;
+  bottom: 30px;
+  right: 50px;
+}
+.vision-sec h3 {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 63px;
+  text-transform: uppercase;
+}
+.vision-sec p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+}
+
+.img-hover {
+  overflow: hidden;
+}
+.img-hover:hover::before {
+  transition: all .3s;
+  position: absolute;
+  content: '';
+  width: 93%;
+  height: 90%;
+  top: 20px;
+  left: 20px;
+  bottom: 20px;
+  right: 20px;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  z-index: 1;
+}
+.img-hover img {
+  transition: all .3s;
+}
+.img-hover:hover img {
+  transform: scale(1.2);
 }
 
 /* footer style */
