@@ -1,4 +1,4 @@
-<footer class="py-5 bg-body position-relative">
+<footer class="py-5 bg-body">
     <div class="container">
         <div class="row row-gap-4">
             <div class="col-lg-3 col-md-6">

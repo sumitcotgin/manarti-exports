@@ -65,7 +65,7 @@
         </div>
       </div>
 
-      <a class="navbar-brand" href="index.php">
+      <a class="navbar-brand m-0" href="index.php">
         <img src="images/logo.png" alt="Logo" title="Logo" class="img-fluid" />
       </a>
 
@@ -92,12 +92,12 @@
           </div>
           <div class="offcanvas-body">
             <div class="row align-items-center product-menu">
-              <div class="col-xxl-4 col-xl-5 col-lg-3">
+              <div class="col-xl-4 col-lg-3">
                 <figure class="mb-0">
                   <img src="images/menu-prod1.png" alt="Product" class="img-fluid" />
                 </figure>
               </div>
-              <div class="col-xxl-8 col-xl-7 col-lg-9">
+              <div class="col-xl-8 col-lg-9">
                 <div class="row gy-4">
                   <div class="col-lg-4">
                     <h5 class="menu-title">Medical Disposables</h5>

@@ -3,7 +3,7 @@
 <main>
     <!-- hero section -->
     <div class="section">
-        <section class="hero-section h-100-vh py-5 bg-purple position-relative z-0">
+        <section class="hero-section h-100-vh py-5 bg-purple position-relative z-0 w-100">
             <div class="container custom-container h-100-vh">
                 <div class="row align-items-center">
                     <div class="col-xxl-7 col-xl-8 col-lg-6">
@@ -29,11 +29,11 @@
 
     <!-- about section -->
     <div class="section">
-        <section id="about" class="h-100-vh py-5 bg-purple position-relative z-0">
+        <section id="about" class="h-100-vh py-5 bg-purple position-relative z-0 w-100">
             <div class="circle position-absolute"></div>
             <div class="container custom-container h-100-vh">
                 <div class="row align-items-center">
-                    <div class="col-lg-6 mx-auto">
+                    <div class="col-xxl-6 col-xl-8 col-lg-9 mx-auto">
                         <p class="about-text mb-0">Manarti Exports is a specialized medical disposables, systems, devices and hospital equipment provider offering a wide range of products. Our products are manufactured at state-of-the art production facilities in India, with capacity to produce large quantities. We are ISO 9001:2008 and ISO 13485:2003 certified and our products are CE Marked. Our Medical Devices and Catheters are FDA Approved.</p>
                     </div>
                 </div>
@@ -47,7 +47,7 @@
 
     <!-- product section -->
     <div class="section">
-        <section class="py-5 bg-purple position-relative z-0">
+        <section class="py-5 bg-purple position-relative z-0 w-100">
             <div class="circle right position-absolute"></div>
             <div class="container">
                 <div class="text_scroll_container1">
@@ -123,7 +123,7 @@
 
     <!-- quality policy section -->
     <div class="section">
-        <section class="py-5 bg-purple">
+        <section class="py-5 bg-purple w-100">
             <div class="circle position-absolute"></div>
             <div class="container custom-container">
                 <div class="row gy-5">
@@ -172,7 +172,7 @@
 
     <!-- map section -->
     <div class="section">
-        <section class="py-5 bg-purple">
+        <section class="py-5 bg-purple w-100">
             <div class="container custom-container">
                 <div class="row">
                     <div class="col-12 text-center">
@@ -191,7 +191,7 @@
                             </p>
                         </div>
                         <!-- <img src="images/map.svg" alt="Map" class="img-fluid pe-none" /> -->
-                        <svg width="1364" height="873" viewBox="0 0 1364 873" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <svg width="100%" height="873" viewBox="0 0 1364 873" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                             <g filter="url(#filter0_dddd_15_363)">
                                 <path d="M679.115 363.949H672.995L669.935 358.703L672.995 353.458H679.115L682.087 358.703L679.115 363.949Z" fill="white" />
                                 <path d="M667.662 370.593H661.629L658.569 365.26L661.629 360.015H667.662L670.722 365.26L667.662 370.593Z" fill="white" />
@@ -2475,7 +2475,7 @@
 
     <!-- testimonial section -->
     <div class="section">
-        <section class="py-5 bg-purple testimonial-section">
+        <section class="py-5 bg-purple testimonial-section w-100">
             <div class="container custom-container">
                 <div class="row">
                     <div class="col-12 text-center position-relative z-0 text-center testimonialContainer">
@@ -2526,7 +2526,7 @@
 
     <!-- event section -->
     <div class="section">
-        <section class="pt-5 bg-purple position-relative z-0 event-section">
+        <section class="pt-5 bg-purple position-relative z-0 event-section w-100">
             <div class="circle position-absolute"></div>
             <div class="container custom-container">
                 <div class="row">

@@ -2,8 +2,8 @@
 :root {
   --black: #000000;
   --white: #ffffff;
-  --purple: #0f0e3a;
-  --darkpurple: #0b0d2a;
+  --purple: #111B37;
+  --darkpurple: #0B0D2A;
   --pink: #ec0d78;
   --orange: #fc7d17;
   --blue: #0099ff;
@@ -69,7 +69,7 @@ body {
   font-family: "Poppins", sans-serif;
 }
 .bg-purple {
-  background-color: #0f0e3a;
+  background-color: #111B37;
 }
 a {
   text-decoration: none;
@@ -104,7 +104,7 @@ a {
   width: 100%;
   border-radius: 100px;
 }
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
   .custom-container {
     max-width: 90%;
   }
@@ -227,7 +227,7 @@ a {
 .product-menu-link {
   position: relative;
   color: var(--white);
-  font-weight: 600;
+  font-weight: 500;
   font-size: 16px;
   line-height: 156.5%;
   transition: all .3s ease-in-out;
@@ -549,6 +549,11 @@ a {
 }
 
 /* footer style */
+footer {
+  position: sticky !important;
+  bottom: 0;
+  z-index: -1;
+}
 footer h4 {
   font-size: 20px;
   line-height: 26px;
@@ -582,9 +587,31 @@ footer a:hover {
   border-radius: 50%;
 }
 
+@media (max-width: 1599px) {
+  .title {
+    font-weight: 800;
+    font-size: 92px;
+    letter-spacing: 0.03em;
+  }
+  .text-fill {
+    font-size: 165px;
+  }
+  .product-list p,
+  .about-text {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .main-menu .menu-link {
+    font-size: 60px;
+  }
+}
+
 @media (max-width: 1199px) {
   .main-title {
     font-size: 52px;
+  }  
+  .main-menu .menu-link {
+    font-size: 50px;
   }
 }
 @media (max-width: 767px) {
