@@ -29,7 +29,7 @@
 
     <!-- about section -->
     <div class="section">
-        <section id="about" class="h-100-vh py-5 bg-purple position-relative z-0 w-100 ">
+        <section id="about" class="h-100-vh py-5 bg-purple overflow-hidden position-relative z-0 w-100 ">
             <div class="circle position-absolute"></div>
             <div class="container custom-container h-100-vh">
                 <div class="row align-items-center">
