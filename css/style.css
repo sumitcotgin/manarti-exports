@@ -109,6 +109,9 @@ a {
     max-width: 90%;
   }
 }
+section {
+  overflow-x: hidden;
+}
 .h-100-vh {
   height: 100vh;
 }
@@ -567,7 +570,7 @@ a {
 }
 .vision-sec h3 {
   font-weight: 700;
-  font-size: 50px;
+  font-size: 46px;
   line-height: 63px;
   text-transform: uppercase;
 }
@@ -668,7 +671,31 @@ footer a:hover {
     font-size: 50px;
   }
 }
+@media (max-width: 991px) {
+  
+  .event-section h3 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .event-section p {
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .img-hover:hover::before{
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+  }
+}
 @media (max-width: 767px) {
+  .vedio-section iframe {
+    height: 100%;
+  }
+  .title {
+    font-size: 40px;
+    letter-spacing: 0.05em;
+  }
   .navbar-brand img {
     max-width: 250px;
   }
@@ -678,5 +705,14 @@ footer a:hover {
   .main-menu {
     position: absolute;
     right: 12px;
+  }
+  .event-section {
+    padding-bottom: 3rem !important;
+  }
+  .event-section:has(h3, p) {
+    text-align: center;
+  }
+  .reverse {
+    flex-direction: column-reverse;
   }
 }

@@ -88,335 +88,449 @@ $(document).ready(function () {
   });
 });
 
-// testimonial slider
-/* const swiper = new Swiper(".card-slider", {
-  slidesPerView: 'auto',
-  spaceBetween: 10,
-  loop: true,
-  speed: 2000,
-  infinite: true,
-  freeMode: true,
-  centeredSlides: true,
-  autoplay: true,
-  delay: 0,
-  // autoplay: {
-  //   delay: 0,
-  //   disableOnInteraction: false,
-  // },
-  breakpoints: {
-    640: {
-      slidesPerView: 1,
+if (screen.width > 991) {
+  // const container = document.querySelector(".horizontalContainer");
+  // const content = document.querySelectorAll(".horizontal-scroll");
+
+  // gsap.registerPlugin(ScrollToPlugin);
+  // gsap.registerPlugin(ScrollTrigger);
+  // gsap.utils.toArray(".section").forEach((sections) => {
+  //   ScrollTrigger.create({
+  //     xPercent: -100 * (sections.length - 1),
+  //     ease: "none",
+  //     trigger: sections,
+  //     start: "top left",
+  //     pin: true,
+  //     pinSpacing: false,
+  //     filter: 'blur(5px)'
+  //   });
+  // });
+
+
+  gsap.from('.main-title', {
+    x: -500,
+    ease: 'bounce',
+    duration: 2,
+  });
+
+  const text_scroll_container = gsap.utils.toArray(".text_scroll_container");
+  const text_scroll = gsap.utils.toArray(".text_scroll");
+  gsap.from(text_scroll, {
+    xPercent: 100 * (text_scroll.length - 1),
+    ease: "none",
+    scrollTrigger: {
+      trigger: text_scroll_container,
+      scrub: true,
+      start: "70% 80%",
+      end: "=+800",
     },
-    768: {
-      slidesPerView: 2,
+  });
+
+  const text_scroll_container1 = gsap.utils.toArray(".text_scroll_container1");
+  const text_scroll1 = gsap.utils.toArray(".text_scroll1");
+  gsap.to(text_scroll1, {
+    xPercent: -100 * (text_scroll1.length - 1),
+    ease: "none",
+    scrollTrigger: {
+      trigger: text_scroll_container1,
+      scrub: true,
+      start: "70% 80%",
+      end: "=+800",
     },
-    1024: {
-      slidesPerView: 3,
+  });
+
+  const horizontalContainer1 = gsap.utils.toArray(".horizontalContainer1");
+  const horizontal1 = gsap.utils.toArray(".horizontal-scroll1");
+  gsap.from(horizontal1, {
+    x: -1500,
+    ease: "power.inOut",
+    scrollTrigger: {
+      trigger: horizontalContainer1,
+      scrub: true,
+      start: "70% 80%",
+      end: "=+100",
     },
-  },
-}); */
+  });
+  const horizontalContainer2 = gsap.utils.toArray(".horizontalContainer2");
+  const horizontal2 = gsap.utils.toArray(".horizontal-scroll2");
+  gsap.from(horizontal2, {
+    x: 1500,
+    ease: "power.inOut",
+    scrollTrigger: {
+      trigger: horizontalContainer2,
+      scrub: 1,
+      start: "70% 80%",
+      end: "=+100",
+    },
+  });
+  const horizontalContainer3 = gsap.utils.toArray(".horizontalContainer3");
+  const horizontal3 = gsap.utils.toArray(".horizontal-scroll3");
+  gsap.from(horizontal3, {
+    x: -1500,
+    ease: "power.inOut",
+    scrollTrigger: {
+      trigger: horizontalContainer3,
+      scrub: 1,
+      start: "70% 80%",
+      end: "=+100",
+    },
+  });
+  const horizontalContainer4 = gsap.utils.toArray(".horizontalContainer4");
+  const horizontal4 = gsap.utils.toArray(".horizontal-scroll4");
+  gsap.from(horizontal4, {
+    // xPercent: 100 * (horizontal4.length - 1),
+    x: 1500,
+    ease: "power.inOut",
+    scrollTrigger: {
+      trigger: horizontalContainer4,
+      scrub: 1,
+      start: "70% 80%",
+      end: "=+100",
+    },
+  });
+  const horizontalContainer5 = gsap.utils.toArray(".horizontalContainer5");
+  const horizontal5 = gsap.utils.toArray(".horizontal-scroll5");
+  gsap.from(horizontal5, {
+    x: -1500,
+    ease: "power.inOut",
+    scrollTrigger: {
+      trigger: horizontalContainer5,
+      scrub: 1,
+      start: "70% 80%",
+      end: "=+100",
+    },
+  });
 
-const container = document.querySelector(".horizontalContainer");
-const content = document.querySelectorAll(".horizontal-scroll");
+  const cardSlider = gsap.utils.toArray(".card-slider");
+  const card1 = gsap.utils.toArray(".card-slider .card1");
+  gsap.to(card1, {
+    xPercent: -250 * (card1.length - 1),
+    ease: "none",
+    scrollTrigger: {
+      trigger: cardSlider,
+      scrub: true,
+      end: "=+3000",
+    },
+  });
 
-// gsap.registerPlugin(ScrollToPlugin);
-// gsap.registerPlugin(ScrollTrigger);
-// gsap.utils.toArray(".section").forEach((sections) => {
-//   ScrollTrigger.create({
-//     xPercent: -100 * (sections.length - 1),
-//     ease: "none",
-//     trigger: sections,
-//     start: "top left",
-//     pin: true,
-//     pinSpacing: false,
-//     filter: 'blur(5px)'
-//   });
-// });
+  const cardSlider2 = gsap.utils.toArray(".card-slider2");
+  const card2 = gsap.utils.toArray(".card-slider2 .card2");
+  gsap.to(card2, {
+    xPercent: 250 * (card2.length - 1),
+    ease: "none",
+    scrollTrigger: {
+      trigger: cardSlider2,
+      scrub: true,
+      end: "=+3000",
+    },
+  });
 
-const text_scroll_container = gsap.utils.toArray(".text_scroll_container");
-const text_scroll = gsap.utils.toArray(".text_scroll");
-gsap.from(text_scroll, {
-  xPercent: 100 * (text_scroll.length - 1),
-  ease: "none",
-  scrollTrigger: {
-    trigger: text_scroll_container,
-    scrub: true,
-    start: "70% 80%",
-    end: "=+800",
-  },
-});
+  const qualityPolicy = gsap.utils.toArray(".qualityPolicy");
+  const qualityScroll = gsap.utils.toArray(".qualityScroll");
+  gsap.from(qualityScroll, {
+    xPercent: -100 * (qualityScroll.length - 1),
+    ease: "none",
+    scrollTrigger: {
+      trigger: qualityPolicy,
+      scrub: true,
+      start: "40% 90%",
+      end: "90% 20%",
+    },
+  });
+  const policyScroll = gsap.utils.toArray(".policyScroll");
+  gsap.from(policyScroll, {
+    xPercent: 100 * (policyScroll.length - 1),
+    ease: "none",
+    scrollTrigger: {
+      trigger: qualityPolicy,
+      scrub: true,
+      start: "40% 90%",
+      end: "90% 20%",
+    },
+  });
 
-const text_scroll_container1 = gsap.utils.toArray(".text_scroll_container1");
-const text_scroll1 = gsap.utils.toArray(".text_scroll1");
-gsap.to(text_scroll1, {
-  xPercent: -100 * (text_scroll1.length - 1),
-  ease: "none",
-  scrollTrigger: {
-    trigger: text_scroll_container1,
-    scrub: true,
-    start: "70% 80%",
-    end: "=+800",
-  },
-});
-
-const horizontalContainer1 = gsap.utils.toArray(".horizontalContainer1");
-const horizontal1 = gsap.utils.toArray(".horizontal-scroll1");
-gsap.from(horizontal1, {
-  // xPercent: -100 * (horizontal1.length - 1),
-  x: -1500,
-  ease: "power.inOut",
-  scrollTrigger: {
-    trigger: horizontalContainer1,
-    scrub: true,
-    start: "70% 80%",
-    end: "=+100",
-  },
-});
-const horizontalContainer2 = gsap.utils.toArray(".horizontalContainer2");
-const horizontal2 = gsap.utils.toArray(".horizontal-scroll2");
-gsap.from(horizontal2, {
-  // xPercent: 100 * (horizontal2.length - 1),
-  x: 1500,
-  ease: "power.inOut",
-  scrollTrigger: {
-    trigger: horizontalContainer2,
-    scrub: 1,
-    start: "70% 80%",
-    end: "=+100",
-  },
-});
-const horizontalContainer3 = gsap.utils.toArray(".horizontalContainer3");
-const horizontal3 = gsap.utils.toArray(".horizontal-scroll3");
-gsap.from(horizontal3, {
-  // xPercent: -100 * (horizontal3.length - 1),
-  x: -1500,
-  ease: "power.inOut",
-  scrollTrigger: {
-    trigger: horizontalContainer3,
-    scrub: 1,
-    start: "70% 80%",
-    end: "=+100",
-  },
-});
-const horizontalContainer4 = gsap.utils.toArray(".horizontalContainer4");
-const horizontal4 = gsap.utils.toArray(".horizontal-scroll4");
-gsap.from(horizontal4, {
-  // xPercent: 100 * (horizontal4.length - 1),
-  x: 1500,
-  ease: "power.inOut",
-  scrollTrigger: {
-    trigger: horizontalContainer4,
-    scrub: 1,
-    start: "70% 80%",
-    end: "=+100",
-  },
-});
-const horizontalContainer5 = gsap.utils.toArray(".horizontalContainer5");
-const horizontal5 = gsap.utils.toArray(".horizontal-scroll5");
-gsap.from(horizontal5, {
-  // xPercent: -100 * (horizontal5.length - 1),
-  x: -1500,
-  ease: "power.inOut",
-  scrollTrigger: {
-    trigger: horizontalContainer5,
-    scrub: 1,
-    start: "70% 80%",
-    end: "=+100",
-  },
-});
-
-const cardSlider = gsap.utils.toArray(".card-slider");
-const card1 = gsap.utils.toArray(".card-slider .card1");
-gsap.to(card1, {
-  xPercent: -250 * (card1.length - 1),
-  ease: "none",
-  scrollTrigger: {
-    trigger: cardSlider,
-    // pin: true,
-    scrub: true,
-    end: "=+3000",
-  },
-});
-
-const cardSlider2 = gsap.utils.toArray(".card-slider2");
-const card2 = gsap.utils.toArray(".card-slider2 .card2");
-gsap.to(card2, {
-  xPercent: 250 * (card2.length - 1),
-  ease: "none",
-  scrollTrigger: {
-    trigger: cardSlider2,
-    // pin: true,
-    scrub: true,
-    end: "=+3000",
-  },
-});
-
-const qualityPolicy = gsap.utils.toArray(".qualityPolicy");
-const qualityScroll = gsap.utils.toArray(".qualityScroll");
-gsap.from(qualityScroll, {
-  xPercent: -100 * (qualityScroll.length - 1),
-  ease: "none",
-  scrollTrigger: {
-    trigger: qualityPolicy,
-    scrub: true,
-    start: "40% 90%",
-    end: "90% 20%",
-  },
-});
-const policyScroll = gsap.utils.toArray(".policyScroll");
-gsap.from(policyScroll, {
-  xPercent: 100 * (policyScroll.length - 1),
-  ease: "none",
-  scrollTrigger: {
-    trigger: qualityPolicy,
-    scrub: true,
-    start: "40% 90%",
-    end: "90% 20%",
-  },
-});
-
-const certificateContainer = gsap.utils.toArray(".certificateContainer");
-const certificate1 = gsap.utils.toArray(".certificate1");
-gsap.from(certificate1, {
-  x: -500,
-  y: -500,
-  duration: 5,
-  ease: "power.inOut",
-  opacity: 0,
-  scrollTrigger: {
-    trigger: certificateContainer,
-    scrub: true,
-    start: "40% 100%",
-    end: "50% 40%",
-    stagger: true
-  },
-});
-const certificate2 = gsap.utils.toArray(".certificate2");
-gsap.from(certificate2, {
-  x: 500,
-  y: -500,
-  duration: 5,
-  delay: 2,
-  ease: "power.inOut",
-  opacity: 0,
-  scrollTrigger: {
-    trigger: certificateContainer,
-    scrub: true,
-    start: "40% 100%",
-    end: "50% 40%",
-    stagger: true
-  },
-});
-const certificate3 = gsap.utils.toArray(".certificate3");
-gsap.from(certificate3, {
-  x: -500,
-  ease: "power.in",
-  opacity: 0,
-  scrollTrigger: {
-    trigger: certificateContainer,
-    scrub: true,
-    start: "top 50%",
-    end: "bottom 20%"
-  },
-});
-const certificate4 = gsap.utils.toArray(".certificate4");
-gsap.from(certificate4, {
-  x: 500,
-  ease: "power.in",
-  opacity: 0,
-  scrollTrigger: {
-    trigger: certificateContainer,
-    scrub: true,
-    start: "top 50%",
-    end: "bottom 20%"
-  },
-});
+  const certificateContainer = gsap.utils.toArray(".certificateContainer");
+  const certificate1 = gsap.utils.toArray(".certificate1");
+  gsap.from(certificate1, {
+    x: -500,
+    y: -500,
+    duration: 5,
+    ease: "power.inOut",
+    opacity: 0,
+    scrollTrigger: {
+      trigger: certificateContainer,
+      scrub: true,
+      start: "40% 100%",
+      end: "50% 40%",
+      stagger: true
+    },
+  });
+  const certificate2 = gsap.utils.toArray(".certificate2");
+  gsap.from(certificate2, {
+    x: 500,
+    y: -500,
+    duration: 5,
+    delay: 2,
+    ease: "power.inOut",
+    opacity: 0,
+    scrollTrigger: {
+      trigger: certificateContainer,
+      scrub: true,
+      start: "40% 100%",
+      end: "50% 40%",
+      stagger: true
+    },
+  });
+  const certificate3 = gsap.utils.toArray(".certificate3");
+  gsap.from(certificate3, {
+    x: -500,
+    ease: "power.in",
+    opacity: 0,
+    scrollTrigger: {
+      trigger: certificateContainer,
+      scrub: true,
+      start: "top 50%",
+      end: "bottom 20%"
+    },
+  });
+  const certificate4 = gsap.utils.toArray(".certificate4");
+  gsap.from(certificate4, {
+    x: 500,
+    ease: "power.in",
+    opacity: 0,
+    scrollTrigger: {
+      trigger: certificateContainer,
+      scrub: true,
+      start: "top 50%",
+      end: "bottom 20%"
+    },
+  });
 
 
-const testimonialContainer = gsap.utils.toArray(".testimonialContainer");
-const testimonialSlide = gsap.utils.toArray(".testimonialSlide");
-gsap.from(testimonialSlide, {
-  y: -500 * (testimonialSlide.length - 1),
-  opacity: 0,
-  ease: "none",
-  scrollTrigger: {
-    trigger: testimonialContainer,
-    scrub: true,
-    start: "40% 90%",
-    end: "90% 20%",
-  },
-});
+  const testimonialContainer = gsap.utils.toArray(".testimonialContainer");
+  const testimonialSlide = gsap.utils.toArray(".testimonialSlide");
+  gsap.from(testimonialSlide, {
+    y: -500 * (testimonialSlide.length - 1),
+    opacity: 0,
+    ease: "none",
+    scrollTrigger: {
+      trigger: testimonialContainer,
+      scrub: true,
+      start: "40% 90%",
+      end: "90% 20%",
+    },
+  });
 
-const eventContainer = gsap.utils.toArray(".eventContainer");
-const eventSlide = gsap.utils.toArray(".eventSlide");
-gsap.from(eventSlide, {
-  xPercent: -500 * (eventSlide.length - 1),
-  // opacity: 0,
-  ease: "back.out(1.5)",
-  scrollTrigger: {
-    trigger: eventContainer,
-    scrub: true,
-    start: "40% 90%",
-    end: "90% 20%",
-  },
-});
+  const eventContainer = gsap.utils.toArray(".eventContainer");
+  const eventSlide = gsap.utils.toArray(".eventSlide");
+  gsap.from(eventSlide, {
+    xPercent: -500 * (eventSlide.length - 1),
+    // opacity: 0,
+    ease: "back.out(1.5)",
+    scrollTrigger: {
+      trigger: eventContainer,
+      scrub: true,
+      start: "40% 90%",
+      end: "90% 20%",
+    },
+  });
 
-const eventContainer1 = gsap.utils.toArray(".eventContainer1");
-const eventScroll1 = gsap.utils.toArray(".eventScroll1");
-gsap.from(eventScroll1, {
-  duration: 2,
-  ease: "expo.out",
-  y: 800,
-  opacity: 0,
-  scrollTrigger: {
-    trigger: eventContainer1,
-    scrub: 1,
-    start: "70% 80%",
-    end: "80% 20%",
-  },
-});
+  const eventContainer1 = gsap.utils.toArray(".eventContainer1");
+  const eventScroll1 = gsap.utils.toArray(".eventScroll1");
+  gsap.from(eventScroll1, {
+    duration: 2,
+    ease: "expo.out",
+    y: 800,
+    opacity: 0,
+    scrollTrigger: {
+      trigger: eventContainer1,
+      scrub: 1,
+      start: "70% 80%",
+      end: "80% 20%",
+    },
+  });
 
-const eventContainer2 = gsap.utils.toArray(".eventContainer2");
-const eventScroll2 = gsap.utils.toArray(".eventScroll2");
-gsap.from(eventScroll2, {
-  duration: 4,
-  ease: "expo.out",
-  y: 800,
-  opacity: 0,
-  scrollTrigger: {
-    trigger: eventContainer2,
-    scrub: 1,
-    start: "50% 80%",
-    end: "80% 20%",
-  },
-});
+  const eventContainer2 = gsap.utils.toArray(".eventContainer2");
+  const eventScroll2 = gsap.utils.toArray(".eventScroll2");
+  gsap.from(eventScroll2, {
+    duration: 4,
+    ease: "expo.out",
+    y: 800,
+    opacity: 0,
+    scrollTrigger: {
+      trigger: eventContainer2,
+      scrub: 1,
+      start: "50% 80%",
+      end: "80% 20%",
+    },
+  });
 
-const eventContainer3 = gsap.utils.toArray(".eventContainer3");
-const eventScroll3 = gsap.utils.toArray(".eventScroll3");
-gsap.from(eventScroll3, {
-  duration: 6,
-  ease: "expo.out",
-  y: 800,
-  opacity: 0,
-  scrollTrigger: {
-    trigger: eventContainer3,
-    scrub: 1,
-    start: "50% 80%",
-    end: "80% 20%",
-  },
-});
+  const eventContainer3 = gsap.utils.toArray(".eventContainer3");
+  const eventScroll3 = gsap.utils.toArray(".eventScroll3");
+  gsap.from(eventScroll3, {
+    duration: 6,
+    ease: "expo.out",
+    y: 800,
+    opacity: 0,
+    scrollTrigger: {
+      trigger: eventContainer3,
+      scrub: 1,
+      start: "50% 80%",
+      end: "80% 20%",
+    },
+  });
 
-const eventContainer4 = gsap.utils.toArray(".eventContainer4");
-const eventScroll4 = gsap.utils.toArray(".eventScroll4");
-gsap.from(eventScroll4, {
-  duration: 8,
-  ease: "expo.out",
-  y: 800,
-  opacity: 0,
-  scrollTrigger: {
-    trigger: eventContainer4,
-    scrub: 1,
-    start: "70% 80%",
-    end: "80% 20%",
-  },
-});
+  const eventContainer4 = gsap.utils.toArray(".eventContainer4");
+  const eventScroll4 = gsap.utils.toArray(".eventScroll4");
+  gsap.from(eventScroll4, {
+    duration: 8,
+    ease: "expo.out",
+    y: 800,
+    opacity: 0,
+    scrollTrigger: {
+      trigger: eventContainer4,
+      scrub: 1,
+      start: "70% 80%",
+      end: "80% 20%",
+    },
+  });
+
+  gsap.from('.about-banner p', {
+    x: -1500,
+    delay: .5,
+    duration: .8,
+    stagger: .4,
+  })
+  gsap.to('.signature', {
+    y:20,
+    delay:.5,
+    duration: 1,
+    repeat: -1,
+    yoyo: true
+  })
+
+  const tradeMark = gsap.utils.toArray('.trademark-section');
+  gsap.from('.textScroll', {
+    ease: "expo.out",
+    y: -100,
+    opacity: 0,
+    scrollTrigger: {
+      trigger: tradeMark,
+      scrub: 1,
+      start: "70% 80%",
+      end: "50% 20%",
+    },
+  });
+  gsap.from('.textScrollBack', {
+    ease: "expo.out",
+    x: -800,
+    opacity: 0,
+    scrollTrigger: {
+      trigger: tradeMark,
+      scrub: 1,
+      start: "70% 80%",
+      end: "50% 20%",
+    },
+  });
+
+  gsap.from('.tradeLogo1', {
+    ease: "expo.inOut",
+    y: -800,
+    opacity: 0,
+    scrollTrigger: {
+      trigger: tradeMark,
+      scrub: 1,
+      start: "50% 80%",
+      end: "50% 20%",
+    },
+  });
+  gsap.from('.tradeLogo2', {
+    ease: "expo.inOut",
+    y: -700,
+    opacity: 0,
+    scrollTrigger: {
+      trigger: tradeMark,
+      scrub: 1,
+      start: "40% 80%",
+      end: "50% 20%",
+    },
+  });
+  gsap.from('.tradeLogo3', {
+    ease: "expo.inOut",
+    y: -600,
+    opacity: 0,
+    scrollTrigger: {
+      trigger: tradeMark,
+      scrub: 1,
+      start: "30% 80%",
+      end: "50% 20%",
+    },
+  });
+
+
+  gsap.from('.visionTextScroll', {
+    ease: "expo.inOut",
+    x: -600,
+    opacity: 0,
+    stagger: .3,
+    fontSize: '10px',
+    scrollTrigger: {
+      trigger: '.vision-sec',
+      scrub: 1,
+      start: "30% 80%",
+      end: "50% 20%",
+    },
+  });
+  gsap.from('.qualityTextScroll', {
+    ease: "expo.inOut",
+    x: 600,
+    opacity: 0,
+    stagger: .3,
+    fontSize: '10px',
+    scrollTrigger: {
+      trigger: '.qualityContainer',
+      scrub: 1,
+      start: "30% 80%",
+      end: "50% 20%",
+    },
+  });
+  gsap.from('.docTextScroll', {
+    ease: "expo.inOut",
+    x: -600,
+    opacity: 0,
+    stagger: .3,
+    fontSize: '10px',
+    scrollTrigger: {
+      trigger: '.docContainer',
+      scrub: 1,
+      start: "30% 80%",
+      end: "50% 20%",
+    },
+  });
+  gsap.from('.supplyTextScroll', {
+    ease: "expo.inOut",
+    x: 600,
+    opacity: 0,
+    stagger: .3,
+    fontSize: '10px',
+    scrollTrigger: {
+      trigger: '.supplyContainer',
+      scrub: 1,
+      start: "30% 80%",
+      end: "50% 20%",
+    },
+  });
+  gsap.from('.edgeTextScroll', {
+    ease: "expo.inOut",
+    x: -600,
+    opacity: 0,
+    stagger: .3,
+    fontSize: '10px',
+    scrollTrigger: {
+      trigger: '.edgeContainer',
+      scrub: 1,
+      start: "30% 80%",
+      end: "50% 20%",
+    },
+  });
+}

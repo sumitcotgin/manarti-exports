@@ -99,7 +99,7 @@
 <script src="js/SmoothScroll.min.js"></script>
 <script src="js/bootstrap.bundle.min.js"></script>
 <script src="js/fancybox.min.js"></script>
-<script src="js/custom.js"></script>
+<script src="js/custom.js?v=<?=time();?>"></script>
 
 </body>
 
