@@ -126,6 +126,7 @@ if (screen.width > 991) {
     },
   });
 
+
   const text_scroll_container1 = gsap.utils.toArray(".text_scroll_container1");
   const text_scroll1 = gsap.utils.toArray(".text_scroll1");
   gsap.to(text_scroll1, {
@@ -533,4 +534,47 @@ if (screen.width > 991) {
       end: "50% 20%",
     },
   });
+  gsap.from('.bandageScroll1', {
+    ease: "expo.inOut",
+    x: -600,
+    scrollTrigger: {
+      trigger: '.product-listing-section',
+      scrub: 1,
+      start: "30% 80%",
+      end: "60% 20%",
+    },
+  });
+  gsap.from('.bandageScroll2', {
+    ease: "expo.inOut",
+    x: 800,
+    scrollTrigger: {
+      trigger: '.product-listing-section',
+      scrub: 1,
+      start: "0% 80%",
+      end: "80% 0%",
+    },
+  });
+  gsap.from('.productScroll', {
+    ease: "expo.inOut",
+    y: 600,
+    opacity: 0,
+    duration: 3,
+    stagger: 1,
+    width: '50%',
+    height: '50%',
+    scrollTrigger: {
+      trigger: '.productContainer',
+      scrub: 1,
+      start: "10% 100%",
+      end: "50% 20%",
+    },
+  });
+  /* gsap.from('.blogBounce', {
+    y: -1500,
+    ease: "bounce.inOut",
+    delay: .4,
+    duration: 2,
+    opacity: 0,
+    stagger: .6
+  }) */
 }

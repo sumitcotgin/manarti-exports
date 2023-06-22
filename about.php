@@ -35,8 +35,10 @@
     <!-- about banner section end -->
 
     <!-- video section -->
-    <section class="vedio-section w-100">
-        <iframe style="margin-bottom: -7px;" width="100%" height="600" src="https://www.youtube.com/embed/7-ZmgXdm3tQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <section class="vedio-section bg-purple py-5 w-100">
+        <div class="container">
+            <iframe style="margin-bottom: -7px;" width="100%" height="600" src="https://www.youtube.com/embed/7-ZmgXdm3tQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
     </section>
     <!-- video section end -->
 

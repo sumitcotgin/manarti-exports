@@ -53,6 +53,20 @@
   height: 50px;
   opacity: .5;
 }
+.cursor.hover {
+  width: 100px;
+  height: 100px;
+  background-color: #111b37c9;
+}
+.cursor.hover::before {
+  position: absolute;
+  content: 'CLICK';
+  font-size: 1rem;
+  color: var(--white);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 * {
   margin: 0;
   padding: 0;
@@ -67,9 +81,11 @@ body {
   height: 100%;
   overflow-x: hidden;
   font-family: "Poppins", sans-serif;
+  position: relative;
+  z-index: 0;
 }
 .bg-purple {
-  background-color: #111B37;
+  background-color: var(--purple);
 }
 a {
   text-decoration: none;
@@ -292,8 +308,9 @@ section {
   transform: rotate(-90deg);
   margin-left: 0.4rem;
 }
+.india,
 .scroll-text svg #wheel {
-  animation: downanimation 1s infinite ease-in-out;
+  animation: downanimation 1s infinite ease;
 }
 
 /* loader style */
@@ -604,6 +621,68 @@ section {
 .img-hover:hover img {
   transform: scale(1.2);
 }
+/* product listing style */
+.bandageScroll {
+  text-shadow: -0.2px -0.2px 0 var(--white), 0.2px -0.2px 0 var(--white), -0.2px 0.2px 0 var(--white), 0.2px 0.2px 0 var(--white);
+}
+.bandageScroll1 {
+  transform: translateX(80%);
+}
+.bandageScroll2 {
+  transform: translateX(-20%);
+}
+
+/* career page style */
+.career-section {
+  background: url(../images/contact-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+.career-section .form-label {
+  color: var(--white);
+  font-weight: 500;
+}
+.career-section .form-select,
+.career-section .form-control {
+  background-color: transparent;
+  border: 1px solid rgb(255, 255, 255, .15);
+  color: var(--white);
+  resize: none;
+}
+.career-section .form-select:focus,
+.career-section .form-control:focus {
+  box-shadow: none;
+  border-color: var(--white);
+}
+.career-section .form-select,
+.career-section .form-control:not(textarea) {
+  height: 48px;
+}
+.career-section .form-select {
+  background-image: url(../images/arrow-down.svg);
+}
+.career-section .form-select option {
+  background-color: var(--darkpurple);
+}
+.file-type {
+  background: transparent;
+  border: 1px dashed var(--white);
+  padding: 12px 30px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* blog style */
+.blog-title {
+  font-size: 57px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.blog-section .img-hover:hover::before {
+  width: 90%;
+}
+
 
 /* footer style */
 footer {
@@ -687,6 +766,9 @@ footer a:hover {
     right: 10px;
     bottom: 10px;
   }
+  .blog-section .img-hover:hover::before {
+    width: 94%;
+  }
 }
 @media (max-width: 767px) {
   .vedio-section iframe {
@@ -714,5 +796,8 @@ footer a:hover {
   }
   .reverse {
     flex-direction: column-reverse;
+  }
+  .blog-title {
+    font-size: 30px;
   }
 }

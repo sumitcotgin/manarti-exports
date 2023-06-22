@@ -23,7 +23,7 @@
   </div> -->
 
   <!-- HEADER -->
-  <nav class="navbar py-4 bg-purple">
+  <nav class="navbar bg-purple">
     <div class="container custom-container justify-content-lg-between">
 
       <a class="nav-links" type="button" data-bs-toggle="offcanvas" data-bs-target="#mainMenu" aria-controls="mainMenu">MENU</a>
@@ -52,13 +52,13 @@
                 <a href="javascript:void(0)" class="menu-link">QUALITY POLICY</a>
               </li>
               <li>
-                <a href="javascript:void(0)" class="menu-link">CAREER</a>
+                <a href="career.php" class="menu-link">CAREER</a>
               </li>
               <li>
-                <a href="javascript:void(0)" class="menu-link">BLOGS</a>
+                <a href="blog.php" class="menu-link">BLOGS</a>
               </li>
               <li>
-                <a href="javascript:void(0)" class="menu-link">CONTACT US</a>
+                <a href="contact.php" class="menu-link">CONTACT US</a>
               </li>
             </ul>
           </div>
