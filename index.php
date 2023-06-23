@@ -57,60 +57,80 @@
 
                 <div class="row align-items-center gy-5 mb-5 pt-17 product-list   horizontalContainer1">
                     <div class="col-xl-5 col-lg-6    horizontal-scroll1">
-                        <figure class="mb-0 text-center bg-body rounded-3">
-                            <img src="images/product.png" alt="Medical Disposables" class="img-fluid" />
-                        </figure>
+                        <a href="#">
+                            <figure class="mb-0 text-center bg-body rounded-3">
+                                <img src="images/product.png" alt="Medical Disposables" class="img-fluid" />
+                            </figure>
+                        </a>
                     </div>
                     <div class="col-xl-4 col-lg-6    horizontal-scroll1">
-                        <h4 class="mb-0 text-gradient fw-bold">Medical Disposables</h4>
+                        <h4 class="mb-0 fw-bold">
+                            <a href="#" class="text-gradient">Medical Disposables</a>
+                        </h4>
                         <p class="mb-0 text-white fw-semibold">Medrop Disposable Under pads, 60x60 cm, 10 Pcs/Pack (Pack of 3) 30 Pcs</p>
                     </div>
                 </div>
 
                 <div class="row align-items-center justify-content-end gy-5 mb-5 product-list   horizontalContainer2">
                     <div class="col-xl-4 col-lg-6   horizontal-scroll2">
-                        <h4 class="mb-0 text-gradient fw-bold">Medical Disposables</h4>
+                        <h4 class="mb-0 fw-bold">
+                            <a href="#" class="text-gradient">Medical Disposables</a>
+                        </h4>
                         <p class="mb-0 text-white fw-semibold">Medrop Disposable Under pads, 60x60 cm, 10 Pcs/Pack (Pack of 3) 30 Pcs</p>
                     </div>
                     <div class="col-xl-5 col-lg-6   horizontal-scroll2">
-                        <figure class="mb-0 text-center bg-body rounded-3">
-                            <img src="images/product.png" alt="Medical Disposables" class="img-fluid" />
-                        </figure>
+                        <a href="#">
+                            <figure class="mb-0 text-center bg-body rounded-3">
+                                <img src="images/product.png" alt="Medical Disposables" class="img-fluid" />
+                            </figure>
+                        </a>
                     </div>
                 </div>
 
                 <div class="row align-items-center gy-5 mb-5 product-list   horizontalContainer3">
                     <div class="col-xl-5 col-lg-6    horizontal-scroll3">
-                        <figure class="mb-0 text-center bg-body rounded-3">
-                            <img src="images/product.png" alt="Medical Disposables" class="img-fluid" />
-                        </figure>
+                        <a href="#">
+                            <figure class="mb-0 text-center bg-body rounded-3">
+                                <img src="images/product.png" alt="Medical Disposables" class="img-fluid" />
+                            </figure>
+                        </a>
                     </div>
                     <div class="col-xl-4 col-lg-6    horizontal-scroll3">
-                        <h4 class="mb-0 text-gradient fw-bold">Medical Disposables</h4>
+                        <h4 class="mb-0 fw-bold">
+                            <a href="#" class="text-gradient">Medical Disposables</a>
+                        </h4>
                         <p class="mb-0 text-white fw-semibold">Medrop Disposable Under pads, 60x60 cm, 10 Pcs/Pack (Pack of 3) 30 Pcs</p>
                     </div>
                 </div>
 
                 <div class="row align-items-center justify-content-end gy-5 mb-5 product-list   horizontalContainer4">
                     <div class="col-xl-4 col-lg-6   horizontal-scroll4">
-                        <h4 class="mb-0 text-gradient fw-bold">Medical Disposables</h4>
+                        <h4 class="mb-0 fw-bold">
+                            <a href="#" class="text-gradient">Medical Disposables</a>
+                        </h4>
                         <p class="mb-0 text-white fw-semibold">Medrop Disposable Under pads, 60x60 cm, 10 Pcs/Pack (Pack of 3) 30 Pcs</p>
                     </div>
                     <div class="col-xl-5 col-lg-6   horizontal-scroll4">
-                        <figure class="mb-0 text-center bg-body rounded-3">
-                            <img src="images/product.png" alt="Medical Disposables" class="img-fluid" />
-                        </figure>
+                        <a href="#">
+                            <figure class="mb-0 text-center bg-body rounded-3">
+                                <img src="images/product.png" alt="Medical Disposables" class="img-fluid" />
+                            </figure>
+                        </a>
                     </div>
                 </div>
 
                 <div class="row align-items-center gy-5 mb-5 product-list   horizontalContainer5">
                     <div class="col-xl-5 col-lg-6    horizontal-scroll5">
-                        <figure class="mb-0 text-center bg-body rounded-3">
-                            <img src="images/product.png" alt="Medical Disposables" class="img-fluid" />
-                        </figure>
+                        <a href="#">
+                            <figure class="mb-0 text-center bg-body rounded-3">
+                                <img src="images/product.png" alt="Medical Disposables" class="img-fluid" />
+                            </figure>
+                        </a>
                     </div>
                     <div class="col-xl-4 col-lg-6    horizontal-scroll5">
-                        <h4 class="mb-0 text-gradient fw-bold">Medical Disposables</h4>
+                        <h4 class="mb-0 fw-bold">
+                            <a href="#" class="text-gradient">Medical Disposables</a>
+                        </h4>
                         <p class="mb-0 text-white fw-semibold">Medrop Disposable Under pads, 60x60 cm, 10 Pcs/Pack (Pack of 3) 30 Pcs</p>
                     </div>
                 </div>
