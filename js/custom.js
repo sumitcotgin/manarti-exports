@@ -148,8 +148,8 @@ if (screen.width > 991) {
     scrollTrigger: {
       trigger: horizontalContainer1,
       scrub: true,
-      start: "70% 80%",
-      end: "=+100",
+      start: "20% 80%",
+      end: "40% 60%",
     },
   });
   const horizontalContainer2 = gsap.utils.toArray(".horizontalContainer2");
@@ -160,8 +160,8 @@ if (screen.width > 991) {
     scrollTrigger: {
       trigger: horizontalContainer2,
       scrub: 1,
-      start: "70% 80%",
-      end: "=+100",
+      start: "20% 80%",
+      end: "40% 60%",
     },
   });
   const horizontalContainer3 = gsap.utils.toArray(".horizontalContainer3");
@@ -172,8 +172,8 @@ if (screen.width > 991) {
     scrollTrigger: {
       trigger: horizontalContainer3,
       scrub: 1,
-      start: "70% 80%",
-      end: "=+100",
+      start: "20% 80%",
+      end: "40% 60%",
     },
   });
   const horizontalContainer4 = gsap.utils.toArray(".horizontalContainer4");
@@ -185,8 +185,8 @@ if (screen.width > 991) {
     scrollTrigger: {
       trigger: horizontalContainer4,
       scrub: 1,
-      start: "70% 80%",
-      end: "=+100",
+      start: "20% 80%",
+      end: "40% 60%",
     },
   });
   const horizontalContainer5 = gsap.utils.toArray(".horizontalContainer5");
@@ -197,8 +197,8 @@ if (screen.width > 991) {
     scrollTrigger: {
       trigger: horizontalContainer5,
       scrub: 1,
-      start: "70% 80%",
-      end: "=+100",
+      start: "20% 80%",
+      end: "40% 60%",
     },
   });
 

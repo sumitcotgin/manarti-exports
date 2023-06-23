@@ -631,6 +631,9 @@ section {
 .bandageScroll2 {
   transform: translateX(-20%);
 }
+.related-products .back-text {
+  left: 15%;
+}
 
 /* career page style */
 .career-section {
@@ -751,7 +754,13 @@ footer a:hover {
   }
 }
 @media (max-width: 991px) {
-  
+  .h-100-vh {
+    height: auto;
+  }
+  .ellipse,
+  .circle {
+    display: none;
+  }
   .event-section h3 {
     font-size: 32px;
     line-height: 40px;
@@ -774,15 +783,21 @@ footer a:hover {
   .vedio-section iframe {
     height: 100%;
   }
+  .btn {
+    padding: 1rem 2rem;
+  }
   .title {
     font-size: 40px;
     letter-spacing: 0.05em;
   }
   .navbar-brand img {
-    max-width: 250px;
+    max-width: 220px;
+  }
+  .nav-links {
+    font-size: 16px;
   }
   .main-title {
-    font-size: 38px;
+    font-size: 32px;
   }
   .main-menu {
     position: absolute;

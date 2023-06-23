@@ -6,9 +6,9 @@
         <section class="hero-section h-100-vh py-5 bg-purple position-relative z-0 w-100 overflow-hidden">
             <div class="container custom-container h-100-vh">
                 <div class="row align-items-center">
-                    <div class="col-xxl-7 col-xl-8 col-lg-6">
-                        <h1 class="main-title text-lg-start text-center mb-4">Revolutionizing Medical QUALITY PRODUCTS - Experience the <span class="text-gradient">MANARTI EXPORTS</span></h1>
-                        <a href="jaascript:void(0)" class="btn">EXPLORE PRODUCTS</a>
+                    <div class="col-xxl-7 col-xl-8 col-lg-6 text-lg-start text-center">
+                        <h1 class="main-title mb-4">Revolutionizing Medical QUALITY PRODUCTS - Experience the <span class="text-gradient">MANARTI EXPORTS</span></h1>
+                        <a href="product-listing.php" class="btn">EXPLORE PRODUCTS</a>
                     </div>
                     <div class="col-xxl-5 col-xl-4 col-lg-6 position-relative">
                         <div class="back-bg position-absolute"></div>
@@ -47,7 +47,7 @@
 
     <!-- product section -->
     <div class="section">
-        <section class="py-5 bg-purple position-relative z-0 w-100">
+        <section class="py-5 bg-purple position-relative overflow-visible z-0 w-100">
             <div class="circle right position-absolute"></div>
             <div class="container">
                 <div class="text_scroll_container1">
