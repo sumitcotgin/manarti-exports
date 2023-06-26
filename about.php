@@ -2,21 +2,23 @@
 
 <main>
     <!-- about banner section -->
-    <section class="bg-purple pt-5 about-banner w-100">
+    <section class="bg-body py-5 about-banner w-100">
         <div class="container custom-container">
-            <div class="row align-items-center">
-                <div class="col-xxl-6 col-xxl-6 col-lg-8 ms-auto">
-                    <p class="fw-medium text-white">Manarti Exports is a specialized medical disposables, systems, devices and hospital equipment provider offering a wide range of products. Our products are manufactured at state-of-the art production facilities in India, with capacity to produce large quantities. We are ISO 9001:2008 and ISO 13485:2003 certified and our products are CE Marked. Our Medical Devices and Catheters are FDA Approved.</p>
+            <div class="row gy-4 align-items-center reverse">
+                <div class="col-xxl-6 col-lg-8 ms-auto">
+                    <p class="fw-medium">Manarti Exports is a specialized medical disposables, systems, devices and hospital equipment provider offering a wide range of products. Our products are manufactured at state-of-the art production facilities in India, with capacity to produce large quantities. We are ISO 9001:2008 and ISO 13485:2003 certified and our products are CE Marked. Our Medical Devices and Catheters are FDA Approved.</p>
 
-                    <p class="fw-medium text-white">Our company leadership team is having about 2 decades of experience working with Indian and Global Partners in Medical, Cosmeceuticals and Pharmaceuticals. We understand the need of our customer and offer the customized products and services to match expectations and specifications of our customers.</p>
+                    <p class="fw-medium">Our company leadership team is having about 2 decades of experience working with Indian and Global Partners in Medical, Cosmeceuticals and Pharmaceuticals. We understand the need of our customer and offer the customized products and services to match expectations and specifications of our customers.</p>
 
-                    <p class="fw-medium text-white">Our dedicated teams of Biomedical Engineers have years of experience in International Tenders, support our buyers with sourcing of products, quotation, sampling and maximize the chances of tender winning. We do Trunkey Projects of OT Installation, Waste Management and Commissioning & Installation of Hospital Projects.</p>
+                    <p class="fw-medium">Our dedicated teams of Biomedical Engineers have years of experience in International Tenders, support our buyers with sourcing of products, quotation, sampling and maximize the chances of tender winning. We do Trunkey Projects of OT Installation, Waste Management and Commissioning & Installation of Hospital Projects.</p>
 
-                    <p class="fw-medium text-white">We believe in values of commitment, timely delivery, safest packaging, client service and maintaining quality standards of our products and services. We would be happy to get a chance to assist you in supplying products of high quality products at competitive prices.</p>
+                    <p class="fw-medium">We believe in values of commitment, timely delivery, safest packaging, client service and maintaining quality standards of our products and services. We would be happy to get a chance to assist you in supplying products of high quality products at competitive prices.</p>
                 </div>
-                <div class="col-xxl-5 col-xxl-6 col-lg-4 position-relative text-center">
-                    <img src="images/manohar-lal.png" alt="Manohar Lal" class="img-fluid pe-none" />
-                    <svg class="signature" width="244" height="83" viewBox="0 0 244 83" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <div class="col-xxl-5 offset-xxl-1 col-lg-4 position-relative text-center">
+                    <iframe style="margin-bottom: -7px;" width="100%" height="400" src="https://www.youtube.com/embed/7-ZmgXdm3tQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                    <!-- <img src="images/manohar-lal.png" alt="Manohar Lal" class="img-fluid pe-none" />
+                    <svg class="signature" width="244" height="83" viewBox="0 0 244 83" fill="none" xmlns="http://www.w3.org/2000/svg"> -->
                         <path d="M62.1042 7.73539C62.2379 9.75836 62.0039 13.025 61.4025 17.5352C60.8344 22.0454 60.233 26.108 59.5981 29.7228C58.9966 33.3376 58.061 38.5443 56.7913 45.3428C53.951 60.8965 52.5811 69.9502 52.6813 72.5037C52.815 72.2716 52.9653 72.0229 53.1324 71.7576C53.2661 71.5254 53.4498 71.3762 53.6837 71.3099C53.951 71.2435 54.2017 71.2767 54.4356 71.4093C54.6695 71.542 54.8198 71.7244 54.8867 71.9566C54.9535 72.2219 54.9201 72.4706 54.7864 72.7027C54.2852 73.565 53.8007 74.2117 53.3329 74.6428C52.8985 75.1071 52.3973 75.2397 51.8292 75.0408C51.4951 74.9081 51.2445 74.6594 51.0774 74.2946C50.9103 73.9629 50.8101 73.3328 50.7767 72.4043C50.7433 71.5088 50.7934 70.3979 50.927 69.0713C51.0607 67.7779 51.3113 65.954 51.6789 63.5993C52.0464 61.2779 52.4808 58.6911 52.982 55.8391C53.4832 52.987 54.1348 49.3888 54.9368 45.0444C56.1397 38.4448 57.0419 33.3708 57.6433 29.8223C58.2782 26.2406 58.8797 22.1781 59.4477 17.6347C60.0492 13.0581 60.2998 9.80811 60.1996 7.88463C60.0659 6.06063 59.7318 5.11547 59.1971 5.04914C59.1971 5.04914 59.1804 5.04914 59.147 5.04914C58.9131 5.04914 58.6124 5.16522 58.2448 5.39736C57.9107 5.62951 57.4429 6.04405 56.8414 6.64099C56.2734 7.23794 55.6552 8.0007 54.9869 8.92928C54.3186 9.82469 53.5334 11.0352 52.6312 12.5607C51.729 14.053 50.7934 15.761 49.8244 17.6844C44.7453 27.7662 39.8501 40.8823 35.1387 57.033C35.0718 57.2983 34.9215 57.4807 34.6876 57.5802C34.4871 57.7128 34.2532 57.746 33.9859 57.6797C33.752 57.6465 33.5515 57.5138 33.3844 57.2817C33.2508 57.0827 33.2006 56.8671 33.2341 56.635C35.5731 42.9716 36.8261 32.7075 36.9932 25.8427C37.0266 24.2508 36.9932 22.858 36.8929 21.6641C36.8261 20.4702 36.7259 19.5913 36.5922 19.0276C36.492 18.4638 36.3416 17.9995 36.1411 17.6347C35.974 17.2699 35.8571 17.0709 35.7903 17.0378C35.7234 16.9714 35.6566 16.9217 35.5898 16.8885C34.9549 16.789 33.9358 17.6679 32.5323 19.525C30.0263 22.8082 26.9521 28.5787 23.3099 36.8364C20.5365 43.1374 17.7798 50.1515 15.0398 57.8786C12.2999 65.6389 9.87731 73.2333 7.77219 80.662C7.77219 80.662 7.77219 80.6786 7.77219 80.7117C7.60512 81.1097 7.47146 81.4082 7.37122 81.6071C7.30439 81.8061 7.20414 82.0383 7.07049 82.3036C6.93683 82.5689 6.78646 82.7513 6.61939 82.8508C6.45232 82.9502 6.26854 83 6.06805 83C5.96781 83 5.85086 82.9834 5.7172 82.9503C5.28281 82.8176 5.0322 82.4528 4.96537 81.8559C4.93196 81.2921 5.01549 80.4464 5.21598 79.3188C5.44988 77.7602 5.85086 75.5216 6.4189 72.6032C7.42134 67.5955 8.89158 60.7307 10.8296 52.0087C13.9706 37.8147 16.744 25.71 19.1498 15.6946C19.3503 14.7661 19.5174 13.9038 19.6511 13.1079C19.7847 12.312 19.8682 11.6321 19.9017 11.0683C19.9685 10.5045 19.9852 10.0071 19.9518 9.57597C19.9184 9.11168 19.8682 8.74688 19.8014 8.48157C19.768 8.21626 19.7012 7.98412 19.6009 7.78514C19.5341 7.58615 19.4506 7.4535 19.3503 7.38717C19.2835 7.32085 19.2167 7.25452 19.1498 7.18819C18.3813 6.69074 16.9612 7.23794 14.8895 8.82979C13.9539 9.55938 12.9849 10.4382 11.9824 11.4663C11.0134 12.4944 10.0611 13.6219 9.12548 14.849C8.18987 16.076 7.30439 17.3694 6.46903 18.7291C5.63366 20.0888 4.89854 21.4651 4.26367 22.858C3.62879 24.2177 3.09416 25.5774 2.65977 26.9371C2.2588 28.2968 2.02489 29.5736 1.95807 30.7675C1.92465 31.9282 2.05831 33.006 2.35904 34.0009C3.32806 36.853 6.10147 38.3122 10.6793 38.3785C10.8463 38.3785 10.9967 38.4282 11.1304 38.5277C11.2974 38.594 11.4144 38.7101 11.4812 38.8759C11.5814 39.0086 11.6316 39.1744 11.6316 39.3734C11.6316 39.6387 11.5313 39.8708 11.3308 40.0698C11.1303 40.2356 10.9132 40.3186 10.6793 40.3186H10.6291C9.59328 40.2854 8.60755 40.1859 7.67195 40.0201C6.73634 39.8543 5.76732 39.5724 4.76488 39.1744C3.79586 38.7764 2.92709 38.1961 2.15855 37.4333C1.42343 36.6374 0.872094 35.6922 0.504535 34.5978C-0.731802 30.8835 0.304047 25.9587 3.61208 19.8235C4.98208 17.3362 6.56927 14.965 8.37365 12.7099C10.178 10.4548 11.9657 8.64739 13.7367 7.28768C16.5101 5.16522 18.6653 4.60144 20.2024 5.59634C22.1404 6.82339 22.4077 10.3387 21.0043 16.1423C19.5675 22.2113 17.5459 30.983 14.9396 42.4576C12.3333 53.899 10.295 63.2345 8.82475 70.4642C12.8011 57.7957 17.0447 46.3211 21.5557 36.0405C22.5915 33.6858 23.594 31.5136 24.563 29.5238C25.532 27.534 26.3841 25.8427 27.1192 24.4498C27.8877 23.0569 28.6228 21.8299 29.3246 20.7687C30.0597 19.6743 30.6778 18.7954 31.1791 18.1322C31.6803 17.4689 32.1815 16.9051 32.6827 16.4408C33.1839 15.9765 33.5849 15.6449 33.8856 15.4459C34.1864 15.2469 34.5038 15.1143 34.8379 15.0479C35.1721 14.9816 35.406 14.965 35.5397 14.9982C35.6733 14.9982 35.8404 15.0148 36.0409 15.0479C36.4084 15.1143 36.7426 15.2801 37.0433 15.5454C37.344 15.7775 37.6281 16.1921 37.8954 16.789C38.1961 17.3528 38.43 18.0824 38.5971 18.9778C38.7642 19.8732 38.8644 21.0671 38.8978 22.5595C38.9646 24.0518 38.9479 25.7763 38.8477 27.733C38.7809 29.6565 38.5971 32.0111 38.2964 34.7968C38.029 37.5494 37.6615 40.617 37.1937 43.9997C38.7976 39.1247 40.4349 34.5647 42.1056 30.3197C43.8097 26.0417 45.4638 22.2278 47.0677 18.8783C48.705 15.5288 50.2587 12.6602 51.729 10.2724C53.2326 7.85146 54.636 6.04405 55.9392 4.85016C57.2758 3.62311 58.4453 3.05933 59.4477 3.15882C61.0182 3.32464 61.9037 4.85016 62.1042 7.73539Z" fill="white" />
                         <path d="M83.0852 39.5724C83.3526 39.4729 83.6032 39.4895 83.8371 39.6221C84.071 39.7216 84.2213 39.904 84.2882 40.1693C84.3884 40.4015 84.3884 40.6336 84.2882 40.8657C80.7128 48.1949 77.5217 51.8595 74.7149 51.8595C74.5478 51.8595 74.3641 51.8429 74.1636 51.8097C71.9248 51.3786 70.5381 48.3939 70.0035 42.8556C68.3661 45.0443 66.9126 46.8352 65.6429 48.2281C64.5068 49.4219 63.5377 49.8365 62.7358 49.4717C61.9338 49.1732 61.5496 48.311 61.583 46.8849C61.583 45.691 61.8503 44.265 62.3849 42.6068C62.9196 40.9487 63.7048 39.3402 64.7407 37.7815C65.7765 36.2229 66.8959 35.2445 68.0988 34.8466C69.8698 34.2165 71.5071 34.7968 73.0108 36.5877C73.1778 36.7866 73.2447 37.0188 73.2113 37.2841C73.2113 37.5494 73.111 37.765 72.9105 37.9308C72.71 38.0966 72.4761 38.1795 72.2088 38.1795C71.9415 38.1463 71.7243 38.0303 71.5572 37.8313C70.3877 36.4384 69.2015 36.1731 67.9986 37.0354C66.6286 37.9971 65.4758 39.7382 64.5402 42.2586C63.638 44.7459 63.2871 46.5201 63.4876 47.5814C63.6881 47.4155 63.922 47.2 64.1893 46.9347C65.5259 45.5086 67.1632 43.4691 69.1013 40.816C69.5357 40.2191 69.8364 39.8045 70.0035 39.5724C70.2708 39.2407 70.6216 39.1412 71.056 39.2739C71.4904 39.3734 71.7243 39.6553 71.7577 40.1196C71.8245 41.7446 71.9582 43.1872 72.1587 44.4474C72.3592 45.7076 72.5597 46.6694 72.7602 47.3326C72.9606 47.9627 73.1945 48.4934 73.4619 48.9245C73.7292 49.3556 73.9297 49.6375 74.0633 49.7702C74.2304 49.8696 74.3975 49.9194 74.5645 49.9194C75.0323 50.0189 75.6171 49.8033 76.3188 49.2727C77.0539 48.7089 77.9728 47.6477 79.0755 46.089C80.2116 44.4972 81.3644 42.4908 82.5339 40.0698C82.6676 39.8045 82.8513 39.6387 83.0852 39.5724Z" fill="white" />
                         <path d="M101.519 39.4729C101.787 39.4066 102.037 39.4397 102.271 39.5724C102.505 39.705 102.656 39.904 102.722 40.1693C102.789 40.4015 102.756 40.6336 102.622 40.8657C101.486 42.8556 100.5 44.4308 99.665 45.5915C98.8296 46.7523 97.9775 47.6643 97.1088 48.3275C96.24 48.9908 95.3879 49.2727 94.5526 49.1732C92.8818 48.9742 91.562 47.1834 90.5929 43.8007C89.8912 41.5124 89.2898 40.3683 88.7885 40.3683C88.6883 40.3351 88.5379 40.3849 88.3375 40.5175C88.1704 40.617 87.8864 40.9155 87.4854 41.4129C87.0844 41.8772 86.6333 42.5239 86.1321 43.353C85.6643 44.1821 85.0294 45.4091 84.2275 47.0342C83.4589 48.6592 82.6236 50.5827 81.7214 52.8046C81.5543 53.2026 81.2536 53.4016 80.8192 53.4016C80.7524 53.4016 80.6855 53.385 80.6187 53.3518C80.0507 53.2192 79.8 52.8709 79.8669 52.3072C80.201 49.5878 81.4541 44.5303 83.626 37.1348C83.8599 36.3721 84.027 35.7917 84.1272 35.3938C84.2275 35.1285 84.3945 34.9461 84.6284 34.8466C84.8623 34.7139 85.0962 34.6808 85.3301 34.7471C85.5975 34.8134 85.798 34.9626 85.9316 35.1948C86.0653 35.4269 86.082 35.6757 85.9817 35.941C85.9149 36.1731 85.7478 36.7535 85.4805 37.682C84.7454 40.2356 84.1773 42.2254 83.7764 43.6515C84.8456 41.6617 85.7812 40.2854 86.5832 39.5226C87.3851 38.7599 88.1537 38.3951 88.8888 38.4282C89.7576 38.4614 90.4426 38.9091 90.9438 39.7714C91.4784 40.6336 91.9796 41.8109 92.4474 43.3033C93.1826 45.8569 93.9678 47.1834 94.8032 47.2829C95.2041 47.3492 95.6886 47.1337 96.2567 46.6362C96.8581 46.1056 97.493 45.3594 98.1613 44.3977C98.8296 43.4028 99.3308 42.6234 99.665 42.0596C100.033 41.4959 100.45 40.7828 100.918 39.9206C101.052 39.6884 101.252 39.5392 101.519 39.4729Z" fill="white" />
@@ -35,15 +37,15 @@
     <!-- about banner section end -->
 
     <!-- video section -->
-    <section class="vedio-section bg-purple py-5 w-100">
+    <!-- <section class="vedio-section bg-body py-5 w-100">
         <div class="container">
             <iframe style="margin-bottom: -7px;" width="100%" height="600" src="https://www.youtube.com/embed/7-ZmgXdm3tQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
-    </section>
+    </section> -->
     <!-- video section end -->
 
     <!-- trademark section -->
-    <section class="py-5 bg-purple trademark-section position-relative z-0 w-100 overflow-hidden">
+    <section class="py-5 bg-body trademark-section position-relative z-0 w-100 overflow-hidden">
         <div class="circle position-absolute"></div>
         <div class="container custom-container">
             <div class="row">
@@ -73,12 +75,12 @@
     </section>
     <!-- trademark-section end -->
 
-    <section class="py-5 bg-purple event-section w-100">
+    <section class="py-5 bg-body event-section w-100">
         <div class="container">
             <div class="row align-items-center reverse mb-5 vision-sec">
                 <div class="col-xxl-5 offset-xxl-1 col-lg-6 col-md-7">
                     <h3 class="text-gradient    visionTextScroll">Our Vision</h3>
-                    <p class="text-white    visionTextScroll">To be a responsible and proud healthcare product and service provider with highest customer satisfaction.</p>
+                    <p class="    visionTextScroll">To be a responsible and proud healthcare product and service provider with highest customer satisfaction.</p>
                 </div>
                 <div class="col-xxl-5 offset-xxl-1 col-lg-6 col-md-5 text-center position-relative">
                     <div class="ellipse"></div>
@@ -96,13 +98,13 @@
                 </div>
                 <div class="col-xxl-5 offset-xxl-1 col-lg-6 col-md-7">
                     <h3 class="text-gradient    qualityTextScroll">Quality</h3>
-                    <p class="text-white    qualityTextScroll">Quality is our lifeblood. We are making significant investments in building a robust ecosystem of employees and partners who work in tandem to ensure that our products meet theworld's most stringent quality standards.</p>
+                    <p class="    qualityTextScroll">Quality is our lifeblood. We are making significant investments in building a robust ecosystem of employees and partners who work in tandem to ensure that our products meet theworld's most stringent quality standards.</p>
                 </div>
             </div>
             <div class="row align-items-center reverse mb-5 vision-sec   docContainer">
                 <div class="col-xxl-5 offset-xxl-1 col-lg-6 col-md-7">
                     <h3 class="text-gradient    docTextScroll">Documentations</h3>
-                    <p class="text-white    docTextScroll">Our quality team keeps records of every in process and pre-shipment inspections and ensures that only defect free product is supplied to our customers.</p>
+                    <p class="    docTextScroll">Our quality team keeps records of every in process and pre-shipment inspections and ensures that only defect free product is supplied to our customers.</p>
                 </div>
                 <div class="col-xxl-5 offset-xxl-1 col-lg-6 col-md-5 text-center position-relative">
                     <div class="ellipse"></div>
@@ -120,13 +122,13 @@
                 </div>
                 <div class="col-xxl-5 offset-xxl-1 col-lg-6 col-md-7">
                     <h3 class="text-gradient     supplyTextScroll">Supplies</h3>
-                    <p class="text-white     supplyTextScroll">We understand that quality not only mean the product but also the speed of the deliveries, so we always try that our customers gets the products supplied through fastest available sea or air transport. We ensure that the freight cost is competitive. We know that fastest the deliveries, so are the orders and more.</p>
+                    <p class="     supplyTextScroll">We understand that quality not only mean the product but also the speed of the deliveries, so we always try that our customers gets the products supplied through fastest available sea or air transport. We ensure that the freight cost is competitive. We know that fastest the deliveries, so are the orders and more.</p>
                 </div>
             </div>
             <div class="row align-items-center reverse mb-5 vision-sec    edgeContainer">
                 <div class="col-xxl-5 offset-xxl-1 col-lg-6 col-md-7">
                     <h3 class="text-gradient     edgeTextScroll">Sharpening The Edges</h3>
-                    <p class="text-white     edgeTextScroll">We believe learning is everyday process which guides us to keep improving. Hence reviews of our customers for the services are important to us. Feedback of our customer is as important as an order. Management assure that feedback and suggestions of the customers will be guiding principles.</p>
+                    <p class="     edgeTextScroll">We believe learning is everyday process which guides us to keep improving. Hence reviews of our customers for the services are important to us. Feedback of our customer is as important as an order. Management assure that feedback and suggestions of the customers will be guiding principles.</p>
                 </div>
                 <div class="col-xxl-5 offset-xxl-1 col-lg-6 col-md-5 text-center position-relative">
                     <div class="ellipse"></div>

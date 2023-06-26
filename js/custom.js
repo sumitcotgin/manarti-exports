@@ -1,34 +1,36 @@
-// custom mouse
-var cursor = document.querySelector(".cursor");
-var cursorinner = document.querySelector(".cursor2");
-var a = document.querySelectorAll("a");
-document.addEventListener("mousemove", function (e) {
-  var x = e.clientX;
-  var y = e.clientY;
-  cursor.style.transform = `translate3d(calc(${e.clientX}px - 50%), calc(${e.clientY}px - 50%), 0)`;
-});
-document.addEventListener("mousemove", function (e) {
-  var x = e.clientX;
-  var y = e.clientY;
-  cursorinner.style.left = x + "px";
-  cursorinner.style.top = y + "px";
-});
-document.addEventListener("mousedown", function () {
-  cursor.classList.add("click");
-  cursorinner.classList.add("cursorinnerhover");
-});
-document.addEventListener("mouseup", function () {
-  cursor.classList.remove("click");
-  cursorinner.classList.remove("cursorinnerhover");
-});
-a.forEach((item) => {
-  item.addEventListener("mouseover", () => {
-    cursor.classList.add("hover");
+if(screen.width > 991) {
+  // custom mouse
+  var cursor = document.querySelector(".cursor");
+  var cursorinner = document.querySelector(".cursor2");
+  var a = document.querySelectorAll("a");
+  document.addEventListener("mousemove", function (e) {
+    var x = e.clientX;
+    var y = e.clientY;
+    cursor.style.transform = `translate3d(calc(${e.clientX}px - 50%), calc(${e.clientY}px - 50%), 0)`;
   });
-  item.addEventListener("mouseleave", () => {
-    cursor.classList.remove("hover");
+  document.addEventListener("mousemove", function (e) {
+    var x = e.clientX;
+    var y = e.clientY;
+    cursorinner.style.left = x + "px";
+    cursorinner.style.top = y + "px";
   });
-});
+  document.addEventListener("mousedown", function () {
+    cursor.classList.add("click");
+    cursorinner.classList.add("cursorinnerhover");
+  });
+  document.addEventListener("mouseup", function () {
+    cursor.classList.remove("click");
+    cursorinner.classList.remove("cursorinnerhover");
+  });
+  a.forEach((item) => {
+    item.addEventListener("mouseover", () => {
+      cursor.classList.add("hover");
+    });
+    item.addEventListener("mouseleave", () => {
+      cursor.classList.remove("hover");
+    });
+  });
+}
 
 $(document).ready(function () {
   // loader
@@ -74,7 +76,7 @@ $(document).ready(function () {
       {
         scrollTop: 0,
       },
-      "fast"
+      100
     );
   });
 
@@ -83,7 +85,7 @@ $(document).ready(function () {
       {
         scrollTop: $("#about").offset().top,
       },
-      1000
+      10
     );
   });
 });
@@ -578,3 +580,4 @@ if (screen.width > 991) {
     stagger: .6
   }) */
 }
+console.clear();

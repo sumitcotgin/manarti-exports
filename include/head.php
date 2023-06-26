@@ -12,8 +12,8 @@
 </head>
 
 <body>
-<div class="cursor"></div>
-<div class="cursor2"></div>
+<div class="cursor d-lg-block d-none"></div>
+<div class="cursor2 d-lg-block d-none"></div>
 
   <!-- LOADER -->
   <!-- <div class="loader">
@@ -23,10 +23,10 @@
   </div> -->
 
   <!-- HEADER -->
-  <nav class="navbar bg-purple">
-    <div class="container custom-container justify-content-lg-between">
+  <nav class="navbar bg-body">
+    <div class="container custom-container justify-content-lg-between justify-content-center">
 
-      <a class="nav-links" type="button" data-bs-toggle="offcanvas" data-bs-target="#mainMenu" aria-controls="mainMenu">MENU</a>
+      <a class="nav-links menu-tab" type="button" data-bs-toggle="offcanvas" data-bs-target="#mainMenu" aria-controls="mainMenu">MENU</a>
       <div class="offcanvas offcanvas-top mega-menu" tabindex="-1" id="mainMenu" aria-labelledby="mainMenuLabel">
         <div class="container custom-container">
           <div class="offcanvas-header d-block text-center">
@@ -48,9 +48,11 @@
               <li>
                 <a href="about.php" class="menu-link">ABOUT US</a>
               </li>
+              <?php /*
               <li>
                 <a href="javascript:void(0)" class="menu-link">QUALITY POLICY</a>
               </li>
+              */?>
               <li>
                 <a href="career.php" class="menu-link">CAREER</a>
               </li>

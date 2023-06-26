@@ -1,7 +1,7 @@
 <?php include('include/head.php'); ?>
 
 <main>
-    <section class="py-5 bg-purple career-section event-section">
+    <section class="py-5 bg-body career-section event-section">
         <div class="container">
             <div class="row">
                 <div class="col-xl-10 mx-auto">
@@ -17,7 +17,7 @@
                         </div>
                         <div class="col-md-6">
                             <label for="phone" class="form-label">Phone</label>
-                            <input type="tel" class="form-control" id="phone" />
+                            <input type="tel" class="form-control" id="phone" maxlength="10" />
                         </div>
                         <div class="col-md-6">
                             <label for="state" class="form-label">State</label>

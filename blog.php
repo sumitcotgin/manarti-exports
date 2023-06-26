@@ -1,7 +1,7 @@
 <?php include('include/head.php') ?>
 
 <main>
-    <section class="py-5 bg-purple event-section overflow-visible blog-section">
+    <section class="py-5 bg-body event-section overflow-visible blog-section position-relative z-0">
         <div class="container">
             <h1 class="blog-title text-gradient mb-4">LATEST BLOGS</h1>
             <div class="row row-gap-4 mb-lg-0 mb-5">
@@ -11,9 +11,9 @@
                             <img src="images/blog-img.jpg" alt="Manarti blog" class="img-fluid w-100" />
                         </a>
                         <h2 class="text-uppercase fw-bold">
-                            <a href="blog-detail.php" class="text-white">Manarti blog</a>
+                            <a href="blog-detail.php" class="text-dark">Manarti blog</a>
                         </h2>
-                        <p class="text-white mb-4">Manarti Exports is a specialized medical disposables, systems, devices and hospital equipment provider offering a wide range of products. Our products are manufactured at state-of-the art production facilities in India, with capacity to produce large quantities.</p>
+                        <p class="text-dark mb-4">Manarti Exports is a specialized medical disposables, systems, devices and hospital equipment provider offering a wide range of products. Our products are manufactured at state-of-the art production facilities in India, with capacity to produce large quantities.</p>
                     </div>
                     <div class="row gy-5">
                         <?php for($a=0; $a<2; $a++) { ?>
@@ -25,7 +25,7 @@
                                     </figure>
                                 </a>
                                 <h3 class="text-uppercase fw-bold">
-                                    <a href="#" class="text-white">Manarti blog</a>
+                                    <a href="#" class="text-dark">Manarti blog</a>
                                 </h3>
                             </div>
                         </div>
@@ -37,7 +37,7 @@
                                     </figure>
                                 </a>
                                 <h3 class="text-uppercase fw-bold">
-                                    <a href="#" class="text-white">Manarti blog</a>
+                                    <a href="#" class="text-dark">Manarti blog</a>
                                 </h3>
                             </div>
                         </div>
@@ -54,7 +54,7 @@
                         <div class="mb-3">
                             <a href="#" class="d-flex gap-2 align-items-center text-start">
                                 <img src="images/sm-blog.jpg" alt="" class="img-fluid ratio-1x1 rounded-1" />
-                                <span class="text-white fw-bold">Lorem Ipsum Dolor Sit Amet Lorem Ipsum Dolor</span>
+                                <span class="text-dark fw-bold">Lorem Ipsum Dolor Sit Amet Lorem Ipsum Dolor</span>
                             </a>
                         </div>
                         <?php } ?>
@@ -62,6 +62,7 @@
                 </div>
             </div>
         </div>
+        <div class="circle right position-absolute"></div>
     </section>
 </main>
 
