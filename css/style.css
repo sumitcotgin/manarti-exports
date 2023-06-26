@@ -307,7 +307,7 @@ section {
 .nav-links:hover {
   color: #00a18b;
 }
-.nav-links:hover:has(.menu-bar) span {
+.nav-links:hover .menu-bar > span {
   background-color: #00a18b;
 }
 .scroll-text {
