@@ -91,10 +91,6 @@ body {
 a {
   text-decoration: none;
 }
-a:focus-visible,
-a:active {
-  border: 0 !important;
-}
 .btn {
   color: #00a18b;
   font-weight: 700;
@@ -124,6 +120,11 @@ a:active {
   background-image: linear-gradient(to right, #00a18b, #475e9a);
   width: 100%;
   border-radius: 100px;
+}
+.btn:is(:focus-visible, :active) {
+  color: inherit;
+  border: 0 solid transparent !important;
+  box-shadow: none !important;
 }
 @media (min-width: 992px) {
   .custom-container {
