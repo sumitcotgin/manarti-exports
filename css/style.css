@@ -773,9 +773,8 @@ footer a:hover {
   }
 }
 @media (max-width: 991px) {
-  .menu-tab {
-    position: absolute;
-    left: 1rem;
+  nav.navbar .custom-container {
+    max-width: 100%;
   }
   .h-100-vh {
     height: auto;
@@ -795,9 +794,6 @@ footer a:hover {
   .main-menu .active::after {
     left: unset;
     right: 6%;
-  }  
-  .reverse {
-    flex-direction: column-reverse;
   }
   .text-fill {
     font-size: 105px;
@@ -843,6 +839,9 @@ footer a:hover {
   * {
     cursor: default !important;
   }
+  .reverse {
+    flex-direction: column-reverse;
+  }
   iframe {
     height: 100%;
   }
@@ -861,10 +860,10 @@ footer a:hover {
     letter-spacing: 0.05em;
   }
   .navbar-brand img {
-    max-width: 220px;
+    max-width: 200px;
   }
   .nav-links {
-    font-size: 16px;
+    font-size: 14px;
   }
   .main-title {
     font-size: 32px;
@@ -904,10 +903,5 @@ footer a:hover {
     width: 70px;
     height: 70px;
     padding: 0.7rem;
-  }
-}
-@media (max-width: 320px) {
-  .navbar-brand img {
-    max-width: 180px;
   }
 }

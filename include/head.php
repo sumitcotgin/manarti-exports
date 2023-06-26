@@ -24,9 +24,9 @@
 
   <!-- HEADER -->
   <nav class="navbar bg-body">
-    <div class="container custom-container justify-content-lg-between justify-content-center">
+    <div class="container custom-container justify-content-lg-between">
 
-      <a class="nav-links menu-tab" type="button" data-bs-toggle="offcanvas" data-bs-target="#mainMenu" aria-controls="mainMenu">MENU</a>
+      <a class="nav-links" type="button" data-bs-toggle="offcanvas" data-bs-target="#mainMenu" aria-controls="mainMenu">MENU</a>
       <div class="offcanvas offcanvas-top mega-menu" tabindex="-1" id="mainMenu" aria-labelledby="mainMenuLabel">
         <div class="container custom-container">
           <div class="offcanvas-header d-block text-center">
@@ -71,13 +71,14 @@
         <img src="images/logo.png" alt="Logo" title="Logo" class="img-fluid" />
       </a>
 
-      <a class="nav-links d-lg-block d-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#productMenu" aria-controls="productMenu">
-        <div class="d-inline-block menu-bar">
+      <a class="nav-links" type="button" data-bs-toggle="offcanvas" data-bs-target="#productMenu" aria-controls="productMenu">
+        <svg class="d-md-none" fill="#485e9a" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>
+        <div class="d-lg-inline-block d-none menu-bar">
           <span></span>
           <span></span>
           <span></span>
         </div>
-        OUR PRODUCTS
+        <span class="d-md-block d-none">OUR PRODUCTS</span>
       </a>
       <div class="offcanvas offcanvas-top mega-menu" tabindex="-1" id="productMenu" aria-labelledby="productMenuLabel">
         <div class="container custom-container">
