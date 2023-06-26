@@ -78,7 +78,7 @@
           <span></span>
           <span></span>
         </div>
-        <span class="d-md-block d-none">OUR PRODUCTS</span>
+        <span class="d-md-inline-block d-none">OUR PRODUCTS</span>
       </a>
       <div class="offcanvas offcanvas-top mega-menu" tabindex="-1" id="productMenu" aria-labelledby="productMenuLabel">
         <div class="container custom-container">
