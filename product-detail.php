@@ -87,9 +87,9 @@
                         </figure>
                     </a>
                 </div>
-                <div class="col-xl-4 col-lg-6    ">
+                <div class="col-xl-4 col-lg-6 text-lg-start text-center   ">
                     <h4 class="text-gradient fw-bold">HOSPITAL DRESSING</h4>
-                    <h4 class="text-white fw-semibold">
+                    <h4 class="text-white fw-medium">
                         <a href="#" class="text-dark">Cotton Crepe Bandage</a>
                     </h4>
                     <p class="text-dark">Cotton crepe bandages are manufactured using superior quality cotton, which allows normal skin breathing and does not hamper joint & muscular flexibility. The elasticity is restored by washing in warm water which makes our product highly durable</p>
@@ -104,9 +104,9 @@
                         </figure>
                     </a>
                 </div>
-                <div class="col-xl-4 col-lg-6   ">
+                <div class="col-xl-4 col-lg-6text-lg-start text-center   ">
                     <h4 class="text-gradient fw-bold">HOSPITAL DRESSING</h4>
-                    <h4 class="text-dark fw-semibold">
+                    <h4 class="text-dark fw-medium">
                         <a href="#" class="text-dark">Elastic Adhesive Bandage</a>
                     </h4>
                     <p class="text-dark">Good aesthetic appeal due to woven fast edges. High elasticity and high porosity. More porosity makes air and vapour permeable and allows breathing of skin. Very good quality concentrated adhesive, sticks properly and gives long-lasting adhesive action.</p>
@@ -121,9 +121,9 @@
                         </figure>
                     </a>
                 </div>
-                <div class="col-xl-4 col-lg-6    ">
+                <div class="col-xl-4 col-lg-6text-lg-start text-center    ">
                     <h4 class="text-gradient fw-bold">HOSPITAL DRESSING</h4>
-                    <h4 class="text-dark fw-semibold">
+                    <h4 class="text-dark fw-medium">
                         <a href="#" class="text-dark">Medrop Absorbent cotton gauze B.P</a>
                     </h4>
                     <p class="text-dark">A wide range of gauze roll that are hygienically made so that they are safe to use in various medical applications. Made from finest quality 100% cotton, bleached to white, these gauze ro ll can be provided with X-Ray detectable thread or Without. Roll of 4 folded fabric of different lengths.</p>
