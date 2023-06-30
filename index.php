@@ -2531,13 +2531,11 @@
                         <div class="title back-text ">TESTIMONIALS</div>
                         <h2 class="title text-gradient mb-5 d-inline-block testimonialSlide">TESTIMONIALS</h2>
                     </div>
-                    <div class="col-12">
+                    <div class="col-12 d-lg-block d-none">
                         <div class="card-slider testimonial-slider ">
-                            <!-- <div class="swiper-wrapper"> -->
                             <?php
                             for ($i = 0; $i < 3; $i++) {
                             ?>
-                                <!-- <div class="swiper-slide"> -->
                                 <div class="card card1">
                                     <img src="images/testimonial.png" class="card-img-top img-fluid" alt="Agnes Remi" />
                                     <div class="card-body pe-0">
@@ -2546,12 +2544,10 @@
                                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut nisi venenatis, sollicitudin orci nec, maximus arcu. Nullam vulputate sodales consequat.Lorem ipsum dolor sit amet, consectetur</p>
                                     </div>
                                 </div>
-                                <!-- </div> -->
                             <?php } ?>
-                            <!-- </div> -->
                         </div>
                     </div>
-                    <div class="col-12">
+                    <div class="col-12 d-lg-block d-none">
                         <div class="card-slider2 testimonial-slider ">
                             <?php
                             for ($i = 0; $i < 3; $i++) {
@@ -2566,6 +2562,21 @@
                                 </div>
                             <?php } ?>
                         </div>
+                    </div>
+
+                    <div class="card-slider testimonial-slider testimonial-slider-mob d-lg-none">
+                        <?php
+                        for ($i = 0; $i < 5; $i++) {
+                        ?>
+                            <div class="card p-3">
+                                <img src="images/testimonial.png" class="card-img-top img-fluid" alt="Agnes Remi" />
+                                <div class="card-body pe-0">
+                                    <h5 class="card-title">Agnes Remi</h5>
+                                    <div class="card-designation">Lorem Ipsum Dolor Sit Amet</div>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut nisi venenatis, sollicitudin orci nec, maximus arcu. Nullam vulputate sodales consequat.Lorem ipsum dolor sit amet, consectetur</p>
+                                </div>
+                            </div>
+                        <?php } ?>
                     </div>
                 </div>
             </div>
