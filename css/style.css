@@ -864,6 +864,9 @@ footer a:hover {
   .offcanvas.mega-menu .offcanvas-header .btn-close .cross span:last-child {
     transform: translate(-4px, 1px) rotate(-45deg);
   }
+  .offcanvas.mega-menu .offcanvas-header .btn-close {
+    margin: 0;
+  }
   .h-100-vh {
     height: auto;
   }

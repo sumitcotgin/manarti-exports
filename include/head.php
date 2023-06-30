@@ -103,7 +103,7 @@
                 </figure>
               </div>
               <div class="col-xl-8 col-lg-9">
-                <div class="row gy-4">
+                <div class="row gy-lg-4">
                   <div class="col-lg-4 col-md-6">
                     <h5 class="menu-title">Medical Disposables</h5>
                     <ul class="list-unstyled d-lg-block d-none">
