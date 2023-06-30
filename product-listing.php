@@ -63,6 +63,25 @@
                     <p class="text-dark">A wide range of gauze roll that are hygienically made so that they are safe to use in various medical applications. Made from finest quality 100% cotton, bleached to white, these gauze ro ll can be provided with X-Ray detectable thread or Without. Roll of 4 folded fabric of different lengths.</p>
                 </div>
             </div>
+            <div aria-label="...">
+                <ul class="pagination justify-content-center gap-2">
+                    <li class="page-item disabled">
+                        <a class="page-link">&laquo;</a>
+                    </li>
+                    <li class="page-item active">
+                        <a class="page-link" href="#">1</a>
+                    </li>
+                    <li class="page-item" aria-current="page">
+                        <a class="page-link" href="#">2</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">3</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">&raquo;</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </section>
 </main>

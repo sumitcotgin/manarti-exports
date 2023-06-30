@@ -286,6 +286,7 @@ nav {
   font-weight: 700;
   font-size: 18px;
   line-height: 156.5%;
+  position: relative;
 }
 .product-menu-link {
   position: relative;
@@ -631,6 +632,26 @@ nav {
   border-radius: 10px;
 }
 
+/* pagination style */
+.page-link {
+  color: #00a18b;
+  border-radius: 50% !important;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 38px;
+}
+.active>.page-link,
+.page-link.active {
+  z-index: 3;
+  color: var(--white);
+  background-color: #485e9a;
+  border-color: #485e9a;
+}
+.page-link:focus {
+  box-shadow: none;
+}
+
 /* about us style */
 .signature {
   position: absolute;
@@ -716,14 +737,14 @@ nav {
   color: #888888;
 }
 .form-label {
-  color: var(--pink);
+  color: var(--black);
   font-weight: 500;
 }
 .form-select,
 .form-control {
   background-color: transparent;
-  border: 1px solid var(--pink);
-  color: var(--pink) !important;
+  border: 1px solid #33333326;
+  color: var(--black) !important;
   resize: none;
 }
 .btn-close:focus,
@@ -746,7 +767,7 @@ nav {
 }
 .file-type {
   background: transparent;
-  border: 1px dashed var(--pink);
+  border: 1px dashed var(--black);
   padding: 12px 30px;
   border-radius: 10px;
   cursor: pointer;
@@ -853,6 +874,32 @@ footer a:hover {
   .circle {
     display: none;
   }
+  .rotate::before {
+    transform: rotate(180deg);
+  }
+  .menu-title {
+    padding: 5px;
+    padding-right: 1rem;
+    font-size: 1rem;
+    background: rgb(213 217 232);
+    border-radius: 3px;
+    font-weight: 600;
+  }
+  .menu-title::before {
+    transition: all .3s;
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 5px;
+    background: url(../images/arrow-down.svg) no-repeat;
+    background-size: 100%;
+    background-position: right;
+    width: 5%;
+    height: 100%;
+  }
+  .menu-title ~ ul {
+    padding-left: .5rem;
+  }
   .main-menu .active::before,
   .main-menu .active::after {
     top: 32%;
@@ -951,6 +998,7 @@ footer a:hover {
   }
   .event-section {
     padding-bottom: 3rem !important;
+    border-radius: 0 0 50px 50px;
   }
   .certificateContainer,
   .event-section:has(h3, p) {

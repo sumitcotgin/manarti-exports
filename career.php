@@ -7,8 +7,8 @@
                 <h2 class="text-gradient fw-bold">AVAILABLE JOBS</h2>
                 <hr class="opacity-100" style="color:#BFBFBF" />
             </div>
-            <div class="pt-3">
-                <?php for($i=0; $i<8; $i++) { ?>
+            <div class="pt-3 mb-4">
+                <?php for($i=0; $i<5; $i++) { ?>
                 <div class="mb-4 p-4 apply-jobs">
                     <div>
                         <h5 class="mb-0 fw-bold">Lorem Ipsum Dolor Sit Amet</h5>
@@ -17,6 +17,25 @@
                     <a role="button" class="d-inline-block btn2 fw-bold linear-gradient" data-bs-toggle="modal" data-bs-target="#exampleModal">Apply Now</a>
                 </div>
                 <?php } ?>
+            </div>
+            <div aria-label="...">
+                <ul class="pagination justify-content-center gap-2">
+                    <li class="page-item disabled">
+                        <a class="page-link">&laquo;</a>
+                    </li>
+                    <li class="page-item active">
+                        <a class="page-link" href="#">1</a>
+                    </li>
+                    <li class="page-item" aria-current="page">
+                        <a class="page-link" href="#">2</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">3</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">&raquo;</a>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>

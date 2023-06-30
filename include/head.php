@@ -95,7 +95,7 @@
               </div>
             </button>
           </div>
-          <div class="offcanvas-body">
+          <div class="offcanvas-body px-0">
             <div class="row align-items-center product-menu">
               <div class="col-xl-4 col-lg-3 d-lg-block d-none">
                 <figure class="mb-0">
@@ -106,7 +106,7 @@
                 <div class="row gy-4">
                   <div class="col-lg-4 col-md-6">
                     <h5 class="menu-title">Medical Disposables</h5>
-                    <ul class="list-unstyled">
+                    <ul class="list-unstyled d-lg-block d-none">
                       <li>
                         <a href="#" class="product-menu-link">Urology</a>
                       </li>
@@ -135,7 +135,7 @@
                   </div>
                   <div class="col-lg-4 col-md-6">
                     <h5 class="menu-title">Hospital Dressings</h5>
-                    <ul class="list-unstyled">
+                    <ul class="list-unstyled d-lg-block d-none">
                       <li>
                         <a href="#" class="product-menu-link">Bandages</a>
                       </li>
@@ -164,7 +164,7 @@
                   </div>
                   <div class="col-lg-4 col-md-6">
                     <h5 class="menu-title">Rehabilitation And Physiotherapy</h5>
-                    <ul class="list-unstyled">
+                    <ul class="list-unstyled d-lg-block d-none">
                       <li>
                         <a href="#" class="product-menu-link">Abdominal Supports</a>
                       </li>
@@ -187,7 +187,7 @@
                   </div>
                   <div class="col-lg-4 col-md-6">
                     <h5 class="menu-title">Hospital Furniture</h5>
-                    <ul class="list-unstyled">
+                    <ul class="list-unstyled d-lg-block d-none">
                       <li>
                         <a href="#" class="product-menu-link">Urology</a>
                       </li>
@@ -219,7 +219,7 @@
                   </div>
                   <div class="col-lg-4 col-md-6">
                     <h5 class="menu-title">Medical Equipment</h5>
-                    <ul class="list-unstyled">
+                    <ul class="list-unstyled d-lg-block d-none">
                       <li>
                         <a href="#" class="product-menu-link">Suction Machine</a>
                       </li>
@@ -236,7 +236,7 @@
                   </div>
                   <div class="col-lg-4 col-md-6">
                     <h5 class="menu-title">Diagnostics</h5>
-                    <ul class="list-unstyled">
+                    <ul class="list-unstyled d-lg-block d-none">
                       <li>
                         <a href="#" class="product-menu-link">Eurology</a>
                       </li>
@@ -262,7 +262,7 @@
                   </div>
                   <div class="col-lg-4 col-md-6">
                     <h5 class="menu-title">Surgical Equipment</h5>
-                    <ul class="list-unstyled">
+                    <ul class="list-unstyled d-lg-block d-none">
                       <li>
                         <a href="#" class="product-menu-link">Medical Sutures</a>
                       </li>
@@ -279,7 +279,7 @@
                   </div>
                   <div class="col-lg-4 col-md-6">
                     <h5 class="menu-title">Laboratory</h5>
-                    <ul class="list-unstyled">
+                    <ul class="list-unstyled d-lg-block d-none">
                       <li>
                         <a href="#" class="product-menu-link">Rapid Test Kits</a>
                       </li>
@@ -293,7 +293,7 @@
                   </div>
                   <div class="col-lg-4 col-md-6">
                     <h5 class="menu-title">Emergency Care</h5>
-                    <ul class="list-unstyled">
+                    <ul class="list-unstyled d-lg-block d-none">
                       <li>
                         <a href="#" class="product-menu-link">First Aid Kits</a>
                       </li>

@@ -39,6 +39,12 @@ $(document).ready(function () {
     $("body").removeClass("overflow-hidden");
     $(".loader").fadeOut();
   }); */
+  if(screen.width < 992) {
+    $('.menu-title').click(function(){
+        $(this).siblings('ul').toggleClass('d-none');
+        $(this).toggleClass('rotate');
+    });
+  }
 
   //   input type phone
   $("input[type=tel]").keydown(function (event) {
