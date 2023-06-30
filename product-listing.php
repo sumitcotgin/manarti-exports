@@ -1,21 +1,22 @@
 <?php include('include/head.php'); ?>
 
 <main>
-    <section class="py-3 bg-body position-relative z-0 overflow-hidden product-listing-section">
-        <span class="text-fill d-lg-block d-none bandageScroll bandageScroll1">BANDAGE</span>
+    <!-- <section class="py-3 bg-body position-relative z-0 overflow-hidden product-listing-section">
         <div class="container custom-container">
             <div class="row">
                 <div class="col-xxl-5 col-xl-6 col-lg-8 mx-auto">
                     <p class="mb-lg-5 about-text">Manarti Exports being one of the eminent manufacturers, suppliers and exporters of a wide range of Bandages In India. The company also offered a wide assortment of Bandages that include Cotton Crepe Bandage, POP Bandage, Rolled Bandage, Triangular Bandage and many others. All these bandages are manufactured to perfection and this can perfectly meet the needs of different applications and hospital usages. The products are quality tested and are best in all the prospect.</p>
                 </div>
             </div>
-        </div>        
-        <span class="text-fill d-lg-block d-none bandageScroll bandageScroll2">BANDAGE</span>
-    </section>
-
+        </div>
+    </section> -->
+    
     <section class="py-5 bg-body overflow-hidden event-section    productContainer">
         <div class="container custom-container">
             <div class="row align-items-center gy-4 mb-5     productScroll">
+                <div class="col-12">
+                    <h1 class="title text-start text-gradient text-uppercase mb-5 pb-lg-4">BANDAGE</h1>
+                </div>
                 <div class="col-xxl-5 col-lg-6 col-md-4">
                     <a href="product-detail.php">
                         <figure class="mb-0 product-image-bg rounded-3 text-center py-lg-5 p-3">
