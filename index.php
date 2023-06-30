@@ -3,25 +3,29 @@
 <main>
     <!-- hero section -->
     <div class="section">
-        <section class="hero-section h-100-vh py-5 bg-body position-relative z-0 w-100 overflow-hidden">
+        <section class="hero-section bg-body w-100 overflow-hidden">
             <div class="circle position-absolute"></div>
-            <div class="container custom-container h-100-vh">
+            <div class="container custom-container position-relative">
                 <div class="row align-items-center">
-                    <div class="col-xxl-7 col-xl-8 col-lg-6 text-lg-start text-center">
-                        <h1 class="main-title mb-4">Revolutionizing Medical QUALITY PRODUCTS - Experience the <span class="text-gradient">MANARTI EXPORTS</span></h1>
-                        <a href="product-listing.php" class="btn">EXPLORE PRODUCTS</a>
+                    <div class="col-xl-8 col-lg-6  text-lg-start text-center">
+                        <div class="hero-heading">
+                            <h1 class="main-title mb-4">Revolutionizing Medical QUALITY PRODUCTS - Experience the <span class="text-gradient">MANARTI EXPORTS</span></h1>
+                            <a href="product-listing.php" class="btn">EXPLORE PRODUCTS</a>
+                        </div>
                     </div>
-                    <div class="col-xxl-5 col-xl-4 col-lg-6 position-relative">
+                    <?php /*
+                    <div class="col-xl-4 col-lg-6 position-relative">
                         <div class="back-bg position-absolute"></div>
                         <img src="images/banner.png" alt="REVOLUTIONIZING MEDICAL QUALITY PRODUCTS -EXPERIENCE THE MANARTI EXPORTS" class="img-fluid pe-none position-relative z-1" />
                         <div class="down-bg position-absolute"></div>
-                        <div class="scroll-text">
-                            <span style="color:#485E9A;">Scroll Down</span>
-                            <svg width="24" height="34" viewBox="0 0 24 34" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M2 12C2 9.34783 3.05357 6.8043 4.92893 4.92893C6.8043 3.05357 9.34783 2 12 2C14.6522 2 17.1957 3.05357 19.0711 4.92893C20.9464 6.8043 22 9.34783 22 12V22C22 24.6522 20.9464 27.1957 19.0711 29.0711C17.1957 30.9464 14.6522 32 12 32C9.34783 32 6.8043 30.9464 4.92893 29.0711C3.05357 27.1957 2 24.6522 2 22V12Z" stroke="#485E9A" stroke-width="2.5" stroke-linejoin="round" />
-                                <path id="wheel" d="M12 8.66669V15.3334" stroke="#485E9A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-                            </svg>
-                        </div>
+                    </div> */
+                    ?>
+                    <div class="scroll-text">
+                        <span style="color:#485E9A;">Scroll Down</span>
+                        <svg width="24" height="34" viewBox="0 0 24 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2 12C2 9.34783 3.05357 6.8043 4.92893 4.92893C6.8043 3.05357 9.34783 2 12 2C14.6522 2 17.1957 3.05357 19.0711 4.92893C20.9464 6.8043 22 9.34783 22 12V22C22 24.6522 20.9464 27.1957 19.0711 29.0711C17.1957 30.9464 14.6522 32 12 32C9.34783 32 6.8043 30.9464 4.92893 29.0711C3.05357 27.1957 2 24.6522 2 22V12Z" stroke="#485E9A" stroke-width="2.5" stroke-linejoin="round" />
+                            <path id="wheel" d="M12 8.66669V15.3334" stroke="#485E9A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
                     </div>
                 </div>
         </section>
@@ -30,9 +34,9 @@
 
     <!-- about section -->
     <div class="section">
-        <section id="about" class="h-100-vh py-5 bg-body overflow-hidden position-relative z-0 w-100 ">
+        <section id="about" class=" py-5 bg-body overflow-hidden position-relative z-0 w-100 ">
             <div class="circle position-absolute right"></div>
-            <div class="container custom-container h-100-vh">
+            <div class="container custom-container ">
                 <div class="row align-items-center">
                     <div class="col-xxl-6 col-xl-8 col-lg-9 mx-auto">
                         <p class="about-text mb-0">Manarti Exports is a specialized medical disposables, systems, devices and hospital equipment provider offering a wide range of products. Our products are manufactured at state-of-the art production facilities in India, with capacity to produce large quantities. We are ISO 9001:2008 and ISO 13485:2003 certified and our products are CE Marked. Our Medical Devices and Catheters are FDA Approved.</p>
@@ -56,9 +60,9 @@
                 </div>
                 <div class="circle position-absolute"></div>
 
-                <div class="row align-items-center gy-5 mb-5 pt-17 product-list   horizontalContainer1">
+                <div class="row align-items-center gy-5 mb-5 pt-11 product-list   horizontalContainer1">
                     <div class="col-xl-5 col-lg-6    horizontal-scroll1">
-                        <a href="#">
+                        <a href="product-detail.php">
                             <figure class="mb-0 text-center product-image-bg rounded-3">
                                 <img src="images/product.png" alt="Medical Disposables" class="img-fluid" />
                             </figure>
@@ -66,7 +70,7 @@
                     </div>
                     <div class="col-xl-4 col-lg-6    horizontal-scroll1">
                         <h4 class="mb-0 fw-bold">
-                            <a href="#" class="text-gradient">Medical Disposables</a>
+                            <a href="product-detail.php" class="text-gradient">Medical Disposables</a>
                         </h4>
                         <p class="mb-0  fw-semibold">Medrop Disposable Under pads, 60x60 cm, 10 Pcs/Pack (Pack of 3) 30 Pcs</p>
                     </div>
@@ -75,12 +79,12 @@
                 <div class="row align-items-center justify-content-end gy-5 mb-5 product-list reverse   horizontalContainer2">
                     <div class="col-xl-4 col-lg-6   horizontal-scroll2">
                         <h4 class="mb-0 fw-bold">
-                            <a href="#" class="text-gradient">Medical Disposables</a>
+                            <a href="product-detail.php" class="text-gradient">Medical Disposables</a>
                         </h4>
                         <p class="mb-0  fw-semibold">Medrop Disposable Under pads, 60x60 cm, 10 Pcs/Pack (Pack of 3) 30 Pcs</p>
                     </div>
                     <div class="col-xl-5 col-lg-6   horizontal-scroll2">
-                        <a href="#">
+                        <a href="product-detail.php">
                             <figure class="mb-0 text-center product-image-bg rounded-3">
                                 <img src="images/product.png" alt="Medical Disposables" class="img-fluid" />
                             </figure>
@@ -90,7 +94,7 @@
 
                 <div class="row align-items-center gy-5 mb-5 product-list   horizontalContainer3">
                     <div class="col-xl-5 col-lg-6    horizontal-scroll3">
-                        <a href="#">
+                        <a href="product-detail.php">
                             <figure class="mb-0 text-center product-image-bg rounded-3">
                                 <img src="images/product.png" alt="Medical Disposables" class="img-fluid" />
                             </figure>
@@ -98,7 +102,7 @@
                     </div>
                     <div class="col-xl-4 col-lg-6    horizontal-scroll3">
                         <h4 class="mb-0 fw-bold">
-                            <a href="#" class="text-gradient">Medical Disposables</a>
+                            <a href="product-detail.php" class="text-gradient">Medical Disposables</a>
                         </h4>
                         <p class="mb-0  fw-semibold">Medrop Disposable Under pads, 60x60 cm, 10 Pcs/Pack (Pack of 3) 30 Pcs</p>
                     </div>
@@ -107,12 +111,12 @@
                 <div class="row align-items-center justify-content-end gy-5 mb-5 product-list reverse   horizontalContainer4">
                     <div class="col-xl-4 col-lg-6   horizontal-scroll4">
                         <h4 class="mb-0 fw-bold">
-                            <a href="#" class="text-gradient">Medical Disposables</a>
+                            <a href="product-detail.php" class="text-gradient">Medical Disposables</a>
                         </h4>
                         <p class="mb-0  fw-semibold">Medrop Disposable Under pads, 60x60 cm, 10 Pcs/Pack (Pack of 3) 30 Pcs</p>
                     </div>
                     <div class="col-xl-5 col-lg-6   horizontal-scroll4">
-                        <a href="#">
+                        <a href="product-detail.php">
                             <figure class="mb-0 text-center product-image-bg rounded-3">
                                 <img src="images/product.png" alt="Medical Disposables" class="img-fluid" />
                             </figure>
@@ -122,7 +126,7 @@
 
                 <div class="row align-items-center gy-5 mb-5 product-list   horizontalContainer5">
                     <div class="col-xl-5 col-lg-6    horizontal-scroll5">
-                        <a href="#">
+                        <a href="product-detail.php">
                             <figure class="mb-0 text-center product-image-bg rounded-3">
                                 <img src="images/product.png" alt="Medical Disposables" class="img-fluid" />
                             </figure>
@@ -130,7 +134,7 @@
                     </div>
                     <div class="col-xl-4 col-lg-6    horizontal-scroll5">
                         <h4 class="mb-0 fw-bold">
-                            <a href="#" class="text-gradient">Medical Disposables</a>
+                            <a href="product-detail.php" class="text-gradient">Medical Disposables</a>
                         </h4>
                         <p class="mb-0  fw-semibold">Medrop Disposable Under pads, 60x60 cm, 10 Pcs/Pack (Pack of 3) 30 Pcs</p>
                     </div>
@@ -2436,7 +2440,7 @@
                                 <path class="india" d="M911.626 323.72H933.944V301.403H911.626V323.72Z" fill="url(#pattern0)" />
                             </g>
                             <defs>
-                                <filter id="filter0_dddd_237_212" x="0.0571442" y="0.327711" width="1363.89" height="883.821" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                <!-- <filter id="filter0_dddd_237_212" x="0.0571442" y="0.327711" width="1363.89" height="883.821" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
                                     <feFlood flood-opacity="0" result="BackgroundImageFix" />
                                     <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
                                     <feOffset dy="4.71176" />
@@ -2503,7 +2507,7 @@
                                     <feColorMatrix type="matrix" values="0 0 0 0 0.0784314 0 0 0 0 0 0 0 0 0 0.258824 0 0 0 0.07 0" />
                                     <feBlend mode="normal" in2="effect7_dropShadow_237_212" result="effect8_dropShadow_237_212" />
                                     <feBlend mode="normal" in="SourceGraphic" in2="effect8_dropShadow_237_212" result="shape" />
-                                </filter>
+                                </filter> -->
                                 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
                                     <use xlink:href="#image0_237_212" transform="scale(0.015625)" />
                                 </pattern>
@@ -2583,31 +2587,34 @@
                     </div>
                 </div>
                 <div class="row gy-3">
-                    <div class="col-lg-5">
-                        <figure class="text-center   eventContainer4">
-                            <a href="images/event4.jpg" class="fancybox" data-fancybox="event">
-                                <img src="images/event4.jpg" alt="Event 4" class="img-fluid   eventScroll4" />
-                            </a>
-                        </figure>
-                        <figure class="mb-0 text-end   eventContainer1">
-                            <a href="images/event1.jpg" class="fancybox" data-fancybox="event">
-                                <img src="images/event1.jpg" alt="Event 1" class="img-fluid w-75   eventScroll1" />
-                            </a>
-                        </figure>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <figure class="mb-0 text-center   eventContainer2">
-                            <a href="images/event2.jpg" class="fancybox" data-fancybox="event">
-                                <img src="images/event2.jpg" alt="Event 2" class="img-fluid   eventScroll2" />
-                            </a>
-                        </figure>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <figure class="mb-0 text-center   eventContainer3">
-                            <a href="images/event3.jpg" class="fancybox" data-fancybox="event">
-                                <img src="images/event3.jpg" alt="Event 3" class="img-fluid   eventScroll3" />
-                            </a>
-                        </figure>
+                    <div class="col-12">
+                        <div class="event-carousel">
+                            <figure class="mb-0 text-center   eventContainer3">
+                                <a href="images/event3.jpg" class="fancybox" data-fancybox="event">
+                                    <img src="images/event3.jpg" alt="Event 3" class="img-fluid   eventScroll3" />
+                                </a>
+                            </figure>
+                            <figure class="mb-0 text-center   eventContainer3">
+                                <a href="images/event3.jpg" class="fancybox" data-fancybox="event">
+                                    <img src="images/event3.jpg" alt="Event 3" class="img-fluid   eventScroll3" />
+                                </a>
+                            </figure>
+                            <figure class="mb-0 text-center   eventContainer3">
+                                <a href="images/event3.jpg" class="fancybox" data-fancybox="event">
+                                    <img src="images/event3.jpg" alt="Event 3" class="img-fluid   eventScroll3" />
+                                </a>
+                            </figure>
+                            <figure class="mb-0 text-center   eventContainer3">
+                                <a href="images/event3.jpg" class="fancybox" data-fancybox="event">
+                                    <img src="images/event3.jpg" alt="Event 3" class="img-fluid   eventScroll3" />
+                                </a>
+                            </figure>
+                            <figure class="mb-0 text-center   eventContainer3">
+                                <a href="images/event3.jpg" class="fancybox" data-fancybox="event">
+                                    <img src="images/event3.jpg" alt="Event 3" class="img-fluid   eventScroll3" />
+                                </a>
+                            </figure>
+                        </div>
                     </div>
                 </div>
                 <div class="circle right position-absolute"></div>

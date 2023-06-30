@@ -88,6 +88,38 @@ $(document).ready(function () {
       10
     );
   });
+
+  $('.event-carousel').slick({
+    dots: false,
+    arrows: false,
+    infinite: true,
+    speed: 100,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 1500,
+    pauseOnHover: false,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+        }
+      }
+    ]
+  });
 });
 
 gsap.from(".main-title", {
@@ -95,6 +127,8 @@ gsap.from(".main-title", {
   ease: "bounce",
   duration: 2,
 });
+
+
 
 if (screen.width > 991) {
   const text_scroll_container = gsap.utils.toArray(".text_scroll_container");
@@ -118,7 +152,7 @@ if (screen.width > 991) {
     scrollTrigger: {
       trigger: horizontalContainer1,
       scrub: true,
-      start: "20% 80%",
+      start: "40% 80%",
       end: "40% 60%",
     },
   });
@@ -130,7 +164,7 @@ if (screen.width > 991) {
     scrollTrigger: {
       trigger: horizontalContainer2,
       scrub: 1,
-      start: "20% 80%",
+      start: "40% 80%",
       end: "40% 60%",
     },
   });
@@ -142,7 +176,7 @@ if (screen.width > 991) {
     scrollTrigger: {
       trigger: horizontalContainer3,
       scrub: 1,
-      start: "20% 80%",
+      start: "40% 80%",
       end: "40% 60%",
     },
   });
@@ -154,7 +188,7 @@ if (screen.width > 991) {
     scrollTrigger: {
       trigger: horizontalContainer4,
       scrub: 1,
-      start: "20% 80%",
+      start: "40% 80%",
       end: "40% 60%",
     },
   });
@@ -166,32 +200,34 @@ if (screen.width > 991) {
     scrollTrigger: {
       trigger: horizontalContainer5,
       scrub: 1,
-      start: "20% 80%",
+      start: "40% 80%",
       end: "40% 60%",
     },
   });
 
   const cardSlider = gsap.utils.toArray(".card-slider");
   const card1 = gsap.utils.toArray(".card-slider .card1");
-  gsap.to(card1, {
+  gsap.from(card1, {
     xPercent: -250 * (card1.length - 1),
-    ease: "none",
+    ease: "linear",
     scrollTrigger: {
       trigger: cardSlider,
       scrub: true,
-      end: "=+3000",
+      start: "30% 80%",
+      end: "40% 60%",
     },
   });
 
   const cardSlider2 = gsap.utils.toArray(".card-slider2");
   const card2 = gsap.utils.toArray(".card-slider2 .card2");
-  gsap.to(card2, {
+  gsap.from(card2, {
     xPercent: 250 * (card2.length - 1),
-    ease: "none",
+    ease: "linear",
     scrollTrigger: {
       trigger: cardSlider2,
       scrub: true,
-      end: "=+3000",
+      start: "30% 80%",
+      end: "40% 60%",
     },
   });
 
@@ -252,7 +288,7 @@ if (screen.width > 991) {
     },
   });
 
-  const eventContainer1 = gsap.utils.toArray(".eventContainer1");
+  /* const eventContainer1 = gsap.utils.toArray(".eventContainer1");
   const eventScroll1 = gsap.utils.toArray(".eventScroll1");
   gsap.from(eventScroll1, {
     duration: 2,
@@ -310,7 +346,7 @@ if (screen.width > 991) {
       start: "70% 80%",
       end: "80% 20%",
     },
-  });
+  }); */
 
   gsap.from(".about-banner p", {
     x: -1500,
@@ -384,7 +420,7 @@ if (screen.width > 991) {
     },
   });
 
-  gsap.from(".visionTextScroll", {
+  /* gsap.from(".visionTextScroll", {
     ease: "expo.inOut",
     x: -600,
     opacity: 0,
@@ -448,7 +484,7 @@ if (screen.width > 991) {
       start: "30% 80%",
       end: "50% 20%",
     },
-  });
+  }); */
   gsap.from(".bandageScroll1", {
     ease: "expo.inOut",
     x: -600,
@@ -469,7 +505,7 @@ if (screen.width > 991) {
       end: "80% 0%",
     },
   });
-  gsap.from(".productScroll", {
+  /* gsap.from(".productScroll", {
     ease: "expo.inOut",
     y: 600,
     opacity: 0,
@@ -483,7 +519,7 @@ if (screen.width > 991) {
       start: "10% 100%",
       end: "50% 20%",
     },
-  });
+  }); */
 }
 
 const text_scroll_container1 = gsap.utils.toArray(".text_scroll_container1");

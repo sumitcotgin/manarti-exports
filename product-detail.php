@@ -46,15 +46,15 @@
                 </div>
             </div>
 
-            <div class="row align-items-center justify-content-center gy-5 mb-5   horizontalContainer1">
-                <div class="col-xl-4 col-lg-6    horizontal-scroll1">
+            <div class="row align-items-center justify-content-center gy-5 mb-5   ">
+                <div class="col-xl-4 col-lg-6    ">
                     <a href="#">
                         <figure class="mb-0 p-3 text-center product-image-bg rounded-3">
                             <img src="images/prod1.png" alt="Medical Disposables" class="img-fluid" />
                         </figure>
                     </a>
                 </div>
-                <div class="col-xl-4 col-lg-6    horizontal-scroll1">
+                <div class="col-xl-4 col-lg-6    ">
                     <h4 class="text-gradient fw-bold">HOSPITAL DRESSING</h4>
                     <h4 class="text-white fw-semibold">
                         <a href="#" class="text-dark">Cotton Crepe Bandage</a>
@@ -63,15 +63,15 @@
                 </div>
             </div>
 
-            <div class="row align-items-center justify-content-center gy-5 mb-5   horizontalContainer2">
-                <div class="col-xl-4 col-lg-6   horizontal-scroll2">
+            <div class="row align-items-center justify-content-center gy-5 mb-5   ">
+                <div class="col-xl-4 col-lg-6   ">
                     <a href="#">
                         <figure class="mb-0 p-3 text-center product-image-bg rounded-3">
                             <img src="images/prod2.png" alt="Medical Disposables" class="img-fluid" />
                         </figure>
                     </a>
                 </div>
-                <div class="col-xl-4 col-lg-6   horizontal-scroll2">
+                <div class="col-xl-4 col-lg-6   ">
                     <h4 class="text-gradient fw-bold">HOSPITAL DRESSING</h4>
                     <h4 class="text-dark fw-semibold">
                         <a href="#" class="text-dark">Elastic Adhesive Bandage</a>
@@ -80,15 +80,15 @@
                 </div>
             </div>
 
-            <div class="row align-items-center justify-content-center gy-5 mb-5   horizontalContainer3">
-                <div class="col-xl-4 col-lg-6    horizontal-scroll3">
+            <div class="row align-items-center justify-content-center gy-5 mb-5   ">
+                <div class="col-xl-4 col-lg-6    ">
                     <a href="#">
                         <figure class="mb-0 p-3 text-center product-image-bg rounded-3">
                             <img src="images/prod3.png" alt="Medical Disposables" class="img-fluid" />
                         </figure>
                     </a>
                 </div>
-                <div class="col-xl-4 col-lg-6    horizontal-scroll3">
+                <div class="col-xl-4 col-lg-6    ">
                     <h4 class="text-gradient fw-bold">HOSPITAL DRESSING</h4>
                     <h4 class="text-dark fw-semibold">
                         <a href="#" class="text-dark">Medrop Absorbent cotton gauze B.P</a>

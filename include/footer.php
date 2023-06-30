@@ -96,6 +96,7 @@
 </div>
 
 <script src="js/jquery.min.js"></script>
+<script src="js/slick.min.js"></script>
 <script src="js/gsap.min.js"></script>
 <script src="js/ScrollTrigger.min.js"></script>
 <script src="js/SmoothScroll.min.js"></script>
