@@ -7,6 +7,7 @@
             <div class="row row-gap-4 mb-lg-0 mb-5">
                 <div class="col-12">
                     <div class="main-blog pb-5">
+                        <p class="mb-1">Post date: <?= date('M d, y'); ?></p>
                         <img src="images/blog-img.jpg" alt="Manarti blog    blogBounce" class="img-fluid w-100 mb-3" />
                         
                         <h2 class="text-uppercase fw-bold text-dark    blogBounce">Manarti blog</h2>
@@ -23,19 +24,6 @@
 
                         <p class="text-dark">Cras posuere commodo lectus quis euismod. Suspendisse dignissim consectetur mi, id congue nisi rhoncus quis. Nullam varius, purus sed fermentum posuere, arcu turpis pellentesque orci, sed cursus augue ex sit amet mi. Ut tempor ex ligula, a pretium odio iaculis egestas. Proin a molestie sem. Vestibulum sit amet pulvinar nisl.</p>
                     </div>
-                </div>
-                <div class="col-lg-4">
-                    <!-- <div class="sticky-top">
-                        <h3 class="text-gradient fw-bold mb-3">Recent Blogs</h3>
-                        <?php for($i=0; $i<4; $i++) { ?>
-                        <div class="mb-3">
-                            <a href="#" class="d-flex gap-2 align-items-center text-start">
-                                <img src="images/sm-blog.jpg" alt="" class="img-fluid ratio-1x1 rounded-1" />
-                                <span class="text-dark fw-bold">Lorem Ipsum Dolor Sit Amet Lorem Ipsum Dolor</span>
-                            </a>
-                        </div>
-                        <?php } ?>
-                    </div> -->
                 </div>
             </div>
         </div>
