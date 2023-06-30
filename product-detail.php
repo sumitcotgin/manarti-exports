@@ -25,12 +25,12 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-xxl-7 col-lg-6 text-lg-start text-center">
+                <div class="col-xxl-7 col-lg-6">
                     <h3 class="text-gradient fw-bold fs-1 mb-3">Elastic Adhesive Bandage</h3>
                     <p><strong>Product Code:</strong> MED 123</p>
                     <p><strong>Specifications:</strong> Sterile, individually packed in peelable blister pack</p>
                     <p><strong>Size/Strength:</strong> 6 mm-26 mm Two Way | Three Way, Balloon Cap: 5 cc, 30 cc & 50 cc</p>
-                    <div class="text-lg-start text-center mt-5">
+                    <div class="mt-5">
                         <a href="#" class="btn text-uppercase mb-md-0 mb-4">Get a Quote</a>
                         <a role="button" class="btn text-uppercase" data-bs-toggle="modal" data-bs-target="#enquiry">Enquire Now</a>
                     </div>
