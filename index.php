@@ -56,7 +56,7 @@
             <!-- <div class="circle right position-absolute"></div> -->
             <div class="container">
                 <div class="text_scroll_container1">
-                    <div class="text-fill position-absolute normal-text text-gradient product-icon below  text_scroll1">PRODUCTS</div>
+                    <h2 class="text-fill position-absolute normal-text text-gradient product-icon below  text_scroll1">PRODUCTS</h2>
                 </div>
                 <div class="circle position-absolute"></div>
 
@@ -165,12 +165,12 @@
                         </figure>
                     </div>
                     <div class="col-lg-6">
-                        <div class="title position-relative mb-5   qualityPolicy">
+                        <h2 class="title position-relative mb-5   qualityPolicy">
                             <span class="back-text  qualityScroll">QUALITY</span>
                             <span class="d-block text-gradient text-lg-end text-center    qualityScroll">QUALITY</span>
                             <span class="back-text policyScroll">POLICY</span>
                             <span class="d-block text-gradient text-lg-start text-center    policyScroll">POLICY</span>
-                        </div>
+                        </h2>
                         <div class="position-relative z-0">
                             <div class="ellipse"></div>
                             <p class="about-text mb-0 px-lg-5">We at Manarti are committed to supply products with zero defect to the customer. Our experienced and dedicated team is involved during the process of product and vendors selections and approval of the products is done based on its quality check for its performance and efficacy. The products are approved based on the various quality check parameters and visual inspections of the products before they are supplied.</p>
@@ -2529,7 +2529,7 @@
                 <div class="row">
                     <div class="col-12 text-center position-relative z-0 text-center testimonialContainer">
                         <div class="title back-text ">TESTIMONIALS</div>
-                        <div class="title text-gradient mb-5 d-inline-block testimonialSlide">TESTIMONIALS</div>
+                        <h2 class="title text-gradient mb-5 d-inline-block testimonialSlide">TESTIMONIALS</h2>
                     </div>
                     <div class="col-12">
                         <div class="card-slider testimonial-slider ">
@@ -2582,7 +2582,7 @@
                     <div class="col-lg-7">
                         <div class="position-relative z-0 mb-5 eventContainer">
                             <div class="title back-text   eventSlide">EVENTS & EXHIBITIONS</div>
-                            <div class="title text-gradient   eventSlide">EVENTS & EXHIBITIONS</div>
+                            <h2 class="title text-gradient   eventSlide">EVENTS & EXHIBITIONS</h2>
                         </div>
                     </div>
                 </div>

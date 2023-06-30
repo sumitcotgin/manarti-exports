@@ -462,7 +462,7 @@ nav {
   animation: downanimation 1s infinite ease;
 }
 .product-icon::before {
-  animation-delay: 5;
+  animation-delay: 5s;
   background: url(../images/shield.png) no-repeat;
   top: -10px;
   left: 20%;
@@ -470,7 +470,7 @@ nav {
   height: 60px;
 }
 .product-icon::after {
-  animation-delay: 1;
+  animation-delay: 1s;
   background: url(../images/syringe.png) no-repeat;
   top: -20px;
   right: 27%;
@@ -619,13 +619,12 @@ nav {
   letter-spacing: 0.02em;
 }
 .event-section {
-  padding-bottom: 10rem !important;
+  padding-bottom: 6rem !important;
   border-radius: 0 0 100px 100px;
   box-shadow: 4px 13px 7px rgba(0, 0, 0, 0.1);
 }
 .event-carousel figure {
   margin: 1rem;
-  box-shadow: 0 2px 23px #0004;
   border-radius: 12px;
 }
 .event-section img {

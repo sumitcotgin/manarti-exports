@@ -93,7 +93,7 @@ $(document).ready(function () {
     dots: false,
     arrows: false,
     infinite: true,
-    speed: 100,
+    speed: 600,
     slidesToShow: 4,
     slidesToScroll: 1,
     autoplay: true,
@@ -153,7 +153,7 @@ if (screen.width > 991) {
       trigger: horizontalContainer1,
       scrub: true,
       start: "40% 80%",
-      end: "40% 60%",
+      end: "80% 20%",
     },
   });
   const horizontalContainer2 = gsap.utils.toArray(".horizontalContainer2");
@@ -165,7 +165,7 @@ if (screen.width > 991) {
       trigger: horizontalContainer2,
       scrub: 1,
       start: "40% 80%",
-      end: "40% 60%",
+      end: "80% 20%",
     },
   });
   const horizontalContainer3 = gsap.utils.toArray(".horizontalContainer3");
@@ -177,7 +177,7 @@ if (screen.width > 991) {
       trigger: horizontalContainer3,
       scrub: 1,
       start: "40% 80%",
-      end: "40% 60%",
+      end: "80% 20%",
     },
   });
   const horizontalContainer4 = gsap.utils.toArray(".horizontalContainer4");
@@ -189,7 +189,7 @@ if (screen.width > 991) {
       trigger: horizontalContainer4,
       scrub: 1,
       start: "40% 80%",
-      end: "40% 60%",
+      end: "80% 20%",
     },
   });
   const horizontalContainer5 = gsap.utils.toArray(".horizontalContainer5");
@@ -201,7 +201,7 @@ if (screen.width > 991) {
       trigger: horizontalContainer5,
       scrub: 1,
       start: "40% 80%",
-      end: "40% 60%",
+      end: "80% 20%",
     },
   });
 
@@ -209,12 +209,12 @@ if (screen.width > 991) {
   const card1 = gsap.utils.toArray(".card-slider .card1");
   gsap.from(card1, {
     xPercent: -250 * (card1.length - 1),
-    ease: "linear",
+    ease: "slow(0.7, 0.7, false)",
     scrollTrigger: {
       trigger: cardSlider,
       scrub: true,
-      start: "30% 80%",
-      end: "40% 60%",
+      // start: "30% 80%",
+      end: "70% 40%",
     },
   });
 
@@ -222,12 +222,12 @@ if (screen.width > 991) {
   const card2 = gsap.utils.toArray(".card-slider2 .card2");
   gsap.from(card2, {
     xPercent: 250 * (card2.length - 1),
-    ease: "linear",
+    ease: "slow(0.7, 0.7, false)",
     scrollTrigger: {
       trigger: cardSlider2,
       scrub: true,
-      start: "30% 80%",
-      end: "40% 60%",
+      // start: "30% 80%",
+      end: "70% 40%",
     },
   });
 
@@ -568,8 +568,8 @@ gsap.from(testimonialSlide, {
   scrollTrigger: {
     trigger: testimonialContainer,
     scrub: true,
-    start: "40% 90%",
-    end: "90% 20%",
+    start: "40% 80%",
+    end: "80% 30%",
   },
 });
 
@@ -581,8 +581,8 @@ gsap.from(eventSlide, {
   scrollTrigger: {
     trigger: eventContainer,
     scrub: true,
-    start: "40% 90%",
-    end: "90% 20%",
+    start: "30% 80%",
+    end: "90% 30%",
   },
 });
 console.clear();
