@@ -27,10 +27,43 @@
                 </div>
                 <div class="col-xxl-7 col-lg-6 text-lg-start text-center">
                     <h3 class="text-gradient fw-bold fs-1 mb-3">Elastic Adhesive Bandage</h3>
-                    <p class=" lh-base">Good aesthetic appeal due to woven fast edges. High elasticity and high porosity. More porosity makes air and vapour permeable and allows breathing of skin. Very good quality concentrated adhesive, sticks properly and gives long-lasting adhesive action. Adhesive protected by special release film to enhance smooth unrolling, easy application, and long storage life. Easy to remove, because of thin-non-adhesive edges and leaves no residue after removing. An ideal bandage where support, immobilization & pressure is required.</p>
+                    <p><strong>Product Code:</strong> MED 123</p>
+                    <p><strong>Specifications:</strong> Sterile, individually packed in peelable blister pack</p>
+                    <p><strong>Size/Strength:</strong> 6 mm-26 mm Two Way | Three Way, Balloon Cap: 5 cc, 30 cc & 50 cc</p>
                     <div class="text-lg-start text-center mt-5">
                         <a href="#" class="btn text-uppercase mb-md-0 mb-4">Get a Quote</a>
                         <a role="button" class="btn text-uppercase" data-bs-toggle="modal" data-bs-target="#enquiry">Enquire Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-body py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-10">
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="fw-bold nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Description</button>
+                        </li>
+                        <!-- <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Profile</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Contact</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="disabled-tab" data-bs-toggle="tab" data-bs-target="#disabled-tab-pane" type="button" role="tab" aria-controls="disabled-tab-pane" aria-selected="false" disabled>Disabled</button>
+                        </li> -->
+                    </ul>
+                    <div class="tab-content mt-3" id="myTabContent">
+                        <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                            <p>Good aesthetic appeal due to woven fast edges. High elasticity and high porosity. More porosity makes air and vapour permeable and allows breathing of skin. Very good quality concentrated adhesive, sticks properly and gives long-lasting adhesive action. Adhesive protected by special release film to enhance smooth unrolling, easy application, and long storage life. Easy to remove, because of thin-non-adhesive edges and leaves no residue after removing. An ideal bandage where support, immobilization & pressure is required.</p>
+                        </div>
+                        <!-- <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">...</div>
+                        <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">...</div>
+                        <div class="tab-pane fade" id="disabled-tab-pane" role="tabpanel" aria-labelledby="disabled-tab" tabindex="0">...</div> -->
                     </div>
                 </div>
             </div>
@@ -201,10 +234,10 @@
 <script>
     let thumbnail = document.querySelectorAll('.product-thumbnail img');
     let mainProduct = document.querySelector('.main-product');
-    thumbnail.forEach( e => {
-        e.onclick = ()=> {
+    thumbnail.forEach(e => {
+        e.onclick = () => {
             mainProduct.src = e.src;
-            $('#productImg').attr("href",e.src);
+            $('#productImg').attr("href", e.src);
         }
     });
 </script>

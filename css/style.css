@@ -176,16 +176,6 @@ nav {
   text-transform: uppercase;
   color: var(--black);
 }
-.navbar {
-  position: sticky;
-  top: 0;
-  transition: top 0.2s ease-in-out;
-  width: 100%;
-  z-index: 99;
-}
-.nav-up {
-  top: -100px;
-}
 .linear-gradient {
   background: linear-gradient(90deg, #00a18b, #475e9a);
 }
@@ -1012,7 +1002,7 @@ footer a:hover {
   }
   .event-section {
     padding-bottom: 3rem !important;
-    border-radius: 0 0 50px 50px;
+    border-radius: 0 0 20px 20px;
   }
   .certificateContainer,
   .event-section:has(h3, p) {

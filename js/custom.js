@@ -30,6 +30,7 @@ if (screen.width > 991) {
       cursor.classList.remove("hover");
     });
   });
+
 }
 
 $(document).ready(function () {
@@ -39,39 +40,6 @@ $(document).ready(function () {
     $("body").removeClass("overflow-hidden");
     $(".loader").fadeOut();
   }); */
-  
-  // Hide header on scroll down
-  var didScroll;
-  var lastScrollTop = 0;
-  var delta = 5;
-  var navbarHeight = $(".navbar").outerHeight();
-  $(window).scroll(function (event) {
-    didScroll = true;
-  });
-  setInterval(function () {
-    if (didScroll) {
-      hasScrolled();
-      didScroll = false;
-    }
-  }, 250);
-  function hasScrolled() {
-    var st = $(this).scrollTop();
-
-    // Make scroll more than delta
-    if (Math.abs(lastScrollTop - st) <= delta) return;
-
-    // If scrolled down and past the navbar, add class .nav-up.
-    if (st > lastScrollTop && st > navbarHeight) {
-      // Scroll Down
-      $(".navbar").addClass("nav-up");
-    } else {
-      // Scroll Up
-      if (st + $(window).height() < $(document).height()) {
-        $(".navbar").removeClass("nav-up");
-      }
-    }
-    lastScrollTop = st;
-  }
 
   if (screen.width < 992) {
     $(".menu-title").click(function () {
