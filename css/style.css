@@ -867,7 +867,7 @@ footer a:hover {
 @media (max-width: 991px) {
   nav.navbar .custom-container {
     max-width: 100%;
-  }  
+  }
   .offcanvas.mega-menu .offcanvas-header .btn-close .cross span:first-child {
     transform: translate(3px, 1px) rotate(45deg);
   }
@@ -877,6 +877,7 @@ footer a:hover {
   .offcanvas.mega-menu .offcanvas-header .btn-close {
     margin: 0;
   }
+  #about,
   .h-100-vh {
     height: auto;
   }
