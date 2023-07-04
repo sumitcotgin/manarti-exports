@@ -2589,44 +2589,40 @@
         <section class="pt-5 bg-body position-relative overflow-hidden z-0 event-section w-100">
             <!-- <div class="circle position-absolute"></div> -->
             <div class="container custom-container">
-                <div class="row">
+                <div class="row align-items-center">
                     <div class="col-lg-7">
                         <div class="position-relative z-0 mb-5 eventContainer">
                             <div class="title back-text   eventSlide">EVENTS & EXHIBITIONS</div>
                             <h2 class="title text-gradient   eventSlide">EVENTS & EXHIBITIONS</h2>
                         </div>
                     </div>
+                    <div class="col-lg-5 text-end d-lg-block d-none">
+                        <a href="event-and-exhibition.php" class="btn">VIEW MORE</a>
+                    </div>
                 </div>
                 <div class="row gy-3">
                     <div class="col-12">
                         <div class="event-carousel">
-                            <figure class="mb-0 text-center   eventContainer3">
-                                <a href="images/event3.jpg" class="fancybox" data-fancybox="event">
-                                    <img src="images/event3.jpg" alt="Event 3" class="img-fluid   eventScroll3" />
-                                </a>
+                            <figure class="mb-0 text-center">
+                                <img src="images/event3.jpg" alt="Event 3" class="img-fluid" />
                             </figure>
-                            <figure class="mb-0 text-center   eventContainer3">
-                                <a href="images/event3.jpg" class="fancybox" data-fancybox="event">
-                                    <img src="images/event3.jpg" alt="Event 3" class="img-fluid   eventScroll3" />
-                                </a>
+                            <figure class="mb-0 text-center">
+                                <img src="images/event3.jpg" alt="Event 3" class="img-fluid" />
                             </figure>
-                            <figure class="mb-0 text-center   eventContainer3">
-                                <a href="images/event3.jpg" class="fancybox" data-fancybox="event">
-                                    <img src="images/event3.jpg" alt="Event 3" class="img-fluid   eventScroll3" />
-                                </a>
+                            <figure class="mb-0 text-center">
+                                <img src="images/event3.jpg" alt="Event 3" class="img-fluid" />
                             </figure>
-                            <figure class="mb-0 text-center   eventContainer3">
-                                <a href="images/event3.jpg" class="fancybox" data-fancybox="event">
-                                    <img src="images/event3.jpg" alt="Event 3" class="img-fluid   eventScroll3" />
-                                </a>
+                            <figure class="mb-0 text-center">
+                                <img src="images/event3.jpg" alt="Event 3" class="img-fluid" />
                             </figure>
-                            <figure class="mb-0 text-center   eventContainer3">
-                                <a href="images/event3.jpg" class="fancybox" data-fancybox="event">
-                                    <img src="images/event3.jpg" alt="Event 3" class="img-fluid   eventScroll3" />
-                                </a>
+                            <figure class="mb-0 text-center">
+                                <img src="images/event3.jpg" alt="Event 3" class="img-fluid" />
                             </figure>
                         </div>
-                    </div>
+                        <div class="d-lg-none mt-5 text-center">
+                            <a href="event-and-exhibition.php" class="btn">VIEW MORE</a>
+                        </div>
+                    </div>                    
                 </div>
                 <div class="circle right position-absolute"></div>
             </div>
