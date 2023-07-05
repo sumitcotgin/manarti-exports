@@ -14,7 +14,7 @@
                             <h5 class="mb-0 fw-bold">Lorem Ipsum Dolor Sit Amet</h5>
                             <p class="mb-0">Posted: 1 day ago</p>
                         </div>
-                        <a role="button" class="d-inline-block btn2 fw-bold linear-gradient" data-bs-toggle="modal" data-bs-target="#exampleModal">Apply Now</a>
+                        <a role="button" class="d-inline-block btn2 fw-bold linear-gradient" data-bs-toggle="modal" data-bs-target="#exampleModal">View</a>
                     </div>
                 <?php } ?>
             </div>

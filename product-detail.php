@@ -71,7 +71,7 @@
     </section>
 
     <section class="related-products py-5 bg-body event-section">
-        <div class="container custom-container">
+        <div class="container custom-container overflow-visible">
             <div class="row">
                 <div class="col-12 position-relative z-0 text-center">
                     <div class="title back-text text-uppercase">Related products</div>
@@ -79,24 +79,39 @@
                 </div>
             </div>
 
-            <div class="row align-items-center justify-content-center gy-5 mb-5   ">
-                <div class="col-xl-4 col-lg-6    ">
-                    <a href="#">
-                        <figure class="mb-0 p-3 text-center product-image-bg rounded-3">
-                            <img src="images/prod1.png" alt="Medical Disposables" class="img-fluid" />
-                        </figure>
+            <div class="row">
+                <div class="col-12 position-relative">
+                    <a role="button" class="prev">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="white" height="1em" viewBox="0 0 320 512">
+                            <path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 246.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z"/>
+                        </svg>
                     </a>
-                </div>
-                <div class="col-xl-4 col-lg-6 text-lg-start text-center   ">
-                    <h4 class="text-gradient fw-bold">HOSPITAL DRESSING</h4>
-                    <h4 class="text-white fw-medium">
-                        <a href="#" class="text-dark">Cotton Crepe Bandage</a>
-                    </h4>
-                    <p class="text-dark">Cotton crepe bandages are manufactured using superior quality cotton, which allows normal skin breathing and does not hamper joint & muscular flexibility. The elasticity is restored by washing in warm water which makes our product highly durable</p>
+                    <div class="related-products-carousel">
+                        <?php for($i=0; $i<8; $i++) { ?>
+                        <div class="mx-3">
+                            <a href="product-detail.php">
+                                <figure class="product-image-bg overflow-hidden rounded-3 text-center py-lg-5 p-3">
+                                    <img src="images/prod1.png" alt="Elastic Adhesive Bandage" class="img-fluid mx-auto" />
+                                </figure>
+                            </a>
+                            <div class="text-center">
+                                <h4 class="text-gradient fw-bold">HOSPITAL DRESSING</h4>
+                                <h4 class="fw-medium">
+                                    <a href="product-detail.php" class="text-dark">Elastic Adhesive Bandage</a>
+                                </h4>
+                            </div>
+                        </div>
+                        <?php } ?>
+                    </div>
+                    <a role="button" class="next">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="white" height="1em" viewBox="0 0 320 512">
+                            <path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"/>
+                        </svg>
+                    </a>
                 </div>
             </div>
 
-            <div class="row align-items-center justify-content-center gy-5 mb-5   ">
+            <!-- <div class="row align-items-center justify-content-center gy-5 mb-5   ">
                 <div class="col-xl-4 col-lg-6   ">
                     <a href="#">
                         <figure class="mb-0 p-3 text-center product-image-bg rounded-3">
@@ -129,6 +144,7 @@
                     <p class="text-dark">A wide range of gauze roll that are hygienically made so that they are safe to use in various medical applications. Made from finest quality 100% cotton, bleached to white, these gauze ro ll can be provided with X-Ray detectable thread or Without. Roll of 4 folded fabric of different lengths.</p>
                 </div>
             </div>
+
             <div aria-label="...">
                 <ul class="pagination justify-content-center gap-2">
                     <li class="page-item disabled">
@@ -147,7 +163,7 @@
                         <a class="page-link" href="#">&raquo;</a>
                     </li>
                 </ul>
-            </div>
+            </div> -->
         </div>
     </section>
 </main>

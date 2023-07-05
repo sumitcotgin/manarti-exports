@@ -136,6 +136,8 @@ a {
 }
 .product-image-bg img {
   transition: all .3s;
+  height: 250px;
+  object-fit: contain;
 }
 .product-image-bg:hover img {
   transform: scale(1.2);
@@ -568,7 +570,7 @@ nav {
   -webkit-text-stroke: 2px rgba(125, 192, 213, 0.22);
   left: 10px;
   z-index: -1;
-  font-size: 112.554px;
+  /* font-size: 112.554px; */
 }
 .title .back-text:first-child {
   left: unset;
@@ -782,6 +784,24 @@ nav {
 
 .related-products .back-text {
   left: 15%;
+}
+.slick-arrow {
+  top: 50%;
+  position: absolute;
+  transform: translateY(-50%);
+  border: 0;
+  background-image: linear-gradient(to top, var(--pink), var(--orange));
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: grid;
+  place-content: center;
+}
+.prev.slick-arrow {
+  left: -18px;
+}
+.next.slick-arrow {
+  right: -18px;
 }
 .main-product {
   width: 100%;
@@ -1108,6 +1128,15 @@ footer a:hover {
     width: 70px;
     height: 70px;
     padding: 0.7rem;
+  }
+  .slick-arrow {
+    z-index: 1;
+  }
+  .prev.slick-arrow {
+    left: 2px;
+  }
+  .next.slick-arrow {
+    right: 2px;
   }
   .apply-jobs {
     flex-wrap: wrap;

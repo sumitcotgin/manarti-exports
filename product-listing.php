@@ -4,58 +4,67 @@
     
     <section class="py-5 bg-body overflow-hidden event-section    productContainer">
         <div class="container custom-container">
-            <div class="row align-items-center gy-4 mb-5     productScroll">
+            <div class="row align-items-center     productScroll">
                 <div class="col-12 position-relative z-0">
-                    <div class="title back-text " style="left:30px;">BANDAGE</div>
-                    <h1 class="title text-start text-gradient text-uppercase mb-5 pb-lg-4">BANDAGE</h1>
-                </div>
-                <div class="col-xxl-5 col-lg-6 col-md-4">
-                    <a href="product-detail.php">
-                        <figure class="mb-0 product-image-bg rounded-3 text-center py-lg-5 p-3">
-                            <img src="images/prod1.png" alt="Cotton Crepe Bandage" class="img-fluid" />
-                        </figure>
-                    </a>
-                </div>
-                <div class="col-xxl-5 col-lg-6 col-md-8 text-lg-start text-center">
-                    <h4 class="text-gradient fw-bold">HOSPITAL DRESSING</h4>
-                    <h4 class="fw-medium">
-                        <a class="text-dark" href="product-detail.php">Cotton Crepe Bandage</a>
-                    </h4>
-                    <!-- <p class="text-dark">Cotton crepe bandages are manufactured using superior quality cotton, which allows normal skin breathing and does not hamper joint & muscular flexibility. The elasticity is restored by washing in warm water which makes our product highly durable</p> -->
+                    <div class="title back-text  wow fadeInLeftBig" data-wow-delay="300ms" style="left:30px;">BANDAGE</div>
+                    <h1 class="title text-start text-gradient text-uppercase mb-5 pb-lg-4 wow fadeInLeftBig">BANDAGE</h1>
                 </div>
             </div>
-            <div class="row align-items-center gy-4 mb-5   productScroll">
-                <div class="col-xxl-5 col-lg-6 col-md-4">
+            <div class="row align-items-center row-gap-5 mb-5   productScroll">
+                <div class="col-lg-6 col-md-4">
                     <a href="product-detail.php">
-                        <figure class="mb-0 product-image-bg rounded-3 text-center py-lg-5 p-3">
+                        <figure class="product-image-bg overflow-hidden rounded-3 text-center py-lg-5 p-3">
+                            <img src="images/prod1.png" alt="Elastic Adhesive Bandage" class="img-fluid" />
+                        </figure>
+                    </a>
+                    <div class="text-lg-start text-center">
+                        <h4 class="text-gradient fw-bold">HOSPITAL DRESSING</h4>
+                        <h4 class="fw-medium">
+                            <a href="product-detail.php" class="text-dark">Elastic Adhesive Bandage</a>
+                        </h4>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-4">
+                    <a href="product-detail.php">
+                        <figure class="product-image-bg rounded-3 text-center py-lg-5 p-3">
                             <img src="images/prod2.png" alt="Elastic Adhesive Bandage" class="img-fluid" />
                         </figure>
                     </a>
+                    <div class="text-lg-start text-center">
+                        <h4 class="text-gradient fw-bold">HOSPITAL DRESSING</h4>
+                        <h4 class="fw-medium">
+                            <a href="product-detail.php" class="text-dark">Elastic Adhesive Bandage</a>
+                        </h4>
+                    </div>
                 </div>
-                <div class="col-xxl-5 col-lg-6 col-md-8 text-lg-start text-center">
-                    <h4 class="text-gradient fw-bold">HOSPITAL DRESSING</h4>
-                    <h4 class="fw-medium">
-                        <a href="product-detail.php" class="text-dark">Elastic Adhesive Bandage</a>
-                    </h4>
-                    <!-- <p class="text-dark">Good aesthetic appeal due to woven fast edges. High elasticity and high porosity. More porosity makes air and vapour permeable and allows breathing of skin. Very good quality concentrated adhesive, sticks properly and gives long-lasting adhesive action.</p> -->
-                </div>
-            </div>
-            <div class="row align-items-center gy-4 mb-5   productScroll">
-                <div class="col-xxl-5 col-lg-6 col-md-4">
+                <div class="col-lg-6 col-md-4">
                     <a href="product-detail.php">
-                        <figure class="mb-0 product-image-bg rounded-3 text-center py-lg-5 p-3">
-                            <img src="images/prod3.png" alt="Medrop Absorbent cotton gauze B.P" class="img-fluid" />
+                        <figure class="product-image-bg rounded-3 text-center py-lg-5 p-3">
+                            <img src="images/prod3.png" alt="Elastic Adhesive Bandage" class="img-fluid" />
                         </figure>
                     </a>
+                    <div class="text-lg-start text-center">
+                        <h4 class="text-gradient fw-bold">HOSPITAL DRESSING</h4>
+                        <h4 class="fw-medium">
+                            <a href="product-detail.php" class="text-dark">Elastic Adhesive Bandage</a>
+                        </h4>
+                    </div>
                 </div>
-                <div class="col-xxl-5 col-lg-6 col-md-8 text-lg-start text-center">
-                    <h4 class="text-gradient fw-bold">HOSPITAL DRESSING</h4>
-                    <h4 class="fw-medium">
-                        <a href="product-detail.php" class="text-dark">Medrop Absorbent cotton gauze B.P</a>
-                    </h4>
-                    <!-- <p class="text-dark">A wide range of gauze roll that are hygienically made so that they are safe to use in various medical applications. Made from finest quality 100% cotton, bleached to white, these gauze ro ll can be provided with X-Ray detectable thread or Without. Roll of 4 folded fabric of different lengths.</p> -->
+                <div class="col-lg-6 col-md-4">
+                    <a href="product-detail.php">
+                        <figure class="product-image-bg overflow-hidden rounded-3 text-center py-lg-5 p-3">
+                            <img src="images/prod1.png" alt="Elastic Adhesive Bandage" class="img-fluid" />
+                        </figure>
+                    </a>
+                    <div class="text-lg-start text-center">
+                        <h4 class="text-gradient fw-bold">HOSPITAL DRESSING</h4>
+                        <h4 class="fw-medium">
+                            <a href="product-detail.php" class="text-dark">Elastic Adhesive Bandage</a>
+                        </h4>
+                    </div>
                 </div>
             </div>
+            
             <div aria-label="...">
                 <ul class="pagination justify-content-center gap-2">
                     <li class="page-item disabled">

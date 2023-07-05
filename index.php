@@ -62,24 +62,18 @@
                 </div>
                 <div class="circle position-absolute"></div>
 
-                <div class="row align-items-center pt-11 gy-5 mb-5 product-list">
+                <div class="row align-items-center pt-5 row-gap-5 product-list">
                     <?php for($i=0;$i<6;$i++) { ?>
                     <div class="col-lg-6 wow fadeInLeftBig">
-                        <div class="row row-gap-3">
-                            <div class="col-lg-6">
-                                <a href="product-detail.php">
-                                    <figure class="mb-0 text-center product-image-bg rounded-3 overflow-hidden">
-                                        <img src="images/product.png" alt="Medical Disposables" class="img-fluid" />
-                                    </figure>
-                                </a>
-                            </div>
-                            <div class="col-lg-6 text-lg-start text-center">
-                                <h4 class="mb-0 fw-bold">
-                                    <a href="product-detail.php" class="text-gradient">Medical Disposables</a>
-                                </h4>
-                                <p class="mb-0 fs-5 fw-semibold">Medrop Disposable Under pads, 60x60 cm, 10 Pcs/Pack (Pack of 3) 30 Pcs</p>
-                            </div>
-                        </div>
+                        <a href="product-detail.php">
+                            <figure class="text-center product-image-bg rounded-3 overflow-hidden">
+                                <img src="images/product.png" alt="Medical Disposables" class="img-fluid" />
+                            </figure>
+                        </a>
+                        <h4 class="mb-0 fw-bold">
+                            <a href="product-detail.php" class="text-gradient">Medical Disposables</a>
+                        </h4>
+                        <p class="mb-0 fs-5 fw-semibold">Medrop Disposable Under pads, 60x60 cm, 10 Pcs/Pack (Pack of 3) 30 Pcs</p>
                     </div>
                     <?php } ?>
                 </div>
