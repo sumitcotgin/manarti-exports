@@ -55,7 +55,7 @@
     <div class="section">
         <section class="py-5 bg-body position-relative overflow-visible z-0 w-100">
             <div class="circle right position-absolute"></div>
-            <div class="container custom-container">
+            <div class="container">
                 <div class="text_scroll_container1 position-relative text-center">
                     <h2 class="d-inline-block title normal-text text-gradient product-icon below  text_scroll1 wow fadeInRightBig">PRODUCTS</h2>
                     <div class="back-text title text_scroll1 wow fadeInLeftBig">PRODUCTS</div>
