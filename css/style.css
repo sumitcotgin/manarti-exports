@@ -929,8 +929,8 @@ footer a:hover {
 @media (max-width: 1599px) {
   .title {
     font-weight: 800;
-    font-size: 92px;
-    letter-spacing: 0.03em;
+    font-size: 72px;
+    letter-spacing: 0;
   }
   .text-fill {
     font-size: 165px;
