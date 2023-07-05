@@ -39,7 +39,7 @@
                     </li>
                     */ ?>
                     <li class="mb-2 fw-medium">
-                        <a href="career.php">Career</a>
+                        <a href="career-form.php">Career</a>
                     </li>
                     <li class="mb-2 fw-medium">
                         <a href="blog.php">Blogs</a>

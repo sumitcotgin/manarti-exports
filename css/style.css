@@ -860,10 +860,10 @@ nav {
 .form-select {
   background-image: url(../images/arrow-down.svg);
 }
-.form-select option {
+/* .form-select option {
   background-color: var(--pink);
   color: var(--white);
-}
+} */
 .file-type {
   background: transparent;
   border: 1px dashed var(--black);
