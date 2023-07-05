@@ -2,33 +2,37 @@
 
 <main>
     <!-- hero section -->
-    <div class="section">
-        <section class="hero-section bg-body w-100 overflow-hidden">
-            <div class="circle position-absolute"></div>
-            <div class="container custom-container position-relative">
-                <div class="row align-items-center">
-                    <div class="col-xl-8 col-lg-6  text-lg-start text-center">
-                        <div class="hero-heading">
-                            <h1 class="main-title mb-4">Revolutionizing Medical QUALITY PRODUCTS - Experience the <span class="text-gradient">MANARTI EXPORTS</span></h1>
-                            <a href="product-listing.php" class="btn">EXPLORE PRODUCTS</a>
-                        </div>
-                    </div>
-                    <?php /*
-                    <div class="col-xl-4 col-lg-6 position-relative">
-                        <div class="back-bg position-absolute"></div>
-                        <img src="images/banner.png" alt="REVOLUTIONIZING MEDICAL QUALITY PRODUCTS -EXPERIENCE THE MANARTI EXPORTS" class="img-fluid pe-none position-relative z-1" />
-                        <div class="down-bg position-absolute"></div>
-                    </div> */
-                    ?>
-                    <div class="scroll-text">
-                        <span style="color:#485E9A;">Scroll Down</span>
-                        <svg width="24" height="34" viewBox="0 0 24 34" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M2 12C2 9.34783 3.05357 6.8043 4.92893 4.92893C6.8043 3.05357 9.34783 2 12 2C14.6522 2 17.1957 3.05357 19.0711 4.92893C20.9464 6.8043 22 9.34783 22 12V22C22 24.6522 20.9464 27.1957 19.0711 29.0711C17.1957 30.9464 14.6522 32 12 32C9.34783 32 6.8043 30.9464 4.92893 29.0711C3.05357 27.1957 2 24.6522 2 22V12Z" stroke="#485E9A" stroke-width="2.5" stroke-linejoin="round" />
-                            <path id="wheel" d="M12 8.66669V15.3334" stroke="#485E9A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                    </div>
+    <div class="section position-relative">
+        <div class="hero-carousel">
+            <section class="hero-section position-relative">
+                <img src="images/hero-banner.jpg" alt="Banner 1" class="position-absolute z-0 w-100 h-100 pe-none object-fit-cover" />
+                <div class="hero-heading">
+                    <h1 class="main-title mb-4">Revolutionizing Medical QUALITY PRODUCTS - Experience the <span class="text-gradient">MANARTI EXPORTS</span></h1>
+                    <a href="product-listing.php" class="btn">EXPLORE PRODUCTS</a>
                 </div>
-        </section>
+            </section>
+            <section class="hero-section position-relative">
+                <img src="images/hero-banner-2.jpg" alt="Banner 2" class="position-absolute z-0 w-100 h-100 pe-none object-fit-cover" />
+                <div class="hero-heading">
+                    <h1 class="main-title mb-4">Revolutionizing Medical QUALITY PRODUCTS - Experience the <span class="text-gradient">MANARTI EXPORTS</span></h1>
+                    <a href="product-listing.php" class="btn">EXPLORE PRODUCTS</a>
+                </div>
+            </section>
+            <section class="hero-section position-relative">
+                <img src="images/hero-banner-3.jpg" alt="Banner 3" class="position-absolute z-0 w-100 h-100 pe-none object-fit-cover" />
+                <div class="hero-heading">
+                    <h1 class="main-title mb-4">Revolutionizing Medical QUALITY PRODUCTS - Experience the <span class="text-gradient">MANARTI EXPORTS</span></h1>
+                    <a href="product-listing.php" class="btn">EXPLORE PRODUCTS</a>
+                </div>
+            </section>
+        </div>
+        <div class="scroll-text">
+            <span style="color:#485E9A;">Scroll Down</span>
+            <svg width="24" height="34" viewBox="0 0 24 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M2 12C2 9.34783 3.05357 6.8043 4.92893 4.92893C6.8043 3.05357 9.34783 2 12 2C14.6522 2 17.1957 3.05357 19.0711 4.92893C20.9464 6.8043 22 9.34783 22 12V22C22 24.6522 20.9464 27.1957 19.0711 29.0711C17.1957 30.9464 14.6522 32 12 32C9.34783 32 6.8043 30.9464 4.92893 29.0711C3.05357 27.1957 2 24.6522 2 22V12Z" stroke="#485E9A" stroke-width="2.5" stroke-linejoin="round" />
+                <path id="wheel" d="M12 8.66669V15.3334" stroke="#485E9A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+        </div>
     </div>
     <!-- hero section end -->
 
@@ -39,11 +43,8 @@
             <div class="container custom-container ">
                 <div class="row align-items-center">
                     <div class="col-xxl-6 col-xl-8 col-lg-9 mx-auto">
-                        <p class="about-text mb-0">Manarti Exports is a specialized medical disposables, systems, devices and hospital equipment provider offering a wide range of products. Our products are manufactured at state-of-the art production facilities in India, with capacity to produce large quantities. We are ISO 9001:2008 and ISO 13485:2003 certified and our products are CE Marked. Our Medical Devices and Catheters are FDA Approved.</p>
+                        <p class="about-text mb-0 wow fadeInUpBig">Manarti Exports is a specialized medical disposables, systems, devices and hospital equipment provider offering a wide range of products. Our products are manufactured at state-of-the art production facilities in India, with capacity to produce large quantities. We are ISO 9001:2008 and ISO 13485:2003 certified and our products are CE Marked. Our Medical Devices and Catheters are FDA Approved.</p>
                     </div>
-                </div>
-                <div class="text_scroll_container d-lg-block d-none">
-                    <div class="text-fill position-absolute product-icon text_scroll">PRODUCTS</div>
                 </div>
             </div>
         </section>
@@ -53,14 +54,37 @@
     <!-- product section -->
     <div class="section">
         <section class="py-5 bg-body position-relative overflow-visible z-0 w-100">
-            <!-- <div class="circle right position-absolute"></div> -->
-            <div class="container">
-                <div class="text_scroll_container1">
-                    <h2 class="text-fill position-absolute normal-text text-gradient product-icon below  text_scroll1">PRODUCTS</h2>
+            <div class="circle right position-absolute"></div>
+            <div class="container custom-container">
+                <div class="text_scroll_container1 position-relative text-center">
+                    <h2 class="d-inline-block title normal-text text-gradient product-icon below  text_scroll1 wow fadeInRightBig">PRODUCTS</h2>
+                    <div class="back-text title text_scroll1 wow fadeInLeftBig">PRODUCTS</div>
                 </div>
                 <div class="circle position-absolute"></div>
 
-                <div class="row align-items-center gy-5 mb-5 pt-11 product-list   horizontalContainer1">
+                <div class="row align-items-center pt-11 gy-5 mb-5 product-list">
+                    <?php for($i=0;$i<6;$i++) { ?>
+                    <div class="col-lg-6 wow fadeInLeftBig">
+                        <div class="row row-gap-3">
+                            <div class="col-lg-6">
+                                <a href="product-detail.php">
+                                    <figure class="mb-0 text-center product-image-bg rounded-3 overflow-hidden">
+                                        <img src="images/product.png" alt="Medical Disposables" class="img-fluid" />
+                                    </figure>
+                                </a>
+                            </div>
+                            <div class="col-lg-6 text-lg-start text-center">
+                                <h4 class="mb-0 fw-bold">
+                                    <a href="product-detail.php" class="text-gradient">Medical Disposables</a>
+                                </h4>
+                                <p class="mb-0 fs-5 fw-semibold">Medrop Disposable Under pads, 60x60 cm, 10 Pcs/Pack (Pack of 3) 30 Pcs</p>
+                            </div>
+                        </div>
+                    </div>
+                    <?php } ?>
+                </div>
+
+                <!-- <div class="row align-items-center gy-5 mb-5 pt-11 product-list   horizontalContainer1">
                     <div class="col-xl-5 col-lg-6    horizontal-scroll1">
                         <a href="product-detail.php">
                             <figure class="mb-0 text-center product-image-bg rounded-3">
@@ -138,7 +162,7 @@
                         </h4>
                         <p class="mb-0  fw-semibold">Medrop Disposable Under pads, 60x60 cm, 10 Pcs/Pack (Pack of 3) 30 Pcs</p>
                     </div>
-                </div>
+                </div> -->
 
             </div>
             <div class="circle bottom-0 position-absolute"></div>
@@ -153,12 +177,12 @@
             <div class="container custom-container">
                 <div class="row gy-5">
                     <div class="col-lg-3">
-                        <figure class="mb-5   certificateContainer">
+                        <figure class="mb-5 wow slideInLeft   certificateContainer">
                             <a href="documents/certificate-1.pdf" target="_blank">
                                 <img src="images/certificate1.png" alt="Certificate 1" class="img-fluid   certificate1" />
                             </a>
                         </figure>
-                        <figure class="mb-0 text-lg-end   certificateContainer">
+                        <figure class="mb-0 wow slideInLeft text-lg-end   certificateContainer" data-wow-delay='100ms'>
                             <a href="documents/certificate-3.pdf" target="_blank">
                                 <img src="images/certificate3.png" alt="Certificate 3" class="img-fluid   certificate3" />
                             </a>
@@ -166,23 +190,23 @@
                     </div>
                     <div class="col-lg-6">
                         <h2 class="title position-relative mb-5   qualityPolicy">
-                            <span class="back-text  qualityScroll">QUALITY</span>
-                            <span class="d-block text-gradient text-lg-end text-center    qualityScroll">QUALITY</span>
-                            <span class="back-text policyScroll">POLICY</span>
-                            <span class="d-block text-gradient text-lg-start text-center    policyScroll">POLICY</span>
+                            <span class="back-text  qualityScroll wow slideInRight" data-wow-delay="200ms">QUALITY</span>
+                            <span class="d-block text-gradient text-lg-end text-center wow slideInRight    qualityScroll">QUALITY</span>
+                            <span class="back-text policyScroll wow slideInLeft" data-wow-delay="200ms">POLICY</span>
+                            <span class="d-block text-gradient text-lg-start text-center wow slideInLeft    policyScroll">POLICY</span>
                         </h2>
                         <div class="position-relative z-0">
                             <div class="ellipse"></div>
-                            <p class="about-text mb-0 px-lg-5">We at Manarti are committed to supply products with zero defect to the customer. Our experienced and dedicated team is involved during the process of product and vendors selections and approval of the products is done based on its quality check for its performance and efficacy. The products are approved based on the various quality check parameters and visual inspections of the products before they are supplied.</p>
+                            <p class="about-text mb-0 px-lg-5 wow fadeInUpBig">We at Manarti are committed to supply products with zero defect to the customer. Our experienced and dedicated team is involved during the process of product and vendors selections and approval of the products is done based on its quality check for its performance and efficacy. The products are approved based on the various quality check parameters and visual inspections of the products before they are supplied.</p>
                         </div>
                     </div>
                     <div class="col-lg-3">
-                        <figure class="mb-5 text-lg-end   certificateContainer">
+                        <figure class="mb-5 wow slideInRight text-lg-end   certificateContainer">
                             <a href="documents/certificate-2.pdf" target="_blank">
                                 <img src="images/certificate2.png" alt="Certificate 2" class="img-fluid   certificate2" />
                             </a>
                         </figure>
-                        <figure class="mb-0   certificateContainer">
+                        <figure class="mb-0 wow slideInRight  certificateContainer" data-wow-delay='100ms'>
                             <a href="documents/certificate-4.pdf" target="_blank">
                                 <img src="images/certificate4.png" alt="Certificate 4" class="img-fluid   certificate4" />
                             </a>
@@ -199,16 +223,20 @@
     <div class="section">
         <section class="py-5 bg-body w-100 overflow-hidden">
             <div class="container custom-container">
-                <div class="row">
+                <div class="row">                    
+                    <div class="col-12 text-center position-relative z-0 text-center ">
+                        <div class="title back-text text-uppercase wow fadeInLeftBig">Global Presence</div>
+                        <h2 class="title text-gradient mb-5 d-inline-block text-uppercase wow fadeInRightBig">Global Presence</h2>
+                    </div>
                     <div class="col-12 text-center">
                         <div class="float-end text-start">
-                            <p class="fw-bold">
+                            <p class="fw-bold wow fadeInRightBig">
                                 <svg width="21" height="18" viewBox="0 0 21 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M15.7122 18H5.28776L0 9L5.28776 0H15.7122L21 9L15.7122 18Z" fill="#D63129" />
                                 </svg>
                                 Major Exports
                             </p>
-                            <p class="fw-bold">
+                            <p class="fw-bold wow fadeInRightBig" data-wow-delay="200ms">
                                 <svg width="21" height="18" viewBox="0 0 21 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M15.7122 18H5.28776L0 9L5.28776 0H15.7122L21 9L15.7122 18Z" fill="#049848" />
                                 </svg>
@@ -2440,81 +2468,12 @@
                                 <path class="india" d="M911.626 323.72H933.944V301.403H911.626V323.72Z" fill="url(#pattern0)" />
                             </g>
                             <defs>
-                                <!-- <filter id="filter0_dddd_237_212" x="0.0571442" y="0.327711" width="1363.89" height="883.821" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
-                                    <feOffset dy="4.71176" />
-                                    <feGaussianBlur stdDeviation="0.445903" />
-                                    <feColorMatrix type="matrix" values="0 0 0 0 0.720833 0 0 0 0 0.720833 0 0 0 0 0.720833 0 0 0 0.19 0" />
-                                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_237_212" />
-                                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
-                                    <feOffset dy="13.0274" />
-                                    <feGaussianBlur stdDeviation="4.91358" />
-                                    <feColorMatrix type="matrix" values="0 0 0 0 0.490196 0 0 0 0 0.752941 0 0 0 0 0.835294 0 0 0 0.05 0" />
-                                    <feBlend mode="normal" in2="effect1_dropShadow_237_212" result="effect2_dropShadow_237_212" />
-                                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
-                                    <feOffset dy="31.365" />
-                                    <feGaussianBlur stdDeviation="21.0187" />
-                                    <feColorMatrix type="matrix" values="0 0 0 0 0.490196 0 0 0 0 0.752941 0 0 0 0 0.835294 0 0 0 0.05 0" />
-                                    <feBlend mode="normal" in2="effect2_dropShadow_237_212" result="effect3_dropShadow_237_212" />
-                                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
-                                    <feOffset dy="104.04" />
-                                    <feGaussianBlur stdDeviation="34.9714" />
-                                    <feColorMatrix type="matrix" values="0 0 0 0 0.490196 0 0 0 0 0.752941 0 0 0 0 0.835294 0 0 0 0.05 0" />
-                                    <feBlend mode="normal" in2="effect3_dropShadow_237_212" result="effect4_dropShadow_237_212" />
-                                    <feBlend mode="normal" in="SourceGraphic" in2="effect4_dropShadow_237_212" result="shape" />
-                                </filter>
-                                <filter id="filter1_dddddddd_237_212" x="795.657" y="260.131" width="322.803" height="308.709" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
-                                    <feOffset dy="2.63142" />
-                                    <feGaussianBlur stdDeviation="6.74386" />
-                                    <feColorMatrix type="matrix" values="0 0 0 0 0.0784314 0 0 0 0 0 0 0 0 0 0.258824 0 0 0 0.0241386 0" />
-                                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_237_212" />
-                                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
-                                    <feOffset dy="5.97879" />
-                                    <feGaussianBlur stdDeviation="12.2093" />
-                                    <feColorMatrix type="matrix" values="0 0 0 0 0.0784314 0 0 0 0 0 0 0 0 0 0.258824 0 0 0 0.0310556 0" />
-                                    <feBlend mode="normal" in2="effect1_dropShadow_237_212" result="effect2_dropShadow_237_212" />
-                                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
-                                    <feOffset dy="10.4058" />
-                                    <feGaussianBlur stdDeviation="16.1521" />
-                                    <feColorMatrix type="matrix" values="0 0 0 0 0.0784314 0 0 0 0 0 0 0 0 0 0.258824 0 0 0 0.0342799 0" />
-                                    <feBlend mode="normal" in2="effect2_dropShadow_237_212" result="effect3_dropShadow_237_212" />
-                                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
-                                    <feOffset dy="16.5306" />
-                                    <feGaussianBlur stdDeviation="18.2963" />
-                                    <feColorMatrix type="matrix" values="0 0 0 0 0.0784314 0 0 0 0 0 0 0 0 0 0.258824 0 0 0 0.0361867 0" />
-                                    <feBlend mode="normal" in2="effect3_dropShadow_237_212" result="effect4_dropShadow_237_212" />
-                                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
-                                    <feOffset dy="25.5055" />
-                                    <feGaussianBlur stdDeviation="18.4848" />
-                                    <feColorMatrix type="matrix" values="0 0 0 0 0.0784314 0 0 0 0 0 0 0 0 0 0.258824 0 0 0 0.0380395 0" />
-                                    <feBlend mode="normal" in2="effect4_dropShadow_237_212" result="effect5_dropShadow_237_212" />
-                                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
-                                    <feOffset dy="39.7993" />
-                                    <feGaussianBlur stdDeviation="17.5696" />
-                                    <feColorMatrix type="matrix" values="0 0 0 0 0.0784314 0 0 0 0 0 0 0 0 0 0.258824 0 0 0 0.0410845 0" />
-                                    <feBlend mode="normal" in2="effect5_dropShadow_237_212" result="effect6_dropShadow_237_212" />
-                                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
-                                    <feOffset dy="66.073" />
-                                    <feGaussianBlur stdDeviation="21.4627" />
-                                    <feColorMatrix type="matrix" values="0 0 0 0 0.0784314 0 0 0 0 0 0 0 0 0 0.258824 0 0 0 0.0476106 0" />
-                                    <feBlend mode="normal" in2="effect6_dropShadow_237_212" result="effect7_dropShadow_237_212" />
-                                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
-                                    <feOffset dy="132.017" />
-                                    <feGaussianBlur stdDeviation="42.84" />
-                                    <feColorMatrix type="matrix" values="0 0 0 0 0.0784314 0 0 0 0 0 0 0 0 0 0.258824 0 0 0 0.07 0" />
-                                    <feBlend mode="normal" in2="effect7_dropShadow_237_212" result="effect8_dropShadow_237_212" />
-                                    <feBlend mode="normal" in="SourceGraphic" in2="effect8_dropShadow_237_212" result="shape" />
-                                </filter> -->
                                 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
                                     <use xlink:href="#image0_237_212" transform="scale(0.015625)" />
                                 </pattern>
                                 <image id="image0_237_212" width="64" height="64" xlink:href="data:image/png;base64,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" />
                             </defs>
                         </svg>
-
                     </div>
                 </div>
             </div>
@@ -2528,15 +2487,15 @@
             <div class="container custom-container">
                 <div class="row">
                     <div class="col-12 text-center position-relative z-0 text-center testimonialContainer">
-                        <div class="title back-text ">TESTIMONIALS</div>
-                        <h2 class="title text-gradient mb-5 d-inline-block testimonialSlide">TESTIMONIALS</h2>
+                        <div class="title back-text  wow slideInLeft">TESTIMONIALS</div>
+                        <h2 class="title text-gradient mb-5 d-inline-block testimonialSlide wow slideInRight">TESTIMONIALS</h2>
                     </div>
                     <div class="col-12 d-lg-block d-none">
                         <div class="card-slider testimonial-slider ">
                             <?php
                             for ($i = 0; $i < 3; $i++) {
                             ?>
-                                <div class="card card1">
+                                <div class="card card1 wow slideInRight" data-wow-delay="500ms">
                                     <img src="images/testimonial.png" class="card-img-top img-fluid" alt="Agnes Remi" />
                                     <div class="card-body pe-0">
                                         <h5 class="card-title">Agnes Remi</h5>
@@ -2552,7 +2511,7 @@
                             <?php
                             for ($i = 0; $i < 3; $i++) {
                             ?>
-                                <div class="card card2">
+                                <div class="card card2 wow slideInLeft" data-wow-delay="500ms">
                                     <img src="images/testimonial.png" class="card-img-top img-fluid" alt="Martin Costa" />
                                     <div class="card-body pe-0">
                                         <h5 class="card-title">Martin Costa</h5>
@@ -2592,8 +2551,8 @@
                 <div class="row align-items-center">
                     <div class="col-lg-7">
                         <div class="position-relative z-0 mb-5 eventContainer">
-                            <div class="title back-text   eventSlide">EVENTS & EXHIBITIONS</div>
-                            <h2 class="title text-gradient   eventSlide">EVENTS & EXHIBITIONS</h2>
+                            <div class="title back-text   eventSlide wow slideInRight" data-wow-delay="200ms">EVENTS & EXHIBITIONS</div>
+                            <h2 class="title text-gradient   eventSlide wow slideInLeft">EVENTS & EXHIBITIONS</h2>
                         </div>
                     </div>
                     <div class="col-lg-5 text-end d-lg-block d-none">
@@ -2601,7 +2560,7 @@
                     </div>
                 </div>
                 <div class="row gy-3">
-                    <div class="col-12">
+                    <div class="col-12 wow fadeInUp">
                         <div class="event-carousel">
                             <figure class="mb-0 text-center">
                                 <img src="images/event3.jpg" alt="Event 3" class="img-fluid" />
@@ -2619,7 +2578,7 @@
                                 <img src="images/event3.jpg" alt="Event 3" class="img-fluid" />
                             </figure>
                         </div>
-                        <div class="d-lg-none mt-5 text-center">
+                        <div class="d-lg-none my-4 text-center">
                             <a href="event-and-exhibition.php" class="btn">VIEW MORE</a>
                         </div>
                     </div>                    

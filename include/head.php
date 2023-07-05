@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="css/fancybox.min.css">
   <link rel="stylesheet" href="css/slick-theme.min.css">
   <link rel="stylesheet" href="css/slick.min.css">
+  <link rel="stylesheet" href="css/animate.min.css">
   <link rel="stylesheet" href="css/style.css?v=<?= time(); ?>">
 </head>
 

@@ -97,6 +97,18 @@ $(document).ready(function () {
     );
   });
 
+  $(".hero-carousel").slick({
+    dots: true,
+    arrows: false,
+    infinite: true,
+    speed: 2000,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 1500,
+    pauseOnHover: false,
+  });
+
   $(".event-carousel").slick({
     dots: false,
     arrows: false,
@@ -161,13 +173,14 @@ $(document).ready(function () {
   });
 });
 
-gsap.from(".main-title", {
+new WOW().init();
+/* gsap.from(".main-title", {
   x: -500,
   ease: "bounce",
   duration: 2,
-});
+}); */
 
-if (screen.width > 991) {
+/* if (screen.width > 991) {
   const text_scroll_container = gsap.utils.toArray(".text_scroll_container");
   const text_scroll = gsap.utils.toArray(".text_scroll");
   gsap.from(text_scroll, {
@@ -325,66 +338,6 @@ if (screen.width > 991) {
     },
   });
 
-  /* const eventContainer1 = gsap.utils.toArray(".eventContainer1");
-  const eventScroll1 = gsap.utils.toArray(".eventScroll1");
-  gsap.from(eventScroll1, {
-    duration: 2,
-    ease: "expo.out",
-    y: 800,
-    opacity: 0,
-    scrollTrigger: {
-      trigger: eventContainer1,
-      scrub: 1,
-      start: "70% 80%",
-      end: "80% 20%",
-    },
-  });
-
-  const eventContainer2 = gsap.utils.toArray(".eventContainer2");
-  const eventScroll2 = gsap.utils.toArray(".eventScroll2");
-  gsap.from(eventScroll2, {
-    duration: 4,
-    ease: "expo.out",
-    y: 800,
-    opacity: 0,
-    scrollTrigger: {
-      trigger: eventContainer2,
-      scrub: 1,
-      start: "50% 80%",
-      end: "80% 20%",
-    },
-  });
-
-  const eventContainer3 = gsap.utils.toArray(".eventContainer3");
-  const eventScroll3 = gsap.utils.toArray(".eventScroll3");
-  gsap.from(eventScroll3, {
-    duration: 6,
-    ease: "expo.out",
-    y: 800,
-    opacity: 0,
-    scrollTrigger: {
-      trigger: eventContainer3,
-      scrub: 1,
-      start: "50% 80%",
-      end: "80% 20%",
-    },
-  });
-
-  const eventContainer4 = gsap.utils.toArray(".eventContainer4");
-  const eventScroll4 = gsap.utils.toArray(".eventScroll4");
-  gsap.from(eventScroll4, {
-    duration: 8,
-    ease: "expo.out",
-    y: 800,
-    opacity: 0,
-    scrollTrigger: {
-      trigger: eventContainer4,
-      scrub: 1,
-      start: "70% 80%",
-      end: "80% 20%",
-    },
-  }); */
-
   gsap.from(".about-banner p", {
     x: -1500,
     delay: 0.5,
@@ -456,108 +409,6 @@ if (screen.width > 991) {
       end: "50% 20%",
     },
   });
-
-  /* gsap.from(".visionTextScroll", {
-    ease: "expo.inOut",
-    x: -600,
-    opacity: 0,
-    stagger: 0.3,
-    fontSize: "10px",
-    scrollTrigger: {
-      trigger: ".vision-sec",
-      scrub: 1,
-      start: "30% 80%",
-      end: "50% 20%",
-    },
-  });
-  gsap.from(".qualityTextScroll", {
-    ease: "expo.inOut",
-    x: 600,
-    opacity: 0,
-    stagger: 0.3,
-    fontSize: "10px",
-    scrollTrigger: {
-      trigger: ".qualityContainer",
-      scrub: 1,
-      start: "30% 80%",
-      end: "50% 20%",
-    },
-  });
-  gsap.from(".docTextScroll", {
-    ease: "expo.inOut",
-    x: -600,
-    opacity: 0,
-    stagger: 0.3,
-    fontSize: "10px",
-    scrollTrigger: {
-      trigger: ".docContainer",
-      scrub: 1,
-      start: "30% 80%",
-      end: "50% 20%",
-    },
-  });
-  gsap.from(".supplyTextScroll", {
-    ease: "expo.inOut",
-    x: 600,
-    opacity: 0,
-    stagger: 0.3,
-    fontSize: "10px",
-    scrollTrigger: {
-      trigger: ".supplyContainer",
-      scrub: 1,
-      start: "30% 80%",
-      end: "50% 20%",
-    },
-  });
-  gsap.from(".edgeTextScroll", {
-    ease: "expo.inOut",
-    x: -600,
-    opacity: 0,
-    stagger: 0.3,
-    fontSize: "10px",
-    scrollTrigger: {
-      trigger: ".edgeContainer",
-      scrub: 1,
-      start: "30% 80%",
-      end: "50% 20%",
-    },
-  }); */
-  /* gsap.to(".bandageScroll1", {
-    ease: "expo.inOut",
-    x: -600,
-    opacity: 0,
-    scrollTrigger: {
-      trigger: ".productContainer",
-      scrub: 1,
-      start: "20% 45%",
-      end: "30% 30%",
-    },
-  });
-  gsap.from(".bandageScroll2", {
-    ease: "expo.inOut",
-    x: 800,
-    scrollTrigger: {
-      trigger: ".product-listing-section",
-      scrub: 1,
-      start: "0% 80%",
-      end: "80% 0%",
-    },
-  });
-  gsap.from(".productScroll", {
-    ease: "expo.inOut",
-    y: 600,
-    opacity: 0,
-    duration: 3,
-    stagger: 1,
-    width: "50%",
-    height: "50%",
-    scrollTrigger: {
-      trigger: ".productContainer",
-      scrub: 1,
-      start: "10% 100%",
-      end: "50% 20%",
-    },
-  }); */
 }
 
 const text_scroll_container1 = gsap.utils.toArray(".text_scroll_container1");
@@ -624,3 +475,4 @@ gsap.from(eventSlide, {
   },
 });
 console.clear();
+ */

@@ -6,13 +6,13 @@
         <div class="container custom-container">
             <div class="row gy-4 align-items-center">
                 <div class="col-xxl-6 col-lg-8 ms-auto">
-                    <p class="fw-medium">Manarti Exports is a specialized medical disposables, systems, devices and hospital equipment provider offering a wide range of products. Our products are manufactured at state-of-the art production facilities in India, with capacity to produce large quantities. We are ISO 9001:2008 and ISO 13485:2003 certified and our products are CE Marked. Our Medical Devices and Catheters are FDA Approved.</p>
+                    <p class="fw-medium wow fadeInLeftBig">Manarti Exports is a specialized medical disposables, systems, devices and hospital equipment provider offering a wide range of products. Our products are manufactured at state-of-the art production facilities in India, with capacity to produce large quantities. We are ISO 9001:2008 and ISO 13485:2003 certified and our products are CE Marked. Our Medical Devices and Catheters are FDA Approved.</p>
 
-                    <p class="fw-medium">Our company leadership team is having about 2 decades of experience working with Indian and Global Partners in Medical, Cosmeceuticals and Pharmaceuticals. We understand the need of our customer and offer the customized products and services to match expectations and specifications of our customers.</p>
+                    <p class="fw-medium wow fadeInLeftBig" data-wow-delay="200ms">Our company leadership team is having about 2 decades of experience working with Indian and Global Partners in Medical, Cosmeceuticals and Pharmaceuticals. We understand the need of our customer and offer the customized products and services to match expectations and specifications of our customers.</p>
 
-                    <p class="fw-medium">Our dedicated teams of Biomedical Engineers have years of experience in International Tenders, support our buyers with sourcing of products, quotation, sampling and maximize the chances of tender winning. We do Trunkey Projects of OT Installation, Waste Management and Commissioning & Installation of Hospital Projects.</p>
+                    <p class="fw-medium wow fadeInLeftBig" data-wow-delay="400ms">Our dedicated teams of Biomedical Engineers have years of experience in International Tenders, support our buyers with sourcing of products, quotation, sampling and maximize the chances of tender winning. We do Trunkey Projects of OT Installation, Waste Management and Commissioning & Installation of Hospital Projects.</p>
 
-                    <p class="fw-medium">We believe in values of commitment, timely delivery, safest packaging, client service and maintaining quality standards of our products and services. We would be happy to get a chance to assist you in supplying products of high quality products at competitive prices.</p>
+                    <p class="fw-medium wow fadeInLeftBig" data-wow-delay="600ms">We believe in values of commitment, timely delivery, safest packaging, client service and maintaining quality standards of our products and services. We would be happy to get a chance to assist you in supplying products of high quality products at competitive prices.</p>
                 </div>
                 <div class="col-xxl-5 offset-xxl-1 col-lg-4 position-relative text-center">
                     <iframe style="margin-bottom: -7px;" width="100%" height="400" src="https://www.youtube.com/embed/7-ZmgXdm3tQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -28,23 +28,23 @@
         <div class="container custom-container">
             <div class="row">
                 <div class="col-12 text-center position-relative z-0 text-center">
-                    <div class="title back-text    textScrollBack">TRADEMARKS</div>
-                    <div class="title text-gradient mb-5 d-inline-block     textScroll">TRADEMARKS</div>
+                    <div class="title back-text    textScrollBack wow slideInRight" data-wow-delay="200ms">TRADEMARKS</div>
+                    <div class="title text-gradient mb-5 d-inline-block     textScroll wow slideInLeft">TRADEMARKS</div>
                 </div>
             </div>
             <div class="row gy-4 mb-5 pb-lg-5">
                 <div class="col-md-4">
-                    <figure class="mb-lg-5 text-center   tradeLogo1">
+                    <figure class="mb-lg-5 text-center   tradeLogo1 wow fadeInUpBig">
                         <img src="images/jetflon.jpg" alt="Jetflon" class="img-fluid rounded-3" />
                     </figure>
                 </div>
                 <div class="col-md-4">
-                    <figure class="mb-lg-5 text-center   tradeLogo2">
+                    <figure class="mb-lg-5 text-center   tradeLogo2 wow fadeInUpBig" data-wow-delay="200ms">
                         <img src="images/medrop.jpg" alt="Medrop" class="img-fluid rounded-3" />
                     </figure>
                 </div>
                 <div class="col-md-4">
-                    <figure class="mb-lg-5 text-center   tradeLogo3">
+                    <figure class="mb-lg-5 text-center   tradeLogo3 wow fadeInUpBig" data-wow-delay="400ms">
                         <img src="images/mowell.jpg" alt="Mowell" class="img-fluid rounded-3" />
                     </figure>
                 </div>

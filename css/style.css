@@ -134,6 +134,12 @@ a {
 .product-image-bg {
   background-color: #eef8f7;
 }
+.product-image-bg img {
+  transition: all .3s;
+}
+.product-image-bg:hover img {
+  transform: scale(1.2);
+}
 nav,
 section {
   overflow-x: hidden;
@@ -141,7 +147,6 @@ section {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  /* background-attachment: fixed; */
 }
 nav {
   background-size: 100%;
@@ -149,7 +154,22 @@ nav {
 }
 .hero-section {
   height: calc(100vh - 101px);
-  background-image: url(../images/hero-banner.jpg);
+}
+.hero-carousel.slick-dotted.slick-slider {
+  margin-bottom: 0;
+}
+.hero-carousel .slick-dots {
+  bottom: 20px;
+}
+.hero-carousel .slick-dots li button:before {
+  content: '';
+  background-color: var(--orange);
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+.hero-carousel .slick-dots li.slick-active button:before {
+  border-radius: 50% 50% 0 0;
 }
 .hero-section .col-xl-8.col-lg-6.text-lg-start.text-center {
   height: 85vh;
@@ -157,8 +177,9 @@ nav {
 .hero-heading {
   position: absolute;
   top: 50%;
+  left: 10%;
   transform: translateY(-50%);
-  width: inherit;
+  width: 60%;
 }
 .h-100-vh {
   height: 100vh;
@@ -201,10 +222,6 @@ nav {
 }
 .offcanvas.mega-menu {
   height: 100%;
-  /* background-image: url(../images/mega-menu-bg.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center; */
   overflow-x: hidden;
   overflow-y: auto;
 }
@@ -345,8 +362,8 @@ nav {
 .scroll-text {
   cursor: pointer;
   position: absolute;
-  right: -7%;
-  bottom: 7%;
+  right: 0;
+  bottom: 10%;
   transform: rotate(90deg);
   z-index: 1;
   width: auto;
@@ -448,8 +465,13 @@ nav {
 .normal-text {
   text-shadow: none;
   bottom: unset;
-  top: -40px;
   color: var(--orange);
+}
+.title.back-text.text-uppercase,
+.back-text.text_scroll1 {
+  left: 32%;
+  top: 0;
+  text-wrap: nowrap;
 }
 .right {
   right: -4%;
@@ -484,7 +506,7 @@ nav {
   bottom: 0;
 }
 .below::before {
-  left: 80%;
+  left: 64%;
 }
 .below::after {
   right: 70%;
@@ -757,13 +779,7 @@ nav {
 .img-hover:hover img {
   transform: scale(1.2);
 }
-/* product listing style */
-/* .bandageScroll1 {
-  transform: translateX(20%);
-}
-.bandageScroll2 {
-  transform: translateX(-20%);
-} */
+
 .related-products .back-text {
   left: 15%;
 }
@@ -918,6 +934,13 @@ footer a:hover {
   }
 }
 @media (max-width: 991px) {
+  .custom-container {
+    overflow: hidden;
+  }
+  .hero-heading {
+    width: 80%;
+    text-align: center;
+  }
   nav.navbar .custom-container {
     max-width: 100%;
   }
@@ -1056,7 +1079,7 @@ footer a:hover {
     font-size: 50px;
   }
   .quality-section .col-lg-3 {
-    display: block;
+    gap: 1rem;
   }
   .product-list p,
   .about-text {
