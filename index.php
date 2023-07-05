@@ -38,7 +38,7 @@
 
     <!-- about section -->
     <div class="section">
-        <section id="about" class=" py-5 bg-body overflow-hidden position-relative z-0 w-100 ">
+        <section id="about" class="d-flex align-items-center py-5 bg-body overflow-hidden position-relative z-0 w-100 ">
             <div class="circle position-absolute right"></div>
             <div class="container custom-container ">
                 <div class="row align-items-center">
@@ -62,9 +62,9 @@
                 </div>
                 <div class="circle position-absolute"></div>
 
-                <div class="row align-items-center pt-5 row-gap-5 product-list">
+                <div class="row align-items-center justify-content-center pt-5 row-gap-5 product-list">
                     <?php for($i=0;$i<6;$i++) { ?>
-                    <div class="col-lg-6 wow fadeInLeftBig">
+                    <div class="col-xl-5 col-lg-6 wow fadeInLeftBig">
                         <a href="product-detail.php">
                             <figure class="text-center product-image-bg rounded-3 overflow-hidden">
                                 <img src="images/product.png" alt="Medical Disposables" class="img-fluid" />
@@ -166,10 +166,10 @@
 
     <!-- quality policy section -->
     <div class="section">
-        <section class="py-5 bg-body w-100 quality-section">
+        <section class="pb-5 pt-11 bg-body w-100 quality-section">
             <div class="circle position-absolute"></div>
             <div class="container custom-container">
-                <div class="row gy-5">
+                <div class="row gy-5 ">
                     <div class="col-lg-3">
                         <figure class="mb-5 wow slideInLeft   certificateContainer">
                             <a href="documents/certificate-1.pdf" target="_blank">
@@ -220,7 +220,7 @@
                 <div class="row">                    
                     <div class="col-12 text-center position-relative z-0 text-center ">
                         <div class="title back-text text-uppercase wow fadeInLeftBig">Global Presence</div>
-                        <h2 class="title text-gradient mb-5 d-inline-block text-uppercase wow fadeInRightBig">Global Presence</h2>
+                        <h2 class="title text-gradient d-inline-block text-uppercase wow fadeInRightBig">Global Presence</h2>
                     </div>
                     <div class="col-12 text-center">
                         <div class="float-end text-start">
@@ -237,7 +237,7 @@
                                 New Ports
                             </p>
                         </div>
-                        <svg width="100%" height="873" class="map-svg" viewBox="0 0 1364 873" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <svg width="100%"  class="map-svg" viewBox="0 0 1364 720" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                             <g filter="url(#filter0_dddd_237_212)">
                                 <path d="M679.115 363.948H672.995L669.935 358.703L672.995 353.457H679.115L682.087 358.703L679.115 363.948Z" fill="#B7C1D6" />
                                 <path d="M667.662 370.594H661.629L658.569 365.261L661.629 360.016H667.662L670.722 365.261L667.662 370.594Z" fill="#B7C1D6" />

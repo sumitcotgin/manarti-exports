@@ -31,7 +31,7 @@
                     <p><strong>Specifications:</strong> Sterile, individually packed in peelable blister pack</p>
                     <p><strong>Size/Strength:</strong> 6 mm-26 mm Two Way | Three Way, Balloon Cap: 5 cc, 30 cc & 50 cc</p>
                     <div class="mt-5">
-                        <a href="#" class="btn text-uppercase mb-md-0 mb-4">Get a Quote</a>
+                        <a href="https://api.whatsapp.com/send?phone=+919871909402&text=Glass" target="_blank" class="btn text-uppercase mb-md-0 mb-4">Get a Quote</a>
                         <a role="button" class="btn text-uppercase" data-bs-toggle="modal" data-bs-target="#enquiry">Enquire Now</a>
                     </div>
                 </div>
